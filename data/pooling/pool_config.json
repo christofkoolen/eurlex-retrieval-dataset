@@ -1,0 +1,987 @@
+{
+  "queries_total": 100,
+  "random_negatives": 10,
+  "random_seed": 123456,
+  "dense_aggregation": "query_chunk_max_then_average",
+  "dense_representation": {
+    "query_text": "full",
+    "candidate_text": "full",
+    "chunking": "raw_slicing",
+    "refined_backfill": {
+      "enabled": true,
+      "threshold_fraction": 0.5,
+      "behavior": "tail_aligned_full_chunk_when_final_chunk_is_too_short"
+    }
+  },
+  "retrievers": {
+    "tfidf": {
+      "enabled": true,
+      "type": "sparse_tfidf",
+      "topk": 250
+    },
+    "bm25": {
+      "enabled": true,
+      "type": "sparse_bm25",
+      "topk": 250
+    },
+    "minilm": {
+      "enabled": true,
+      "type": "dense_sentence_transformers",
+      "topk": 250,
+      "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "embedding_dim": 384,
+      "query_prefix": "",
+      "document_prefix": "",
+      "normalize": true,
+      "batch_size": 4,
+      "max_input_tokens": 256,
+      "chars_per_token": 4.0,
+      "headroom": 0.05,
+      "overlap_fraction": 0.1,
+      "effective_chunk_tokens": 243,
+      "overlap_tokens": 24,
+      "chunking": "raw_slicing",
+      "refined_backfill_threshold_fraction": 0.5
+    },
+    "gemini": {
+      "enabled": true,
+      "type": "dense_gemini",
+      "topk": 250,
+      "model_name": "gemini-embedding-001",
+      "embedding_dim": 3072,
+      "query_prefix": "",
+      "document_prefix": "",
+      "normalize": true,
+      "batch_size": 1,
+      "max_input_tokens": 8192,
+      "chars_per_token": 4.0,
+      "headroom": 0.05,
+      "overlap_fraction": 0.1,
+      "effective_chunk_tokens": 7782,
+      "overlap_tokens": 778,
+      "chunking": "raw_slicing",
+      "refined_backfill_threshold_fraction": 0.5
+    },
+    "qwen": {
+      "enabled": true,
+      "type": "dense_sentence_transformers",
+      "topk": 250,
+      "model_name": "Qwen/Qwen3-Embedding-8B",
+      "embedding_dim": 4096,
+      "query_prefix": "",
+      "document_prefix": "",
+      "normalize": true,
+      "batch_size": 1,
+      "max_input_tokens": 32768,
+      "chars_per_token": 4.0,
+      "headroom": 0.05,
+      "overlap_fraction": 0.1,
+      "effective_chunk_tokens": 31129,
+      "overlap_tokens": 3113,
+      "chunking": "raw_slicing",
+      "refined_backfill_threshold_fraction": 0.5
+    }
+  },
+  "per_query_counts": {
+    "ECLI:EU:C:2023:182": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2023:659": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:12": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2018:539": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2020:427": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:148": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2018:181": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:872": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2014:278": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:676": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:321": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:418": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2023:918": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2018:47": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2021:934": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2023:392": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:F:2016:156": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2018:77": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:438": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2020:224": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:320": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2022:313": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:125": {
+      "citation": 1,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:320": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:140": {
+      "citation": 2,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2025:206": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:103": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:240": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:189": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:143": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2018:58": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2020:535": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:21": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:500": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2017:671": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2014:2245": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2014:2452": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2018:661": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2025:899": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2023:873": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2024:288": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2016:774": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:849": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2020:153": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2018:98": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:215": {
+      "citation": 4,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2024:244": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2023:507": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:993": {
+      "citation": 3,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2018:653": {
+      "citation": 5,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:491": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2016:107": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2023:987": {
+      "citation": 7,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2020:623": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2017:53": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:647": {
+      "citation": 9,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2017:745": {
+      "citation": 9,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2024:1042": {
+      "citation": 7,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:383": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:931": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2015:8": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2017:771": {
+      "citation": 8,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2014:2039": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:741": {
+      "citation": 7,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2022:791": {
+      "citation": 9,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2019:737": {
+      "citation": 7,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2021:400": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2018:556": {
+      "citation": 7,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2016:219": {
+      "citation": 9,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:847": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2022:970": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2024:765": {
+      "citation": 7,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2016:636": {
+      "citation": 6,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:801": {
+      "citation": 9,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:606": {
+      "citation": 8,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2024:1051": {
+      "citation": 11,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2017:641": {
+      "citation": 15,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:917": {
+      "citation": 19,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2024:734": {
+      "citation": 20,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:981": {
+      "citation": 12,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:210": {
+      "citation": 13,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:514": {
+      "citation": 15,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2017:431": {
+      "citation": 13,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2021:169": {
+      "citation": 20,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2025:596": {
+      "citation": 25,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2024:476": {
+      "citation": 19,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2018:347": {
+      "citation": 11,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2017:314": {
+      "citation": 19,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2024:100": {
+      "citation": 18,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2021:692": {
+      "citation": 11,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2023:587": {
+      "citation": 23,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2020:1032": {
+      "citation": 13,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2025:353": {
+      "citation": 10,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2018:921": {
+      "citation": 61,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2024:784": {
+      "citation": 20,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2022:57": {
+      "citation": 14,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2015:281": {
+      "citation": 10,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:626": {
+      "citation": 14,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:T:2025:608": {
+      "citation": 10,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    },
+    "ECLI:EU:C:2019:448": {
+      "citation": 10,
+      "random": 10,
+      "tfidf": 250,
+      "bm25": 250,
+      "minilm": 250,
+      "gemini": 250,
+      "qwen": 250
+    }
+  }
+}
