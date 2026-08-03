@@ -1,0 +1,117 @@
+EUR-Lex Retrieval Dataset (EUR-LexRD)
+DATA AND DOCUMENTATION LICENSE
+
+Copyright © 2026 Christof Koolen
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Except where otherwise stated, the original dataset components and
+documentation created for the EUR-Lex Retrieval Dataset (EUR-LexRD) are
+licensed under the Creative Commons Attribution 4.0 International Public
+License.
+
+The canonical license is available at:
+
+https://creativecommons.org/licenses/by/4.0/
+
+The complete legal code is available at:
+
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+1. MATERIAL COVERED BY THIS NOTICE
+
+Subject to the exclusions below, this notice applies to original EUR-LexRD
+materials for which the Licensor owns or controls the applicable rights,
+including:
+
+- human relevance annotations and adjudicated labels;
+- binary, graded, and citation-derived qrel files;
+- query and candidate-pool metadata created for EUR-LexRD;
+- split and cross-validation assignment files;
+- evaluation-view definitions and benchmark manifests;
+- dataset statistics, tables, and documentation;
+- annotation guidelines and data dictionaries;
+- generated summaries, keywords, section boundaries, and other derived
+  dataset fields, but only to the extent that the Licensor owns or controls
+  rights in those materials.
+
+Under CC BY 4.0, users may share and adapt the Licensed Material for any
+purpose, including commercial purposes, provided that they comply with the
+license conditions.
+
+2. ATTRIBUTION
+
+When sharing or adapting Licensed Material, provide appropriate attribution.
+Attribution should, where reasonably practicable, include:
+
+- Creator: Christof Koolen
+- Dataset: EUR-Lex Retrieval Dataset (EUR-LexRD)
+- Source: the persistent dataset record or repository URL
+- License: Creative Commons Attribution 4.0 International
+- Changes: an indication of whether the material was modified
+
+A suggested attribution is:
+
+    Christof Koolen, EUR-Lex Retrieval Dataset (EUR-LexRD),
+    licensed under CC BY 4.0. Source:
+    https://TO ADD
+
+After publication of the archival dataset record, users should cite the
+persistent DOI or repository URL supplied in CITATION.cff.
+
+Attribution must not imply that the Licensor, KU Leuven, the Court of Justice
+of the European Union, the European Union, or EUR-Lex endorses a user, use,
+adaptation, publication, or product.
+
+3. MATERIAL NOT COVERED OR NOT RELICENSED
+
+This notice does not grant rights that the Licensor does not own or control.
+
+In particular, the following are not relicensed by this notice unless an
+individual file expressly states otherwise:
+
+- original CJEU judgment texts;
+- EUR-Lex source documents, metadata, and other material
+  obtained from the EU institutions;
+- material identified as public domain or subject to separate terms;
+- rights relating to privacy, personality, publicity, confidentiality,
+  data protection, patents, or trademarks;
+- software source code in the repository.
+
+Reuse of original judgments and other EUR-Lex material remains subject to the
+applicable EUR-Lex legal notice, reuse rules, source-specific notices, and any
+third-party rights.
+
+Software should be distributed under a separate software license, such as an
+MIT, BSD, or Apache license. The CC BY 4.0 license in this file does not grant
+software patent rights and is not intended to serve as the software license
+for files under scripts/ or other source-code directories.
+
+4. DATABASE RIGHTS
+
+To the extent that sui generis database rights are held by the Licensor in the
+Licensed Material, those rights are licensed under CC BY 4.0 in accordance
+with Section 4 of the license.
+
+No rights are claimed or granted in database rights held exclusively by
+third parties.
+
+5. DISCLAIMER
+
+Unless separately undertaken by the Licensor, the Licensed Material is
+provided as-is and as-available, without warranties of any kind.
+
+To the extent permitted by law, the Licensor disclaims liability arising from
+use of the Licensed Material. The complete disclaimer and limitation of
+liability are set out in the CC BY 4.0 legal code.
+
+6. PRECEDENCE
+
+This file identifies the material to which the standard CC BY 4.0 license is
+applied. It does not modify the terms of CC BY 4.0.
+
+If this notice conflicts with the Creative Commons Attribution 4.0
+International legal code, the legal code controls.
+
+Files carrying a more specific license or rights notice are governed by that
+specific notice.

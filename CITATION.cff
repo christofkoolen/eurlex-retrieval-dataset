@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: >-
+  If you use EUR-LexRD in your research, please cite the dataset using the
+  metadata in this file.
+type: dataset
+title: >-
+  EUR-Lex Retrieval Dataset: An Annotated Corpus of CJEU Judgments for
+  Long-Form Similar Case Retrieval
+version: 1.0.0
+
+authors:
+  - family-names: Koolen
+    given-names: Christof
+    affiliation: KU Leuven, Centre for IT & IP Law
+
+abstract: >-
+  EUR-LexRD is a legal information retrieval dataset for long-form
+  similar-case retrieval over English-language judgments of the Court of
+  Justice of the European Union. It contains structured judgment
+  representations, 100 query judgments, pooled candidate cases, human binary
+  and graded relevance judgments, citation-derived relevance judgments,
+  section-aware evaluation views, a fixed supervised split, and five-fold
+  cross-validation assignments.
+
+keywords:
+  - legal information retrieval
+  - similar case retrieval
+  - legal case retrieval
+  - Court of Justice of the European Union
+  - CJEU
+  - EUR-Lex
+  - long-document retrieval
+  - section-aware retrieval
+  - natural legal language processing
+  - legal NLP
+
+# TO ADD
+#dataset: >-
+#  https://TO ADD
+#url: >-
+#  https://TO ADD
+
+# TO ADD
+#code: >-
+#  https://github.com/christofkoolen/eurlex-retrieval-dataset
+#url: >-
+#  https://github.com/christofkoolen/eurlex-retrieval-dataset
+
+# TO ADD
+# doi: 10.xxxx/xxxxxxxx
+# date-released: YYYY-MM-DD
+
+license: CC-BY-4.0
