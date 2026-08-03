@@ -1,0 +1,244 @@
+{
+  "case_metadata": {
+    "celex": "62025TJ0058",
+    "document_link": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=cellar:c0b4ed7a-db29-11f0-8da2-01aa75ed71a1",
+    "ecli": "ECLI:EU:T:2025:1115",
+    "case_number": "T-58/25",
+    "date_of_judgment": "2025-12-17",
+    "document_type": "Judgment",
+    "court": "General Court",
+    "case_name": "Transportes Centrais de Vergadela, Unipessoal, Lda v European Union Intellectual Property Office"
+  },
+  "case_summary": {
+    "subject_matter": "The General Court's review of an EUIPO Board of Appeal decision concerning the rejection of an opposition based on likelihood of confusion, focusing on the consistency of reasoning regarding the relevant public and the understanding of foreign word elements.",
+    "keywords": [
+      {
+        "term": "EU trade mark opposition",
+        "description": "Proceedings concerning the relative grounds for refusal based on a likelihood of confusion between an applied-for mark and an earlier mark."
+      },
+      {
+        "term": "Likelihood of confusion",
+        "description": "Assessment of whether the relevant public is likely to believe that the goods/services covered by the two marks originate from the same undertaking."
+      },
+      {
+        "term": "Statement of reasons",
+        "description": "The requirement for EUIPO decisions to disclose reasoning clearly and consistently, particularly regarding the understanding of foreign language elements by the relevant public."
+      },
+      {
+        "term": "Relevant public assessment",
+        "description": "Determining the geographical scope (EU vs. Member State) and the degree of attention of the public for assessing similarity of marks."
+      }
+    ],
+    "summary_text": "Transportes Centrais de Vergadela, Unipessoal Lda. sought the annulment of an EUIPO Board of Appeal decision that rejected its opposition against the registration of the EU word mark iTEC SKYNEX, based on its earlier Portuguese word mark SKYNET. The opposition was grounded on Article 8(1)(b) of Regulation 2017/1001 (likelihood of confusion). The Board of Appeal found no likelihood of confusion, partly by assessing the relevant public at the EU level, despite the earlier mark being national (Portuguese). The applicant argued the assessment should be limited to the Portuguese public. The applicant also challenged the Board's reasoning regarding the similarity of signs, specifically pointing out an inconsistency in how the Board treated the understanding of the common element 'sky' by the Portuguese public—stating sometimes 'at least part' recognized it, and other times implying the entire public recognized it. The General Court found that the Board of Appeal failed in its obligation to state reasons (Article 94(1) of Regulation 2017/1001) due to this lack of clarity and consistency concerning the understanding of the term 'sky'. The Court noted that EUIPO's post-hoc clarifications in its pleadings could not remedy the internal inconsistency of the contested decision. Because the Court could not substitute its own assessment for the ambiguous reasoning, the conditions for altering the decision were not met. Consequently, the General Court annulled the contested decision, while dismissing the action as to the remainder (i.e., not granting the applicant's request to alter the decision to uphold the opposition). EUIPO was ordered to bear its own costs, and the intervener (Indra Sistemas, SA) was ordered to pay the applicant's costs."
+  },
+  "case_segments": {
+    "document_start": {
+      "start_index": 0,
+      "end_index": 1418,
+      "text": "JUDGMENT OF THE GENERAL COURT (Second Chamber)\n\n17 December 2025 (\n*\n)\n\n( EU trade mark – Opposition proceedings – Application for the EU word mark iTEC SKYNEX – Earlier EU word mark SKYNET – Relative ground for refusal – Article 8(1)(b) of Regulation (EU) 2017/1001 – Obligation to state reasons – Article 94(1) of Regulation 2017/1001 )\n\nIn Case T‐58/25,\n\nTransportes Centrais de Vergadela, Unipessoal Lda.,\n established in Odivelas (Portugal), represented by V. Palmela Fidalgo, lawyer,\n\napplicant,\n\nv\n\nEuropean Union Intellectual Property Office (EUIPO),\n represented by T. Frydendahl, acting as Agent,\n\ndefendant,\n\nthe other party to the proceedings before the Board of Appeal of EUIPO, intervener before the General Court, being\n\nIndra Sistemas, SA,\n established in Alcobendas (Spain), represented by E. Armijo Chávarri, lawyer,\n\nTHE GENERAL COURT (Second Chamber),\n\ncomposed of N. Półtorak, President, G. Steinfatt (Rapporteur) and I. Dimitrakopoulos, Judges,\n\nRegistrar: V. Di Bucci,\n\nhaving regard to the written part of the procedure,\n\nhaving regard to the fact that no request for a hearing was submitted by the parties within three weeks after service of notification of the close of the written part of the procedure, and having decided to rule on the action without an oral part of the procedure, pursuant to Article 106(3) of the Rules of Procedure of the General Court,\n\ngives the following\n\nJudgment\n\n"
+    },
+    "procedural_introduction": {
+      "start_index": 1418,
+      "end_index": 1737,
+      "text": "1\n By its action under Article 263 TFEU, the applicant, Transportes Centrais de Vergadela, Unipessoal Lda., seeks the annulment and alteration of the decision of the First Board of Appeal of the European Union Intellectual Property Office (EUIPO) of 15 November 2024 (Case R 2595/2023-1) (‘the contested decision’).\n\n \n"
+    },
+    "legal_context": {
+      "start_index": null,
+      "end_index": null,
+      "text": ""
+    },
+    "facts_and_background": {
+      "start_index": 1737,
+      "end_index": 5385,
+      "text": "Background to the dispute\n\n2\n On 14 February 2022, the intervener, Indra Sistemas, SA, filed an application for registration of an EU trade mark with EUIPO in respect of the word sign iTEC SKYNEX.\n\n3\n The mark applied for covered services in, inter alia, Class 39 of the Nice Agreement Concerning the International Classification of Goods and Services for the Purposes of the Registration of Marks of 15 June 1957, as revised and amended, corresponding to the following description: ‘Navigation (positioning, and route and course plotting); air traffic control services; air traffic monitoring services; provision of tracking and positioning services; launching and placing satellites in specific orbits; providing data relating to air traffic, number of routes, number of aircraft, flight time, flight altitude, flight duration and schedules; launching of satellites; transport; Global Positioning System navigation services; transport, traffic and travel information services; providing direction and route information for travel purposes; autonomous driverless transportation services; information in relation to the transport of others, public transport, air transport; provision of transportation and travel information via mobile telecommunications apparatus and devices; ground traffic control services for aircraft; traffic information; management of vehicular traffic flow through advanced communications network and technology; transportation information; arrangement of transportation; transportation information; computerised distribution planning relating to transportation; tracking of passenger or freight vehicles by computer or via GPS; vehicle location services’.\n\n4\n On 5 July 2022, the applicant filed a notice of opposition to registration of the mark applied for in respect of all the services referred to in paragraph 3 above.\n\n5\n The opposition was based on the earlier Portuguese word mark SKYNET, which was filed on 30 July 1999 and registered on 29 October 2001 under No 338 822, covering services in Class 39 corresponding to the following description: ‘fast international transport service’.\n\n6\n The ground relied on in support of the opposition was that set out in Article 8(1)(b) of Regulation (EU) 2017/1001 of the European Parliament and of the Council of 14 June 2017 on the European Union trade mark (OJ 2017 L 154, p. 1).\n\n7\n Following a request made by the intervener, EUIPO invited the applicant to furnish proof of genuine use of the earlier mark relied on in support of the opposition. The applicant complied with that request within the time limit set.\n\n8\n On 30 October 2023, the Opposition Division upheld the opposition in respect of all the services applied for in Class 39.\n\n9\n On 29 December 2023, the intervener filed a notice of appeal with EUIPO against the Opposition Division’s decision.\n\n10\n By the contested decision, the Board of Appeal upheld the appeal, annulled the Opposition Division’s decision and rejected the opposition in its entirety on the ground that there was no likelihood of confusion.\n\n \nForms of order sought\n\n11\n The applicant claims that the Court should:\n\n– annul and alter the contested decision;\n\n– order the intervener to pay the costs, including those incurred for the purposes of the proceedings before the Board of Appeal.\n\n12\n EUIPO contends that the Court should:\n\n– dismiss the action;\n\n– order the applicant to pay the costs in the event that an oral hearing is convened.\n\n13\n The intervener contends that the Court should:\n\n– dismiss the action as inadmissible;\n\n– in the alternative, dismiss the action as unfounded;\n\n– order the applicant to pay the costs.\n\n \n"
+    },
+    "reasoning": {
+      "start_index": 5385,
+      "end_index": 31719,
+      "text": "Law\n\n \nAdmissibility\n\n14\n Without raising any objection by separate document under Article 130 of the Rules of Procedure of the General Court, the intervener contends that the present action should be declared inadmissible since, in the application, the main head of claim is neither explained nor substantiated and thus does not enable the Court clearly to understand its actual scope.\n\n15\n In that regard, pursuant to the first paragraph of Article 21 of the Statute of the Court of Justice of the European Union, applicable to proceedings before the General Court by virtue of the first paragraph of Article 53 of that statute, and to Article 76(d) of the Rules of Procedure of the General Court, an application must contain, inter alia, the subject matter of the proceedings and a summary of the pleas in law relied on. That information must be sufficiently clear and precise to enable the defendant to prepare its defence and the Court to rule on the action, if necessary without any further information. In order to guarantee legal certainty and the sound administration of justice, it is necessary, for an action to be admissible, that the basic legal and factual particulars on which it is based be indicated, at least in summary form, coherently and intelligibly in the application itself (judgment of 30 March 2017, \nApax Partners UK\n v \nEUIPO – Apax Partners Midmarket (APAX PARTNERS)\n, T‐209/16, not published, EU:T:2017:240, paragraph 14).\n\n16\n In the present case, contrary to what the intervener claims, the applicant clearly set out, on pages 14 and 15 of its application, the subject matter of the proceedings, in that it seeks the annulment and alteration of the contested decision, maintaining that the Opposition Division’s decision should not have been annulled by the Board of Appeal and that its opposition should therefore have been upheld in relation to the services in Class 39. The application accordingly contains the basic legal and factual particulars which enable the subject matter of the proceedings to be determined and therefore enable the Court to rule on the action.\n\n17\n In the light of the foregoing considerations, the plea of inadmissibility alleging a lack of clarity and precision as regards the subject matter of the proceedings must be rejected.\n\n \nSubstance\n\n18\n In support of its action, the applicant relies on a single plea in law, alleging infringement of Article 8(1)(b) of Regulation 2017/1001 and divided into four parts. The first part alleges an error in the assessment of the relevant public; the second alleges an incorrect comparison of the services at issue; the third alleges an incorrect assessment of the similarity of the signs at issue; and the fourth alleges an error in the global assessment of the likelihood of confusion.\n\n \nThe relevant public\n\n19\n The Board of Appeal considered, in paragraphs 66 and 67 of the contested decision, that the relevant public consisted of both the public at large and the professional public whose degree of attention varied from average to high depending on the nature of the services.\n\n20\n There is no need to call into question that assessment, which, moreover, has not been disputed by the applicant.\n\n21\n However, the applicant complains that the Board of Appeal erred in taking into consideration the relevant public at EU level, instead of the Portuguese public. According to the applicant, the Board of Appeal stated in paragraph 116 of the contested decision that ‘there cannot be any likelihood of confusion on the part of the relevant public in the [European Union] displaying an average to high degree of attention’, whereas the relevant territory in respect of which the likelihood of confusion must be assessed is Portugal and not the European Union.\n\n22\n EUIPO and the intervener dispute the applicant’s arguments.\n\n23\n EUIPO contends that paragraph 63 of the contested decision clearly indicates that the relevant territory is Portugal. Furthermore, it maintains that the Board of Appeal undertook a substantive assessment with references to the ‘Portuguese public’ and ‘Portuguese’. According to EUIPO, the Board of Appeal also examined the proof of genuine use only with regard to Portugal. The sole reference to the public in the European Union is a mere slip of the pen with no effect.\n\n24\n The intervener contends, in essence, that, in addition to paragraph 63 of the contested decision, in which the Board of Appeal confirmed Portugal as the relevant territory, the Board of Appeal referred repeatedly to the perception of the marks by the Portuguese public in paragraphs 83 to 85 and 90 of the contested decision. It argues that, accordingly, paragraph 116 of the contested decision cannot be read in isolation and interpreted as referring to the general public in the European Union, but rather as referring to the Portuguese public.\n\n25\n In that regard, while it is true that, in paragraph 116 of the contested decision, the Board of Appeal considered that ‘there cannot be any likelihood of confusion on the part of the relevant public in the [European Union]’, it is clear from paragraph 63 of the contested decision that the Board of Appeal correctly determined the relevant public, as EUIPO and the intervener have rightly pointed out. Indeed, the Board of Appeal expressly stated in paragraph 63 of the contested decision that the relevant territory in respect of which the likelihood of confusion had to be assessed was Portugal. Likewise, in its assessment of the similarity of the signs at issue, the Board of Appeal clearly referred, inter alia in paragraphs 84 and 90 of the contested decision, to the ‘Portuguese public’. It is thus apparent from the contested decision that the Board of Appeal determined that Portugal was the relevant territory. It follows that the reference made in paragraph 116 of the contested decision to the ‘relevant public in the [European Union]’ must be understood as referring to the relevant public as defined in the section of the contested decision entitled ‘Relevant public and territory’, inter alia in paragraph 63 thereof.\n\n26\n In any event, it follows both from the determination of the relevant public in paragraph 63 of the contested decision and from the assessment of the similarity of the signs at issue, in which reference is made to the perception of the Portuguese-speaking public, that the Board of Appeal correctly determined the relevant public and took it into account in its assessment of the likelihood of confusion. Next, the Board of Appeal, on the basis of its findings regarding the determination of the relevant public, the similarity of the services concerned, the similarity of the signs at issue and the distinctiveness of the earlier mark (see paragraph 108 of the contested decision), reached the conclusion, in paragraph 109 of the contested decision, ‘that there can be no likelihood of confusion on the relevant public’s part.’ It is clear that the words ‘relevant public’ in that paragraph refer to the relevant public as defined previously in the contested decision. Accordingly, the reference to the ‘relevant public in the [European Union]’ in paragraph 116 of the contested decision constitutes, at most, a clerical error.\n\n27\n Moreover, it was only for the sake of completeness that the Board of Appeal added further considerations in paragraphs 110 to 115 of the contested decision, even though it had already concluded that there was no likelihood of confusion in paragraph 109 of that decision. Thus, even if it erred in finding, in paragraph 116 of that decision, that ‘there cannot be any likelihood of confusion on the part of the relevant public in the [European Union]’, that could not affect the legality of the contested decision.\n\n \nThe comparison of the services at issue\n\n28\n According to settled case-law, in assessing the similarity of the goods or services covered by the marks at issue, all the relevant factors relating to those goods or services should be taken into account. Those factors include, in particular, their nature, their intended purpose, their method of use and whether they are in competition with each other or are complementary. Other factors may also be taken into account such as the distribution channels of the goods concerned (see judgment of 2 June 2021, \nHimmel\n v \nEUIPO – Ramirez Monfort (Hispano Suiza)\n, T‐177/20, EU:T:2021:312, paragraph 44 and the case-law cited).\n\n29\n In the present case, the Board of Appeal found, first, in paragraph 74 of the contested decision, that the services covered by the earlier mark, namely ‘fast international transport services’ overlapped with certain services covered by the mark applied for, namely ‘transport; autonomous driverless transportation services; arrangement of transportation’, and therefore that those services were identical.\n\n30\n Second, the Board of Appeal considered, in paragraphs 75 and 76 of the contested decision, that the other services in Class 39 covered by the mark applied for were dissimilar to the transport services covered by the earlier mark. As regards, more specifically, services relating to ‘launching and placing satellites in specific orbits; launching of satellites’, covered by the mark applied for, it found that they differed from the fast international transport services covered by the earlier mark in terms of their nature, relevant public, channels of commerce and intended purpose and that they were neither complementary nor in competition with those services. With respect to the other services covered by the mark applied for, it observed that consumers would not think that a transport company provides transport information services on behalf of its competitors.\n\n31\n The applicant complains that the Board of Appeal erred in the comparison of the services in Class 39 and submits that, as was established by the Opposition Division, all the services in Class 39 are identical, given that the services covered by the earlier mark include, are included in, or overlap with, the services covered by the mark applied for.\n\n32\n The applicant maintains that the Board of Appeal failed to take into account critical factors such as the interconnected market perception, consumer expectations, brand extension practices and the integration of current technologies.\n\n33\n In the first place, the applicant submits that it is a fact that modern logistics and transportation markets are increasingly integrated, with companies often offering complementary services – such as tracking – alongside their primary offerings. Companies then frequently expand their brands into adjacent sectors, including logistics information and tracking technologies. The applicant argues that consumers may therefore reasonably expect that a company providing transportation services might also provide related information services, since that is a logical extension of its core activities.\n\n34\n In the second place, it submits that consumers may not be able to differentiate between the provider of the transportation service and the provider of the tracking or informational service, especially when those services are commonly bundled together. Thus, the average consumer, relying on trademark recognition, may assume a common origin when encountering similar services with overlapping functionalities.\n\n35\n EUIPO and the intervener dispute the applicant’s arguments.\n\n36\n EUIPO first points out the fact that the Board of Appeal ruled out the existence of any likelihood of confusion within the meaning of Article 8(1)(b) of Regulation 2017/1001, even in respect of identical services.\n\n37\n EUIPO then states that the applicant’s argument is limited to ‘tracking or informational’ services provided in connection with transportation services and therefore does not concern the other services in Class 39 covered by the mark applied for.\n\n38\n Lastly, EUIPO contends that the applicant has provided no evidence contesting the Board of Appeal’s findings or demonstrating that they are incorrect. It maintains that, even though transport companies may use various methods for tracking parcels or letters which they have in transit, it has not been demonstrated that such tracking and related information have any connection to the contested services, or that a transport company is likely to provide any variation of the contested services to third parties as standalone services. The information provided concerning the status of a parcel or letter would at best constitute an ancillary aspect of ‘fast international transport service’ and does not convey any information on transport.\n\n39\n In the first place, the intervener contends that the applicant’s arguments are purely hypothetical, as they have been neither substantiated nor proved. The intervener states that the Board of Appeal rejected the applicant’s position since it was inconsistent with market reality.\n\n40\n In the second place, although the intervener agrees with the Board of Appeal’s assessment regarding the comparison of the services, it denies, however, that there is identity between the transport and arrangement of transportation services covered by the mark applied for and the fast international transport service covered by the earlier mark. According to the intervener, the transport services covered by the mark applied for include local, non-international transport and standard transport, which are services excluded from the narrower definition of the services covered by the earlier mark, namely fast international transport service.\n\n41\n The intervener denies, moreover, that there is identity between the services covered by the earlier mark and autonomous driverless transportation services, since the applicant has not provided any evidence establishing that that type of service is provided by transport companies.\n\n42\n In that regard, contrary to what the Board of Appeal found, some of the services covered by the mark applied for are also similar to services covered by the earlier mark, namely ‘provision of tracking and positioning services’, ‘transportation information’ services, ‘transport, traffic and travel information’ services and services relating to ‘provision of transportation and travel information via mobile telecommunications apparatus and devices’, given that, although they are not the same in nature, they are complementary to transportation services and may come from the same undertakings.\n\n43\n Complementary goods or services are those between which there is a close connection, in the sense that one is indispensable or important for the use of the other with the result that consumers may think that the same undertaking is responsible for manufacturing those goods or for providing those services (see judgment of 8 January 2025, \nRat Pack Filmproduktion\n v \nEUIPO – RatPac Entertainment (RATPAC)\n, T‐163/24, not published, EU:T:2025:3, paragraph 28 and the case-law cited).\n\n44\n In the present case, the applicant has correctly argued that consumers may reasonably expect that undertakings offering transportation services also provide complementary services, such as tracking and information systems for transportation, as an extension of their core activities.\n\n45\n In addition, contrary to what the Board of Appeal stated, it is not uncommon for an undertaking to provide other undertakings – even competitors – with services which it itself uses for the provision of other services. Thus, it does not appear to be contrary to market reality for an undertaking to offer tracking or informational services to carriers while providing transport services itself.\n\n46\n By contrast, the Board of Appeal was correct in considering that the other services covered by the mark applied for were dissimilar to ‘fast international transport services’ since they do not have the same complementary connection with those services.\n\n47\n In those circumstances, it must be held that the services covered by the mark applied for are in part identical, in part similar, and in part dissimilar to the services covered by the earlier mark.\n\n \nThe similarity of the signs at issue\n\n48\n As regards the comparison of the signs at issue, the Board of Appeal concluded, in paragraphs 96, 98 and 102 of the contested decision, that the signs had a low degree of visual similarity, an average degree of phonetic similarity and a low degree of conceptual similarity.\n\n49\n According to settled case-law, two marks are similar when, from the point of view of the relevant public, they are at least partially identical as regards one or more relevant aspects. As is apparent from the case-law, the visual, phonetic and conceptual aspects are relevant (see judgment of 23 October 2002, \nMatratzen Concord\n v \nOHIM – Hukla Germany (MATRATZEN)\n, T‐6/01, EU:T:2002:261, paragraph 30 and the case-law cited).\n\n50\n Assessment of the similarity between two marks means more than taking just one component of a composite trade mark and comparing it with another mark. On the contrary, the comparison must be made by examining each of the signs in question as a whole, which does not mean that the overall impression conveyed to the relevant public by a composite trade mark may not, in certain circumstances, be dominated by one or more of its components (see, to that effect, judgment of 12 June 2007, \nOHIM\n v \nShaker\n, C‐334/05 P, EU:C:2007:333, paragraph 41).\n\n51\n According to settled case-law, the greater or lesser degree of distinctiveness of the elements common to a mark which has been applied for and an earlier mark is one of the relevant factors in assessing the similarity of those signs. The descriptive, non-distinctive or weakly distinctive elements of a composite trade mark generally have less weight in the analysis of the similarity between the signs than the elements of greater distinctiveness, which are also more able to dominate the overall impression created by the mark (see judgment of 17 January 2024, \nOna Investigación\n v \nEUIPO – Formdiet (BIOPÔLE)\n, T‐61/23, not published, EU:T:2024:10, paragraph 39 and the case-law cited).\n\n52\n In the present case, as regards the common word element ‘sky’, the Board of Appeal considered that it was easily identifiable and was part of the basic vocabulary of the English language. In its view, it was therefore reasonable to assume that at least part of the relevant public will recognise the English word ‘sky’, which represents the domain where air travel occurs, thus alluding to air transport. As a result, the Board of Appeal found that the element ‘sky’ constituted a weak element in relation to all the relevant services.\n\n53\n The applicant maintains that at least a significant part of the Portuguese relevant public will not understand the meaning of the English word ‘sky’, which is therefore fully distinctive.\n\n54\n First, the applicant points to an inconsistency in the Board of Appeal’s reasoning as regards the understanding of the word ‘sky’. The Board of Appeal considered, as regards the mark applied for, that ‘at least part of the relevant public will recognise the English word “sky”’, whereas, in relation to the earlier mark, it simply stated that ‘the Portuguese public will recognise the English word “sky”’. According to the applicant, it is crucial to assess whether the word will be understood by the Portuguese public or only by part of it and, as the case may be, the extent of that part of the public. It argues that, if the portion of the Portuguese relevant public which does not understand the English word ‘sky’ were significant, that word element would have to be considered to be distinctive.\n\n55\n Next, the applicant complains that the Board of Appeal failed to provide evidence to support its reasoning that part of the relevant public would understand the English word ‘sky’.\n\n56\n EUIPO contends that, since the Board of Appeal ruled out the existence of any likelihood of confusion, any reference by the Board of Appeal to ‘at least part of the relevant public’ which would recognise the word ‘sky’ must be understood as referring to the overwhelming majority of the relevant public, thus excluding only those parts of that public which can be regarded as entirely negligible. It argues that any variation in terminology is inconsequential to the outcome of the contested decision.\n\n57\n EUIPO also points out that the Board of Appeal considered the word ‘sky’ to be part of the basic vocabulary of the English language throughout the entire European Union, including in Portugal, a finding which is firmly rooted in the case-law of the Court. It maintains that the applicant has provided no reasoning capable of contesting the well-known fact that ‘sky’ would be understood as a basic English word or capable of calling into question the case-law of the Court.\n\n58\n The intervener notes that, in paragraph 52 of the contested decision, the Board of Appeal explained that, as the Court has acknowledged, although it cannot be claimed that the majority of the Portuguese public speaks English fluently, it may, however, reasonably be presumed that a significant part of that public has at the very least a basic knowledge of that language. The word ‘sky’ has been held by the Court to be easily identifiable and part of the basic vocabulary of the English language. It contends that the Board of Appeal therefore adequately substantiated its finding that at least part of the Portuguese relevant public would be able to understand the meaning of the English word ‘sky’.\n\n59\n The first sentence of Article 94(1) of Regulation 2017/1001 provides that decisions of EUIPO must state the reasons on which they are based. That obligation has the same scope as that which derives from the second paragraph of Article 296 TFEU, which requires that the statement of reasons must disclose in a clear and unequivocal manner the reasoning followed by the institution which adopted the measure in question, without it being necessary for that reasoning to go into all the relevant facts and points of law, since the question whether the statement of reasons meets those requirements must, nonetheless, be assessed with regard not only to its wording but also to its context and to all the legal rules governing the matter in question (see judgment of 28 June 2018, \nEUIPO\n v \nPuma\n, C‐564/16 P, EU:C:2018:509, paragraph 65 and the case-law cited).\n\n60\n Furthermore, the statement of reasons for a decision must be logical and, in particular, contain no internal inconsistency that would prevent a proper understanding of the reasons underlying that decision (judgment of 22 March 2023, \nBeauty Biosciences\n v \nEUIPO – Société de Recherche Cosmétique (BIO-BEAUTÉ)\n, T‐750/21, not published, EU:T:2023:147, paragraph 19).\n\n61\n In the present case, the Board of Appeal considered, in paragraph 88 of the contested decision, that ‘at least part of the relevant public will recognise the English word “sky”’, which suggests that a (non-negligible) part of the relevant public will not understand that word.\n\n62\n However, in paragraph 90 of the contested decision, the Board of Appeal found that ‘the Portuguese public will recognise the English word “sky”’, which suggests that this refers to the relevant public in its entirety or almost in its entirety. Consequently, as the applicant submits, the contested decision lacks clarity and consistency.\n\n63\n Moreover, that lack of clarity and consistency in the contested decision cannot be remedied by the clarifications provided by EUIPO in its written pleadings (judgment of 21 December 2021, \nFidia farmaceutici\n v \nEUIPO – Stelis Biopharma (HYALOSTEL ONE)\n, T‐194/21, not published, EU:T:2021:934, paragraph 34). As has been noted in paragraph 56 above, EUIPO contends, in its response, that the reference made by the Board of Appeal to ‘at least part of the relevant public’ which will recognise the English word ‘sky’ as the basis for its assessment must be understood as a reference to the overwhelming majority of the relevant public, thus excluding only those parts of that public which can be regarded as entirely negligible. According to EUIPO, that necessarily follows from the fact that the Board of Appeal ruled out any likelihood of confusion. However, that understanding finds no support in the contested decision. In particular, the legality of the contested decision cannot be presumed for the purpose of interpreting its content.\n\n64\n In view of the lack of an adequate statement of reasons in the contested decision as regards the Board of Appeal’s reasoning relating to the relevant public’s understanding of the term ‘sky’, the Court is not in a position to review the merits of the assessments based on that understanding or of the Board of Appeal’s conclusion that there can be no likelihood of confusion on the part of the relevant public. Consequently, the Board of Appeal failed to comply with its obligation to state reasons.\n\n65\n As regards the applicant’s request that the contested decision be altered, it is apparent from the case-law that, since the power of the Court to alter decisions does not have the effect of conferring on that Court the power to substitute its own reasoning for that of a Board of Appeal or to carry out an assessment on which that Board of Appeal has not yet adopted a position, it must be exercised in situations in which the Court, after reviewing the assessment made by the Board of Appeal, is in a position to determine, on the basis of the matters of fact and of law as established, what decision the Board of Appeal was required to take (see judgments of 2 June 2021, \nHispano Suiza\n, T‐177/20, EU:T:2021:312, paragraph 64 and the case-law cited, and of 24 May 2023, \nGranini France\n v \nEUIPO – Pichler (Joro)\n, T‐68/22, not published, EU:T:2023:287, paragraph 32 and the case-law cited).\n\n66\n Since the Court cannot substitute its own assessment for the Board of Appeal’s ambiguous assessment regarding the part of the relevant public that understands the term ‘sky’, the conditions for alteration have not been satisfied in the present case, with the result that the applicant’s request to that effect must be rejected (see, to that effect, judgment of 22 March 2023, \nBIO-BEAUTÉ\n, T‐750/21, not published, EU:T:2023:147, paragraph 30).\n\n67\n In the light of all of the foregoing, the contested decision must be annulled.\n\n \n"
+    },
+    "decision_on_costs": {
+      "start_index": 31719,
+      "end_index": 32582,
+      "text": "Costs\n\n68\n Under Article 134(1) of the Rules of Procedure, the unsuccessful party is to be ordered to pay the costs if they have been applied for in the successful party’s pleadings. In the present case, the applicant has claimed that only the intervener, and not EUIPO, should be ordered to pay the costs.\n\n69\n Since the intervener has been unsuccessful, it must be ordered to bear its own costs and to pay those incurred by the applicant.\n\n70\n With regard to the applicant’s claim that the intervener should be ordered to pay the costs of the proceedings before the Board of Appeal, it will be for the Board of Appeal to decide, in the light of the present judgment, on the costs relating to those proceedings (judgment of 29 May 2018, \nUribe-Etxebarría Jiménez\n v \nEUIPO – Núcleo de comunicaciones y control (SHERPA)\n, T‐577/15, EU:T:2018:305, paragraph 94).\n\n"
+    },
+    "operative_part": {
+      "start_index": 32582,
+      "end_index": 33022,
+      "text": "On those grounds,\n\nTHE GENERAL COURT (Second Chamber)\n\nhereby:\n\n1. \nAnnuls the decision of the First Board of Appeal of the European Union Intellectual Property Office (EUIPO) of 15 November 2024 (Case R 2595/2023-1);\n\n2. \nDismisses the action as to the remainder;\n\n3. \nOrders EUIPO to bear its own costs;\n\n4. \nOrders Indra Sistemas, SA to bear its own costs and to pay those incurred by Transportes Centrais de Vergadela, Unipessoal Lda.\n\n"
+    },
+    "document_end": {
+      "start_index": 33022,
+      "end_index": 33212,
+      "text": "Półtorak\n\nSteinfatt\n\nDimitrakopoulos\n\nDelivered in open court in Luxembourg on 17 December 2025.\n\nV. Di Bucci\n\n \n\nM. van der Woude\n\nRegistrar\n\n \n\nPresident\n\n*\n Language of the case: English."
+    }
+  },
+  "citations": {
+    "list": [
+      "ECLI:EU:T:2017:240",
+      "ECLI:EU:T:2021:312",
+      "ECLI:EU:T:2025:3",
+      "ECLI:EU:T:2002:261",
+      "ECLI:EU:C:2007:333",
+      "ECLI:EU:T:2024:10",
+      "ECLI:EU:C:2018:509",
+      "ECLI:EU:T:2023:147",
+      "ECLI:EU:T:2021:934",
+      "ECLI:EU:T:2023:287",
+      "ECLI:EU:T:2018:305"
+    ],
+    "detailed": [
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2017:240",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2021:312",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2025:3",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2002:261",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2007:333",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2024:10",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2018:509",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:147",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2021:934",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:287",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2018:305",
+        "locations": [
+          {
+            "segment": "decision_on_costs"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2017:240"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2021:312"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2025:3"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2002:261"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:C:2007:333"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2024:10"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:C:2018:509"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2023:147"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2021:934"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2023:287"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1115",
+        "target": "ECLI:EU:T:2018:305"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "case_metadata": {
+    "celex": "62025TJ0235",
+    "document_link": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=cellar:17cc45d4-a9a0-11f0-89c6-01aa75ed71a1",
+    "ecli": "ECLI:EU:T:2025:957",
+    "case_number": "T-235/25",
+    "date_of_judgment": "2025-10-15",
+    "document_type": "Judgment",
+    "court": "General Court",
+    "case_name": "Galina Evgenyevna Pumpyanskaya v Council of the European Union"
+  },
+  "case_summary": {
+    "subject_matter": "The General Court assessed whether the Council erred in maintaining restrictive measures against an individual based on her status as an immediate family member benefiting from a spouse classified as a leading businessperson operating in Russia.",
+    "keywords": [
+      {
+        "term": "Restrictive measures",
+        "description": "EU measures imposing asset freezes against persons/entities related to actions undermining Ukraine's territorial integrity."
+      },
+      {
+        "term": "Error of assessment",
+        "description": "Allegation that the Council incorrectly evaluated the facts supporting the listing criteria, specifically concerning the spouse's status as a leading businessperson."
+      },
+      {
+        "term": "Leading businesspersons operating in Russia",
+        "description": "The specific criterion used to list individuals associated with key economic actors supporting the Russian Government."
+      },
+      {
+        "term": "Family relationship in sanctions",
+        "description": "Legal assessment of whether a separation affects the 'immediate family member' criterion for derivative listing under sanctions law."
+      }
+    ],
+    "summary_text": "Galina Evgenyevna Pumpyanskaya sought the annulment of Council acts that renewed restrictive measures against her, based on the criterion that she was an immediate family member benefiting from her spouse, Dmitry Alexandrovich Pumpyanskiy, identified as a leading businessperson operating in Russia. The applicant argued she was separated from her spouse, financially independent following asset sales, and thus did not benefit from him. The Council disputed this, suggesting their marriage remained intact and that the applicant lacked independent means to sustain her lifestyle in Dubai. The General Court focused on the first plea alleging an error of assessment. The Court noted a prior judgment had already established that the Council made an error of assessment when classifying Mr Pumpyanskiy as a 'leading businessperson operating in Russia' under the relevant criteria. Consequently, the Court held that the Council also erred in maintaining the applicant’s listing, as its basis—deriving benefit from a wrongly classified person—was flawed. The Court upheld this plea and annulled the contested acts concerning the applicant for the period covered. The Council’s subsidiary request to maintain the effects of the annulled decision was deemed moot due to subsequent restrictive measures. The Council was ordered to pay the applicant's costs."
+  },
+  "case_segments": {
+    "document_start": {
+      "start_index": 0,
+      "end_index": 1519,
+      "text": "JUDGMENT OF THE GENERAL COURT (First Chamber)\n\n15 October 2025 (\n*\n)\n\n( Common foreign and security policy – Restrictive measures adopted in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine – Freezing of funds – List of persons, entities and bodies subject to the freezing of funds and economic resources – Maintenance of the applicant’s name on the list – Concept of ‘benefiting from leading businesspersons operating in Russia’ – Article 2(1)(g) of Directive 2014/145 – Article 3(1)(g) of Regulation (EU) No 269/2014 – Error of assessment )\n\nIn Case T‐235/25,\n\nGalina Evgenyevna Pumpyanskaya,\n residing in Dubai (United Arab Emirates), represented by G. Lansky, P. Goeth, A. Egger and E. Steiner, lawyers,\n\napplicant,\n\nv\n\nCouncil of the European Union,\n represented by S. Van Overmeire, acting as Agent, and by B. Maingain, lawyer,\n\ndefendant,\n\nTHE GENERAL COURT (First Chamber),\n\nComposed, at the time of the deliberations, of M. Brkan, acting as President, T. Tóth (Rapporteur) and I. Gâlea, Judges,\n\nRegistrar: V. Di Bucci,\n\nhaving regard to the written part of the procedure,\n\nhaving regard to the fact that no request for a hearing was submitted by the parties within three weeks after service of notification of the close of the written part of the procedure, and having decided to rule on the action without an oral part of the procedure, pursuant to Article 106(3) of the Rules of Procedure of the General Court,\n\ngives the following\n\nJudgment\n\n"
+    },
+    "procedural_introduction": {
+      "start_index": 1519,
+      "end_index": 2550,
+      "text": "1\n By her action based on Article 263 TFEU, the applicant, Ms Galina Evgenyevna Pumpyanskaya, seeks annulment of Council Decision (CFSP) 2025/528 of 14 March 2025 amending Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine (OJ L, 2025/528) and of Council Implementing Regulation (EU) 2025/527 of 14 March 2025 implementing Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine (OJ L, 2025/527) (‘the contested acts’), in so far as those acts include her name on the lists annexed thereto.\n\n \nBackground to the dispute\n\n2\n The present case has been brought in connection with the restrictive measures adopted by the European Union in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.\n\n3\n The applicant is a Russian national.\n\n"
+    },
+    "legal_context": {
+      "start_index": 2550,
+      "end_index": 5049,
+      "text": "4\n On 17 March 2014, the Council of the European Union, acting on the basis of Article 29 TEU, adopted Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine (OJ 2014 L 78, p. 16).\n\n5\n On the same date, on the basis of Article 215(2) TFEU, the Council adopted Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine (OJ 2014 L 78, p. 6).\n\n6\n On 25 February 2022, in view of the gravity of the situation in Ukraine, the Council adopted, first, Decision (CFSP) 2022/329 amending Decision 2014/145 (OJ 2022 L 50, p. 1) and, second, Regulation (EU) 2022/330 amending Regulation No 269/2014 (OJ 2022 L 51, p. 1), in order, in particular, to amend the criteria on the basis of which natural or legal persons, entities or bodies could be subject to the restrictive measures at issue.\n\n7\n Article 2(1) and (2) of Decision 2014/145, as amended by Decision 2022/329, reads as follows:\n\n‘1. All funds and economic resources belonging to, or owned, held or controlled by:\n\n...\n\n(g) leading businesspersons or legal persons, entities or bodies involved in economic sectors providing a substantial source of revenue to the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine,\n\nand natural or legal persons, entities or bodies associated with them, as listed in the Annex, shall be frozen.\n\n2. No funds or economic resources shall be made available, directly or indirectly, to or for the benefit of natural or legal persons, entities or bodies listed in the Annex.’\n\n8\n The detailed rules governing that freezing of funds are laid down in Article 2(3) to (6) of Decision 2014/145.\n\n9\n Article 1(1)(e) of Decision 2014/145, as amended by Decision 2022/329, prohibits the entry into or transit through the territories of the Member States of natural persons who satisfy essentially the same criteria as those set out in Article 2(1)(g) of that decision.\n\n10\n Regulation No 269/2014, as amended by Regulation 2022/330, requires the adoption of measures to freeze funds and lays down the detailed rules governing that freezing in terms essentially identical to those of Decision 2014/145, as amended by Decision 2022/329. Article 3(1)(g) of that regulation largely reproduces Article 2(1)(g) of that decision.\n\n"
+    },
+    "facts_and_background": {
+      "start_index": 5049,
+      "end_index": 11601,
+      "text": "11\n By Council Decision (CFSP) 2022/397 of 9 March 2022 amending Decision 2014/145 (OJ 2022 L 80, p. 31) and Council Implementing Regulation (EU) 2022/396 of 9 March 2022 implementing Regulation No 269/2014 (OJ 2022 L 80, p. 1), the applicant’s name was added, respectively, to the list annexed to Decision 2014/145 and to the list contained in Annex I to Regulation No 269/2014 (‘the lists at issue’).\n\n12\n The applicant brought an action before the General Court, registered as Case T‐272/22, seeking the annulment of the acts referred to in paragraph 11 above, in so far as those acts concerned her. That action was dismissed by the judgment of 6 September 2023, \nPumpyanskaya\n v \nCouncil\n (T‐272/22, not published, EU:T:2023:491).\n\n13\n On 14 September 2022, the Council adopted Decision (CFSP) 2022/1530 amending Decision 2014/145 (OJ 2022 L 239, p. 149) and Implementing Regulation (EU) 2022/1529 implementing Regulation No 269/2014 (OJ 2022 L 239, p. 1), by which it maintained the applicant’s name on the lists at issue until 15 March 2023.\n\n14\n On 13 March 2023, the Council adopted Decision (CFSP) 2023/572 amending Decision 2014/145 (OJ 2023 L 75I, p. 134) and Implementing Regulation (EU) 2023/571 implementing Regulation No 269/2014 (OJ 2023 L 75I, p. 1), by which it maintained the applicant’s name on the lists at issue until 15 September 2023.\n\n15\n On 5 June 2023, the Council adopted Decision (CFSP) 2023/1094 amending Decision 2014/145 (OJ 2023 L 146, p. 20) and Regulation (EU) 2023/1089 amending Regulation No 269/2014 (OJ 2023 L 146, p. 1).\n\n16\n Decision 2023/1094 amended, with effect from 7 June 2023, the criteria for listing the names of the persons subject to the freezing of funds, with the text of Article 2(1)(g) of Decision 2014/145 being replaced with the following text:\n\n‘1. All funds and economic resources belonging to, or owned, held or controlled by:\n\n...\n\n(g) leading businesspersons operating in Russia and their immediate family members, or other natural persons, benefitting from them, or businesspersons, legal persons, entities or bodies involved in economic sectors providing a substantial source of revenue to the Government of the Russian Federation, which is responsible for the annexation of Crimea and the destabilisation of Ukraine ...’\n\n17\n Regulation 2023/1089 amended Regulation No 269/2014 in the same way.\n\n18\n The applicant brought an action before the General Court, registered as Case T‐737/22, seeking the annulment of the acts referred to in paragraphs 13 and 14 above, in so far as those acts concerned her. That action was upheld by the judgment of 26 June 2024, \nPumpyanskaya \nv \nCouncil \n(T‐737/22, not published, EU:T:2024:417).\n\n19\n On 13 September 2023, the Council adopted Decision (CFSP) 2023/1767 amending Decision 2014/145 (OJ 2023 L 226, p. 104) and Implementing Regulation (EU) 2023/1765 implementing Regulation No 269/2014 (OJ 2023 L 226, p. 3), by which it maintained the applicant’s name on the lists at issue until 15 March 2024.\n\n20\n On 12 March 2024, the Council adopted Decision (CFSP) 2024/847 amending Decision 2014/145 (OJ L, 2024/847) and Implementing Regulation (EU) 2024/849 implementing Regulation No 269/2014 (OJ L, 2024/849), by which it maintained the applicant’s name on the lists at issue until 15 September 2024.\n\n21\n On 12 September 2024, the Council adopted Decision (CFSP) 2024/2456 amending Decision 2014/145 (OJ L, 2024/2456) and Implementing Regulation (EU) 2024/2455 implementing Regulation No 269/2014 (OJ L, 2024/2455), by which it maintained the applicant’s name on the lists at issue until 15 March 2025. The reasons for the inclusion of the applicant’s name on the lists at issue were amended as follows:\n\n‘[The applicant] is the spouse of [Mr] Dmitry [Alexandrovich] Pumpyansk[i]y, a leading Russian businessperson and President of the Sverdlovsk regional Union of Industrialists and Entrepreneurs (SOSPP).\n\nHer husband is also a former member of the Council of [the] Chamber of Commerce and Industry (CCI) of the Russian Federation, a former Vice-President of the Bureau of the Board of the Russian Union of Industrialists and Entrepreneurs (RSPP), and the Co-Chairman of the RSPP Committee on Industrial Policy and Technical Regulation. He is also former Chairman of the Board of Directors of [the company TMK] and former President and board member of Group Sinara. Both companies support and benefit from cooperation with authorities of the Russian Federation and State-owned enterprises, including Russian railways, Gazprom and Rosneft.\n\n[The applicant] is therefore an immediate family member benefitting from her husband [Mr] Dmitry [Alexandrovich] Pumpyansk[i]y.’\n\n22\n The applicant brought an action before the General Court, registered as Case T‐1108/23, seeking, after modification of the application, the annulment of the acts referred to in paragraphs 19 to 21 above, in so far as those acts concerned her.\n\n23\n On 14 March 2025, the Council adopted the contested acts, which extended the restrictive measures taken in respect of the applicant until 15 September 2025, without modifying the reasons for including the applicant’s name on the lists at issue compared with those contained in the acts referred to in paragraph 21 above.\n\n \nFacts subsequent to the lodging of the action\n\n24\n The action in Case T‐1108/23 was upheld by the judgment of 2 April 2025, \nPumpyanskaya \nv \nCouncil \n(T‐1108/23, not published, EU:T:2025:348).\n\n \nForms of order sought\n\n25\n The applicant claims, in essence, that the Court should:\n\n– declare that, first, Article 2(1)(f) of Decision 2014/145, as amended by Decision 2022/329, and Article 3(1)(f) of Regulation No 269/2014, as amended by Regulation 2022/330, and, second, Article 2(1)(g) of Decision 2014/145, as amended by Decision 2023/1094, and Article 3(1)(g) of Regulation No 269/2014, as amended by Regulation 2023/1089, are inapplicable;\n\n– annul the contested acts in so far as they concern her;\n\n– order the Council to pay the costs.\n\n26\n The Council contends, in essence, that the Court should:\n\n– dismiss the action;\n\n– order the applicant to pay the costs.\n\n \nLaw\n\n27\n In support of her action, the applicant raises, in essence, five pleas in law, alleging (i) an error of assessment; (ii) an infringement of the rights of the defence and the right to the effective judicial protection; (iii) an infringement of the duty to state reasons; (iv) an infringement of fundamental rights; and (v) the illegality under Article 277 TFEU of the criteria for inclusion used in the contested acts.\n\n"
+    },
+    "reasoning": {
+      "start_index": 11601,
+      "end_index": 17471,
+      "text": "28\n The Court considers it appropriate to begin by examining the first plea, alleging an error of assessment.\n\n \nThe f\nirst plea, alleging an error of assessment\n\n29\n The applicant submits that, in the contested acts, the Council made an error of assessment in so far as her name was maintained on the lists at issue on the basis of the criterion designating persons who benefit from a leading businessperson operating in Russia, laid down in the second part of Article 1(1)(e) and of Article 2(1)(g) of Decision 2014/145, as amended by Decision 2023/1094 (‘the second part of the amended (g) criterion’).\n\n30\n In the present case, it should be noted that, by the contested acts, the Council decided to maintain the applicant’s name on the lists at issue on the basis of a single ground, that is to say, that she is an immediate family member of, and benefits from, a ‘leading businessperson’, namely her spouse, Mr Dmitry Alexandrovich Pumpyanskiy.\n\n31\n The applicant claims, in essence, first, that she is no longer an ‘immediate family member’ of her spouse as a result of their separation and of the fact that she now lives in Dubai (United Arab Emirates); second, that she does not in any way benefit from her spouse; third, that she is financially independent of him as a result of the sale of the shares that she held in Group Sinara; and, fourth, that the Council made an error of assessment in finding that her spouse was a ‘leading businessperson’ for the purposes of the second part of the amended (g) criterion. She concludes that the Council therefore also made an error of assessment in finding her to be an ‘immediate family member’ of her spouse for the purposes of that criterion.\n\n32\n The Council disputes the applicant’s arguments. In essence, it submits that, even assuming that she is, as she claims, separated from her spouse, the fact remains that they are still married and that the conditions for applying the second part of the amended (g) criterion are satisfied. It further argues that, as a housewife, the applicant does not have her own resources, making it difficult to imagine how, without help from her spouse, she could maintain her standard of living in Dubai, which is commonly known to be a very expensive place to live. The Council also claims that Mr Pumpyanskiy can be classified as a ‘leading [businessperson] operating in Russia’ for the purposes of that criterion and that it therefore correctly found that the applicant’s name should be maintained on the lists at issue.\n\n33\n In that regard, it should be noted that, first, the name of her spouse, Mr Pumpyanskiy, was included on the lists at issue by Decision 2022/397 and by Implementing Regulation 2022/396, and that that inclusion was maintained thereafter by Decisions 2022/1530, 2023/572, 2023/1767, 2024/847, 2024/2456 and 2025/528 as well as by Implementing Regulations 2022/1529, 2023/571, 2023/1765, 2024/849, 2024/2455 and 2025/527. Second, the re-listing of Mr Pumpyanskiy by Decision 2025/528 and by Implementing Regulation 2025/527 is justified in particular by the fact that, as is clear from paragraph 16 above, being a ‘leading [businessperson] operating in Russia’ is one of the criteria for inclusion on the lists at issue.\n\n34\n However, it is clear from the judgment of 10 September 2025, \nPumpyanskiy\n v \nCouncil \n(T‐541/24, not published, EU:T:2025:841), that the Council made an error of assessment in finding Mr Pumpyanskiy still to be a ‘leading [businessperson] operating in Russia’ for the purposes of Article 2(1)(g) of Decision 2014/145, as amended by Decision 2023/1094.\n\n35\n Accordingly, without it being necessary either to assess the evidence adduced by the Council or to analyse whether the applicant is in fact an immediate family member of her spouse, Mr Pumpyanskiy, and benefits from him, it must be held that the Council made an error of assessment when it included the applicant’s name on the lists at issue by means of the contested acts, since the merits of that inclusion are founded on a purported benefit derived by her from a person wrongly classified as a ‘leading [businessperson] operating in Russia’ within the meaning of the second part of the amended (g) criterion.\n\n36\n In the light of the foregoing, the first plea in law must be upheld and the contested acts annulled in so far as they concern the applicant, without it being necessary to examine the other pleas for annulment raised in support of the action or the first head of claim.\n\n \nThe effects of the annulment of the contested acts\n\n37\n The Council has requested that the Court, in the event that it annuls the contested acts as regards the applicant, order that the effects of Decision 2025/528 be maintained as regards the applicant until the partial annulment of Implementing Regulation 2025/527 takes effect.\n\n38\n In that regard, it should be recalled that, by Decision 2025/528, the Council maintained the imposition of the restrictive measures at issue as regards the applicant from 14 March to 15 September 2025.\n\n39\n By Decision (CFSP) 2025/1895 of 12 September 2025 amending Decision 2014/145 (OJ L, 2025/1895), the Council once again extended the imposition of the restrictive measures as regards the applicant until 15 March 2026.\n\n40\n Therefore, while the annulment of Decision 2025/528, in so far as it concerns the applicant, entails the removal of her name from the list in Annex I to Decision 2014/145 for the period from 15 March to 15 September 2025, it is, however, incapable of calling into question the lawfulness of that listing for the period subsequent to that, given that the present action does not concern Decision 2025/1895.\n\n41\n Consequently, since the applicant is subject to new restrictive measures, the Council’s subsidiary request relating to maintaining the effects of Decision 2025/528 has become devoid of purpose.\n\n \nCosts\n\n"
+    },
+    "decision_on_costs": {
+      "start_index": 17471,
+      "end_index": 17874,
+      "text": "42\n Under Article 134(1) of the Rules of Procedure of the General Court, the unsuccessful party is to be ordered to pay the costs if they have been applied for in the successful party’s pleadings.\n\n43\n In the present case, since the Council has been unsuccessful, it must be ordered to bear its own costs and to pay those of the applicant, in accordance with the form of order sought by the applicant.\n\n"
+    },
+    "operative_part": {
+      "start_index": 17874,
+      "end_index": 18711,
+      "text": "On those grounds,\n\nTHE GENERAL COURT (First Chamber)\n\nhereby:\n\n1. \nAnnuls Council Decision (CFSP) 2025/528 of 14 March 2025 amending Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine and Council Implementing Regulation (EU) 2025/527 of 14 March 2025 implementing Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine, in so far as the name of Ms Galina Evgenyevna Pumpyanskaya was maintained on the list of persons, entities and bodies to which those restrictive measures apply;\n\n2. \nOrders the Council of the European Union to bear its own costs and to pay those incurred by Ms Pumpyanskaya.\n\n"
+    },
+    "document_end": {
+      "start_index": 18711,
+      "end_index": 18882,
+      "text": "Brkan\n\nTóth\n\nGâlea\n\nDelivered in open court in Luxembourg on 15 October 2025.\n\nV. Di Bucci\n\n \n\nM. van der Woude\n\nRegistrar\n\n \n\nPresident\n\n*\n Language of the case: English."
+    }
+  },
+  "citations": {
+    "list": [
+      "ECLI:EU:T:2023:491",
+      "ECLI:EU:T:2024:417",
+      "ECLI:EU:T:2025:348",
+      "ECLI:EU:T:2025:841"
+    ],
+    "detailed": [
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:491",
+        "locations": [
+          {
+            "segment": "facts_and_background"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2024:417",
+        "locations": [
+          {
+            "segment": "facts_and_background"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2025:348",
+        "locations": [
+          {
+            "segment": "facts_and_background"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2025:841",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "ECLI:EU:T:2025:957",
+        "target": "ECLI:EU:T:2023:491"
+      },
+      {
+        "source": "ECLI:EU:T:2025:957",
+        "target": "ECLI:EU:T:2024:417"
+      },
+      {
+        "source": "ECLI:EU:T:2025:957",
+        "target": "ECLI:EU:T:2025:348"
+      },
+      {
+        "source": "ECLI:EU:T:2025:957",
+        "target": "ECLI:EU:T:2025:841"
+      }
+    ]
+  }
+}

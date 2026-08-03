@@ -1,0 +1,238 @@
+{
+  "case_metadata": {
+    "celex": "62025TJ0109",
+    "document_link": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=cellar:3c4bafe6-a9a0-11f0-89c6-01aa75ed71a1",
+    "ecli": "ECLI:EU:T:2025:956",
+    "case_number": "T-109/25",
+    "date_of_judgment": "2025-10-15",
+    "document_type": "Judgment",
+    "court": "General Court",
+    "case_name": "Bulkhead Ltd v European Union Intellectual Property Office"
+  },
+  "case_summary": {
+    "subject_matter": "Assessment of the likelihood of confusion between the EU word marks WARDOGS and WATCH DOGS for goods and services in Classes 9 and 41.",
+    "keywords": [
+      {
+        "term": "EU Trade Mark Opposition",
+        "description": "Proceedings challenging the registration of an EU trade mark based on an earlier registered mark under Article 8(1)(b)."
+      },
+      {
+        "term": "Likelihood of Confusion",
+        "description": "The global assessment considering visual, phonetic, and conceptual similarity between the signs and similarity of the goods/services."
+      },
+      {
+        "term": "Word Marks Comparison",
+        "description": "Analysis of similarity between WARDOGS and WATCH DOGS, focusing on shared elements like 'DOGS' and differing prefixes 'WAR'/'WATCH'."
+      },
+      {
+        "term": "Global Assessment Principle",
+        "description": "The rule that similarity assessment must rely on the overall impression created by the signs, acknowledging interdependence between similarity factors."
+      }
+    ],
+    "summary_text": "Bulkhead Ltd sought the annulment of the EUIPO Board of Appeal’s decision which upheld, in part, Ubisoft Entertainment’s opposition against the registration of the EU word mark WARDOGS, based on the earlier mark WATCH DOGS. The opposition concerned goods in Classes 9 and 41. The Board found the signs visually and phonetically similar to at least an average degree, and conceptually similar to a low degree, concluding there was a likelihood of confusion under Article 8(1)(b) of Regulation 2017/1001. The applicant challenged these findings, arguing that the differences in the initial parts ('war' versus 'watch') should have reduced the similarity findings, and that conceptual differences should have counteracted visual/phonetic similarities. The General Court rejected these arguments. It confirmed the Board’s assessment regarding visual similarity (shared 'wa' and 'dogs') and phonetic similarity. Conceptually, the Court agreed that the common element 'dogs' created at least a low degree of similarity, even if the initial parts suggested different connotations ('war dogs' vs. 'watch dogs'). Crucially, the Court found that the conceptual differences were insufficient to outweigh the visual and phonetic similarities, upholding the global assessment of a likelihood of confusion. Consequently, the Court dismissed the action in its entirety, rejecting the single plea alleging infringement of Article 8(1)(b)."
+  },
+  "case_segments": {
+    "document_start": {
+      "start_index": 0,
+      "end_index": 1283,
+      "text": "JUDGMENT OF THE GENERAL COURT (First Chamber)\n\n15 October 2025 (\n*\n)\n\n( EU trade mark – Opposition proceedings – Application for the EU word mark WARDOGS – Earlier EU word mark WATCH DOGS – Relative ground for refusal – Likelihood of confusion – Article 8(1)(b) of Regulation (EU) 2017/1001 )\n\nIn Case T‐109/25,\n\nBulkhead Ltd,\n established in Derby (United Kingdom), represented by D. Selmi, Barrister-at-Law,\n\napplicant,\n\nv\n\nEuropean Union Intellectual Property Office (EUIPO),\n represented by D. Gája, acting as Agent,\n\ndefendant,\n\nthe other party to the proceedings before the Board of Appeal of EUIPO being\n\nUbisoft Entertainment,\n established in Carentoir (France),\n\nTHE GENERAL COURT (First Chamber),\n\ncomposed, at the time of the deliberations, of I. Gâlea, acting as President, T. Tóth and S.L. Kalėda (Rapporteur), Judges,\n\nRegistrar: V. Di Bucci,\n\nhaving regard to the written part of the procedure,\n\nhaving regard to the fact that no request for a hearing was submitted by the parties within three weeks after service of notification of the close of the written part of the procedure, and having decided to rule on the action without an oral part of the procedure, pursuant to Article 106(3) of the Rules of Procedure of the General Court,\n\ngives the following\n\nJudgment\n\n"
+    },
+    "procedural_introduction": {
+      "start_index": 1283,
+      "end_index": 12600,
+      "text": "1\n By its action under Article 263 TFEU, the applicant, Bulkhead Ltd, seeks the annulment of the decision of the Fourth Board of Appeal of the European Union Intellectual Property Office (EUIPO) of 10 December 2024 (Case R 1314/2024-4) (‘the contested decision’).\n\n \nBackground to the dispute\n\n2\n On 15 June 2022, the applicant filed an application for registration of an EU trade mark with EUIPO in respect of the word sign WARDOGS.\n\n3\n The mark applied for covered goods and services in Classes 9 and 41 of the Nice Agreement Concerning the International Classification of Goods and Services for the Purposes of the Registration of Marks of 15 June 1957, as revised and amended, corresponding, for each of those classes, to the following description:\n\n– Class 9: ‘Games software; interactive games software; computer game software; video game software; virtual reality games software; downloadable computer game software; downloadable video game software; interactive entertainment computer software for video games; data recorded electronically from the Internet, namely, recorded computer game programs; data recorded in machine readable form from the Internet, namely downloadable video game data via the internet; discs, tapes, cartridges, and CD-ROMs, all bearing computer games software or video games; electronic amusement apparatus, namely, electronic circuits recording programs for amusement apparatus for use with liquid crystal screens; computer software and hardware apparatus for downloading, transmitting, receiving, providing, publishing, extracting, encoding, decoding, reading, storing and organizing audiovisual, videographic and written data; computer software for gathering, processing, monitoring, analyzing, managing and reporting information; computer software for gathering, processing, monitoring, analyzing, managing and reporting information concerning usage and performance of software, applications, computer and video games, websites, virtual worlds and audio visual content; computer software for gathering, processing, analyzing, managing and reporting information concerning online, internet and web site activity; computer software for designing, developing, modifying and improving computer software, applications, computer and video games, websites and audio visual content; information stored on electronic, magnetic and/or by optical means, namely, CDs and DVDs; publications in electronic form supplied on-line from a database and from facilities provided on the Internet and other networks and websites, namely, downloadable electronic publications in the nature of magazines in the field of video games; downloadable electronic publications in the nature of magazines in the field of video games; electronic notice boards; downloadable applications for mobile devices; software applications for mobile devices; digital music downloadable from the internet; musical recordings in the form of discs; audio books; downloadable image files; sunglasses; cases, straps and chains for sunglasses; camera cases; mobile phone covers and cases; leather cases for mobile phones; mobile telephone games; mobile telephone fascias and covers; laptop carrying cases; cases adapted for tablet computers; computer mouse pads; decorative magnets; fridge magnets; podcasts; downloadable sound recordings; software for providing emoticons’;\n\n– Class 41: ‘Entertainment services, namely, providing electronic, computer and video games provided by means of the internet; internet games, namely, providing non-downloadable computer games via the internet; organizing of games; providing online video games; entertainment services sharing computer games; provision of online computer games; provision of non-downloadable computer games played via a global computer network; providing interactive entertainment services, namely, providing temporary use of non-downloadable electronic games; arranging and conducting competitions for video game and e-sports players; entertainment services, namely, arranging, organizing and producing live gaming and e-sports events and competitions; organizing, conducting and operating video game tournaments; organization of gaming competitions, namely, organizing electronic, computer and video game competitions; education and entertainment services, namely, the provision of entertainment information by computer networks, television, mobile telephone, and cable and other electronic means; preparation, editing and production of cinematographic, televisual, digital and motion picture films, radio and television programs; entertainment services in the form of electronic, computer and video games provided by means of the internet, mobile telephone and other remote communications device; publishing of interactive computer and video game software; multimedia publishing of computer and video games and computer and video games software; video game player information, including information regarding a player's identity and the player's preferences via a customized website; publishing of entertainment and educational software; advisory and consultancy services in connection with the foregoing’.\n\n4\n On 27 October 2022, the other party to the proceedings before the Board of Appeal, Ubisoft Entertainment, filed a notice of opposition to registration of the mark applied for in respect of the goods and services referred to in paragraph 3 above.\n\n5\n The opposition was based on the earlier EU word mark WATCH DOGS, filed on 23 November 2012 and registered on 26 April 2013, designating goods in Classes 9 and 41 and corresponding, for each of those classes, to the following description:\n\n– Class 9: ‘Apparatus for recording, transmission, reception, reproduction and processing of sound and images; magnetic, optical, numerical and electronic data carriers; magnetic, optical and numerical discs; electronic data processing programs; digital personal organiser, computer memories; printed circuits; computers; computer peripheral devices, namely screens, keyboards, mice, consoles and control levers, readers of magnetic, optical and digital disks and diskettes; telephone and telecommunications apparatus; computer programmes [programs], recorded; computer game software; computer software (recorded); software for playing video, computer and on-line games; computer game software; computer software for video and audio games; multimedia and interactive software; computer software for mobile phones; audio visual games on computer hardware platforms; magnetic, optical and digital media for computer programs; cd-roms; compact disc; software featuring music and motion picture sound tracks; cinematographical films; mouse pads; parts and fittings for all the aforesaid’;\n\n– Class 41: ‘Education; tuition; tuition; providing of training; entertainment; sporting and cultural activities, organisation of competitions relating to video games, education and/or entertainment; arranging and conducting of colloquiums, conferences and congresses, organization of exhibitions for cultural or educational purposes; organisation of exhibitions in the field of entertainment; publishing of entertainment, educational and instructional texts; publication of magazines, publication of newspapers, publishing of books, publishing of newspapers, publishing of magazines, publishing of books; providing computer and telecommunications technology training, information on on-line computer games and other on-line entertainment; games offered online (on a computer network); providing games by cellular telephone communication; providing games by or for use on cellular telephones; production of films, shows, movie studios, film rental, rental of video and sound recordings; recordings for cinema, television, dvd, compact discs; organisation of shows, leisure services, production of radio, television, film and television entertainment programmes, creation of images, sounds or words, recording of sounds (recording studios) or images (filming) on magnetic data carriers, professional consultancy relating to entertainment’.\n\n6\n The ground relied on in support of the opposition was that set out in Article 8(1)(b) of Regulation (EU) 2017/1001 of the European Parliament and of the Council of 14 June 2017 on the European Union trade mark (OJ 2017 L 154, p. 1).\n\n7\n On 3 May 2024, the Opposition Division upheld the opposition in part in respect of all the goods and services referred to in paragraph 3 above, with the exception of ‘sunglasses; cases, straps and chains for sunglasses; decorative magnets; fridge magnets’ in Class 9.\n\n8\n On 27 June 2024, the applicant filed a notice of appeal with EUIPO against the Opposition Division’s decision.\n\n9\n By the contested decision, the Board of Appeal dismissed the appeal. In that regard, first, it defined the public which it considered relevant for the purposes of assessing whether there was a likelihood of confusion, namely the general public and a Spanish-speaking professional public demonstrating an average to high level of attention. Second, it found that all the goods and services referred to in paragraph 3 above, with the exception of ‘sunglasses; cases, straps and chains for sunglasses; decorative magnets; fridge magnets’ in Class 9, were identical or similar to varying degrees. Third, it noted that the signs at issue were visually and phonetically similar to at least an average degree and conceptually similar to at least a low degree. Fourth, it inferred from those assessments the existence of a likelihood of confusion, within the meaning of Article 8(1)(b) of Regulation 2017/1001.\n\n \nForms of order sought\n\n10\n The applicant claims that the Court should:\n\n– annul the contested decision;\n\n– order the registration of the mark applied for in respect of all the goods and services referred to in paragraph 3 above;\n\n– order EUIPO to pay the costs.\n\n11\n EUIPO contends that the Court should:\n\n– dismiss the action;\n\n– order the applicant to pay the costs in the event that a hearing is convened.\n\n \nLaw\n\n \nThe jurisdiction of the General Court\n\n12\n By its second head of claim, the applicant requests that the Court order the registration of the mark applied for as regards the goods and services in respect of which registration was refused.\n\n13\n In that regard, it is sufficient to recall that, when exercising judicial review of legality under Article 263 TFEU, the Court has no jurisdiction to issue directions to the institutions, bodies, offices and agencies of the European Union (see order of 26 October 1995, \nPevasa and Inpesca\n v \nCommission\n, C‐199/94 P and C‐200/94 P, EU:C:1995:360, paragraph 24 and the case-law cited; see also, to that effect, judgment of 25 September 2018,\n Sweden\n v \nCommission\n, T‐260/16, EU:T:2018:597, paragraph 104 and the case-law cited).\n\n14\n It follows that the applicant’s second head of claim must be rejected on the ground of lack of jurisdiction.\n\n \nThe claim for annulment of the contested decision\n\n15\n In support of its action, the applicant relies, in essence, on a single plea in law, alleging infringement of Article 8(1)(b) of Regulation 2017/1001. In particular, it disputes the existence of a likelihood of confusion on the part of the relevant public as regards the goods and services in respect of which registration was refused.\n\n16\n "
+    },
+    "legal_context": {
+      "start_index": 12600,
+      "end_index": 13153,
+      "text": "Article 8(1)(b) of Regulation 2017/1001 provides that, upon opposition by the proprietor of an earlier trade mark, the trade mark applied for must not be registered if, because of its identity with, or similarity to, the earlier trade mark and the identity or similarity of the goods or services covered by the trade marks, there exists a likelihood of confusion on the part of the public in the territory in which the earlier trade mark is protected. The likelihood of confusion includes the likelihood of association with the earlier trade mark.\n\n17\n "
+    },
+    "facts_and_background": {
+      "start_index": null,
+      "end_index": null,
+      "text": ""
+    },
+    "reasoning": {
+      "start_index": 13153,
+      "end_index": 30713,
+      "text": "The risk that the public may believe that the goods or services in question come from the same undertaking or from economically linked undertakings constitutes a likelihood of confusion. The likelihood of confusion must be assessed globally, according to the relevant public’s perception of the signs and goods or services in question and taking into account all factors relevant to the circumstances of the case, in particular the interdependence between the similarity of the signs and that of the goods or services covered (see judgment of 9 July 2003, \nLaboratorios RTB\n v \nOHIM – Giorgio Beverly Hills (GIORGIO BEVERLY HILLS)\n, T‐162/01, EU:T:2003:199, paragraphs 30 to 33 and the case-law cited).\n\n18\n In the present case, the applicant does not dispute the merits of the definition of the public on the part of which the Board of Appeal assessed whether there was a likelihood of confusion, namely the general public and a Spanish-speaking professional public, with an average to high level of attention.\n\n19\n The applicant also does not dispute the Board of Appeal’s finding that the goods and services at issue are identical or similar, to varying degrees.\n\n \nThe comparison of the signs\n\n20\n The global assessment of the likelihood of confusion must, so far as concerns the visual, phonetic or conceptual similarity of the signs at issue, be based on the overall impression given by the signs, bearing in mind, in particular, their distinctive and dominant elements. The perception of the marks by the average consumer of the goods or services in question plays a decisive role in the global assessment of that likelihood of confusion. In that regard, the average consumer normally perceives a mark as a whole and does not engage in an analysis of its various details (see judgment of 12 June 2007, \nOHIM \nv \nShaker\n, C‐334/05 P, EU:C:2007:333, paragraph 35 and the case-law cited).\n\n21\n It should be borne in mind that the signs at issue are, as regards the mark applied for, the word sign WARDOGS and, as regards the earlier mark, the word mark WATCH DOGS.\n\n22\n In that regard, the Board of Appeal found that no element of the signs at issue was more distinctive than another or was dominant, which the applicant does not dispute.\n\n23\n However, the applicant disputes certain assessments made by the Board of Appeal in the context of the visual, phonetic and conceptual comparison of the signs at issue.\n\n– \nThe visual comparison\n\n24\n The Board of Appeal found that the signs at issue were visually similar to at least an average degree.\n\n25\n First, the applicant complains that the Board of Appeal found that the signs at issue had an identical or similar number of letters, whereas the relevant public would generally not be aware of the number of letters in a mark.\n\n26\n In the present case, it must be stated that, although the Board of Appeal stated that the signs at issue had seven and nine letters respectively, it did not infer from that finding alone that there was at least an average degree of visual similarity.\n\n27\n Conversely, the Board of Appeal also noted, without it being disputed by the applicant, that the signs at issue coincided in their initial part ‘wa’ and in their final part ‘dogs’ and pointed out, in that regard, that the presence of several letters in the same order was a significant factor in the assessment of the visual similarities between two signs. The applicant’s argument must therefore be rejected.\n\n28\n Second, the applicant complains that the Board of Appeal incorrectly failed to take into account the increased attention usually paid by consumers to the beginning of signs. In the light of the differences between the initial parts of the signs at issue, namely ‘war’ for the mark applied for and ‘watch’ for the earlier mark, that fact should have led the Board of Appeal to find that there was a low degree of similarity between those signs, and not an at-least-average degree of similarity.\n\n29\n It must be borne in mind that the circumstance that the beginning of the sign is significant in the overall impression given by that sign, first, cannot hold in all cases and, second, does not, in any event, cast doubt on the principle that the assessment of the similarity of marks must take account of the overall impression created by those marks, since the average consumer normally perceives a trade mark as a whole and does not proceed to analyse its various details (see judgment of 27 February 2014, \nAdvance Magazine Publishers\n v \nOHIM – Nanso Group (TEEN VOGUE)\n, T‐509/12, EU:T:2014:89, paragraph 40 and the case-law cited).\n\n30\n Therefore, and in the light of the Board of Appeal’s findings reproduced in paragraph 27 above, which are not disputed by the applicant, the Board of Appeal did not make an error of assessment in finding that the signs at issue were visually similar to at least an average degree.\n\n– \nThe phonetic comparison\n\n31\n The Board of Appeal found that the signs at issue were phonetically similar to at least an average degree.\n\n32\n First, the applicant criticises the Board of Appeal for having found that the first syllable of those signs was identical.\n\n33\n It must be held that that argument is based on a misreading of the contested decision. The Board of Appeal noted that the pronunciation of the signs at issue coincided in the sound produced by the first two letters of those signs, namely ‘w’ and ‘a’ and, also, the second syllable of those signs, resulting from the pronunciation of their final part ‘dogs’. As regards the first syllables of the signs at issue, the Board of Appeal noted that they had the same structure, in that they began with ‘wa’, which created an identical first sound. It added that the pronunciation of those signs differed in the pronunciation of the consonant ‘r’ in the mark applied for and of the sequence of letters ‘tch’ in the earlier mark.\n\n34\n It is not apparent from those considerations that the Board of Appeal found that the first syllables of the signs at issue, resulting from the pronunciation of ‘war’ and ‘watch’ respectively, were identical. The applicant’s argument must therefore be rejected.\n\n35\n Second, the applicant complains that the Board of Appeal did not take sufficient account of the differences affecting the initial parts of the signs at issue.\n\n36\n In that regard, it should be pointed out that the applicant does not dispute the Board of Appeal’s assessments referred to in paragraph 33 above. In the light of the case-law referred to in paragraph 29 above, it must be held that those assessments could validly lead the Board of Appeal to conclude that there was at least an average degree of phonetic similarity between the signs at issue. Accordingly, the applicant’s argument must be rejected.\n\n– \nThe conceptual comparison\n\n37\n The Board of Appeal found that the signs at issue were conceptually similar to at least a low degree.\n\n38\n In that regard, the Board of Appeal stated that the element ‘dogs’, which is common to the signs at issue, was understood by all consumers in the European Union as being the plural of the word ‘dog’, which is part of the basic English vocabulary. The applicant expressly acknowledges that that assessment is well founded.\n\n39\n As regards the mark applied for, the Board of Appeal found that it was unlikely that the Spanish-speaking part of the relevant public would understand the word ‘wardogs’ in its figurative sense, which designates a fierce warrior. However, it added that part of that public might perceive in that sign the words ‘war’ and ‘dogs’, each belonging to basic English vocabulary and, in the context of goods and services, understand that sign as referring to a dog in the context of a military environment. The applicant expressly acknowledges that those assessments are well founded.\n\n40\n As regards the earlier mark, the Board of Appeal asserted that the word ‘watch’ was part of basic English vocabulary. However, as regards the expression ‘watch dogs’, it found that the relevant Spanish-speaking public would understand that expression at most in its basic sense, which designates watch or guard dogs, and not in its figurative sense, which designates a person or organisation responsible for making certain that companies obey particular standards and do not act illegally. The applicant expressly acknowledges that those assessments are well founded.\n\n41\n As regards the comparison of the signs at issue, the Board of Appeal noted that those signs differed in the meaning of their initial parts ‘war’ and ‘watch’, which could be understood as references to a military or surveillance environment. It added that that difference did not, however, outweigh the similarity created by the final part ‘dogs’, especially since, by referring to the ideas of ‘war dogs’ and ‘watch dogs’ respectively, the mark applied for and the earlier mark could have similar connotations.\n\n42\n First, the applicant criticises the Board of Appeal for having found that the signs at issue could have similar connotations, with the mark applied for evoking the concepts of combat and assault, whereas the earlier mark refers to guardianship.\n\n43\n In that regard, it should be stated that that argument does not take account of the understanding, rightly noted by the Board of Appeal and expressly acknowledged by the applicant, of the final part ‘dogs’ of the signs at issue, and of the literal meaning of the expressions ‘watch dogs’ and ‘war dogs’ for the relevant public.\n\n44\n As a result of those circumstances, the Board of Appeal made no error of assessment in finding that the signs at issue could evoke the ideas of ‘war dogs’ and ‘watch dogs’ respectively, with the result that they could have similar connotations. Accordingly, the applicant’s argument must be rejected.\n\n45\n Second, the applicant considers that the Board of Appeal made an error of assessment in inferring a conceptual similarity from the fact that the signs at issue share the same final part ‘dogs’. It submits that the presence of a common element understood by the relevant public is insufficient to conclude that there is a conceptual similarity where, as in the present case, at least one of the signs at issue has a clear and specific meaning for that public.\n\n46\n In that regard, it must be recalled that the meaning of the word ‘dogs’ is understood by the relevant public, as is that of the expressions ‘wardogs’ and ‘watch dogs’ in the literal sense. However, given that that word and those expressions evoke, in their literal sense, dogs, the Board of Appeal made no error of assessment in finding that there was at least a low degree of conceptual similarity between the signs at issue.\n\n47\n The fact that, in an earlier decision relied on by the applicant, namely the judgment of 17 October 2006 in \nHammarplast\n v \nOHIM – Steninge Slott (STENINGE SLOTT)\n (T‐499/04, not published, EU:T:2006:324), the Court held that two signs which shared a common element understood by the relevant public were nevertheless conceptually dissimilar is not such as to call that conclusion into question. In that case, the relevant public, the goods and services at issue, the signs at issue, the element common to those signs and the degrees of visual, phonetic and conceptual similarity between those signs were different from those at issue in the present case. In particular, the Court held that the conceptual difference between the signs STENINGE SLOTT and STENINGE KERAMIK caused an actual dissimilarity between those signs taken as a whole, which is not the case with the signs at issue in the present case. The applicant’s argument must therefore be rejected.\n\n48\n It follows that the Board of Appeal’s assessments of the comparison of the signs at issue are not vitiated by an error of assessment.\n\n \nThe likelihood of confusion\n\n49\n A global assessment of the likelihood of confusion implies some interdependence between the factors taken into account and, in particular, between the similarity of the trade marks and that of the goods or services covered. Accordingly, a low degree of similarity between those goods or services may be offset by a high degree of similarity between the marks, and vice versa (judgments of 29 September 1998, \nCanon\n, C‐39/97, EU:C:1998:442, paragraph 17, and of 14 December 2006,\n Mast-Jägermeister\n v \nOHIM – Licorera Zacapaneca (VENADO with frame and others)\n, T‐81/03, T‐82/03 and T‐103/03, EU:T:2006:397, paragraph 74).\n\n50\n In the present case, it is apparent from paragraphs 52 to 66 of the contested decision that the Board of Appeal concluded that there was a likelihood of confusion on the part of the relevant public taking into account the average to high level of attention of that public, the identity or similarity of the goods and services at issue, the at-least-average degree of visual and phonetic similarity between the signs at issue and at-least-low degree of conceptual similarity and the average degree of distinctiveness of the earlier mark.\n\n51\n First, the applicant again disputes the Board of Appeal’s assessments of the degrees of visual, phonetic and conceptual similarity of the signs at issue. It has been found, in paragraphs 30, 36 and 48 above respectively, however, that those assessments were not vitiated by an error of assessment, with the result that the applicant’s argument must be rejected.\n\n52\n Second, the applicant submits that the conceptual differences between the signs at issue were such as to counteract their visual and phonetic similarities and, therefore, to preclude any likelihood of confusion.\n\n53\n Admittedly, it is apparent from the case-law that the global assessment of the likelihood of confusion implies that conceptual differences between two signs can counteract phonetic and visual similarities between them, provided that at least one of those signs has, from the point of view of the relevant public, a clear and specific meaning, so that that public is capable of grasping it immediately (judgments of 18 December 2008, \nLes Éditions Albert René\n v \nOHIM\n, C‐16/06 P, EU:C:2008:739, paragraph 98, and of 14 October 2003,\n Phillips-Van Heusen\n v \nOHIM – Pash Textilvertrieb und Einzelhandel (BASS)\n, T‐292/01, EU:T:2003:264, paragraph 54).\n\n54\n However, in the present case, as is apparent from paragraph 41 above, the Board of Appeal was right to find that the signs at issue differed in the meaning of their initial parts ‘war’ and ‘watch’, but that that difference did not, however, outweigh the similarity created by the final part ‘dogs’. Similarly, it is apparent from paragraph 46 above that the Board of Appeal was right to find that there was at least a low degree of conceptual similarity between the signs at issue.\n\n55\n Therefore, on account of that similarity, the condition relating to the existence of conceptual differences liable to counteract the visual and phonetic similarities between the signs at issue is not satisfied. Accordingly, the applicant’s argument must be rejected.\n\n56\n Third, the applicant complains that the Board of Appeal, in finding that there was at least a low degree of similarity between the signs at issue, gave undue precedence to the final part ‘dogs’ of those signs, in breach of the principle of global assessment of the likelihood of confusion.\n\n57\n The Board of Appeal, however, was right to note that the expressions ‘wardogs’ and ‘watch dogs’ evoked, in their literal sense, understood by the relevant public, dogs, namely ‘wardogs’ and ‘watch dogs’, with the result that the signs at issue could have similar connotations. Contrary to what the applicant submits, that assessment is not the result of undue precedence being given to the element ‘dogs’, but, on the contrary, of the taking into account of the meaning of the signs at issue as a whole. Accordingly, the applicant’s argument must be rejected.\n\n58\n Fourth, the applicant claims that, for the part of the relevant public which does not understand the English word ‘war’, the signs at issue are conceptually similar only to a low degree, that a part of the relevant public has a high level of attention and that some of the goods and services at issue are similar only to a low degree.\n\n59\n Assuming that, by those assertions, the applicant disputes the assessment of the interdependence of the factors relevant for assessing the likelihood of confusion, within the meaning of the case-law referred to in paragraphs 17 and 49 above, and claims that there was no likelihood of confusion concerning certain goods or services, it must be pointed out that it does not identify those goods or services.\n\n60\n In addition, it must be borne in mind that, where the goods or services covered by the two marks at issue are intended for the same relevant public, which comprises both the general public and professionals, the public with the lowest level of attention must be taken into consideration (see judgment of 20 May 2014, \nArgo Group International Holdings\n v \nOHIM – Arisa Assurances (ARIS)\n, T‐247/12, EU:T:2014:258, paragraph 29 and the case-law cited).\n\n61\n Therefore, the applicant has not established any error vitiating the Board of Appeal’s assessment relating to the interdependence of the factors relevant to the assessment of the likelihood of confusion in the present case.\n\n62\n It follows from the foregoing that the Board of Appeal’s assessments as to the existence of a likelihood of confusion are not vitiated by error.\n\n63\n Accordingly, the single plea in law must be rejected and, consequently, the action must be dismissed in its entirety.\n\n \n"
+    },
+    "decision_on_costs": {
+      "start_index": 30713,
+      "end_index": 31172,
+      "text": "Costs\n\n64\n Under Article 134(1) of the Rules of Procedure of the General Court, the unsuccessful party is to be ordered to pay the costs if they have been applied for in the successful party’s pleadings.\n\n65\n Although the applicant has been unsuccessful, EUIPO has applied for the applicant to be ordered to pay the costs only in the event that a hearing is convened. As no hearing has been held, it is appropriate to order each party to bear its own costs.\n\n"
+    },
+    "operative_part": {
+      "start_index": 31172,
+      "end_index": 31377,
+      "text": "On those grounds,\n\nTHE GENERAL COURT (First Chamber)\n\nhereby:\n\n1. \nDismisses the action;\n\n2. \nOrders Bulkhead Ltd and the European Union Intellectual Property Office (EUIPO) each to bear their own costs.\n\n"
+    },
+    "document_end": {
+      "start_index": 31377,
+      "end_index": 31549,
+      "text": "Gâlea\n\nTóth\n\nKalėda\n\nDelivered in open court in Luxembourg on 15 October 2025.\n\nV. Di Bucci\n\n \n\nM. van der Woude\n\nRegistrar\n\n \n\nPresident\n\n*\n Language of the case: English."
+    }
+  },
+  "citations": {
+    "list": [
+      "ECLI:EU:C:1995:360",
+      "ECLI:EU:T:2018:597",
+      "ECLI:EU:T:2003:199",
+      "ECLI:EU:C:2007:333",
+      "ECLI:EU:T:2014:89",
+      "ECLI:EU:T:2006:324",
+      "ECLI:EU:C:1998:442",
+      "ECLI:EU:T:2006:397",
+      "ECLI:EU:C:2008:739",
+      "ECLI:EU:T:2003:264",
+      "ECLI:EU:T:2014:258"
+    ],
+    "detailed": [
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:1995:360",
+        "locations": [
+          {
+            "segment": "procedural_introduction"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2018:597",
+        "locations": [
+          {
+            "segment": "procedural_introduction"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2003:199",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2007:333",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2014:89",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2006:324",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:1998:442",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2006:397",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2008:739",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2003:264",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2014:258",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:C:1995:360"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2018:597"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2003:199"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:C:2007:333"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2014:89"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2006:324"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:C:1998:442"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2006:397"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:C:2008:739"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2003:264"
+      },
+      {
+        "source": "ECLI:EU:T:2025:956",
+        "target": "ECLI:EU:T:2014:258"
+      }
+    ]
+  }
+}

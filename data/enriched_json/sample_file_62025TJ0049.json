@@ -1,0 +1,461 @@
+{
+  "case_metadata": {
+    "celex": "62025TJ0049",
+    "document_link": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=cellar:4f8cc4b8-d028-11f0-8da2-01aa75ed71a1",
+    "ecli": "ECLI:EU:T:2025:1088",
+    "case_number": "T-49/25",
+    "date_of_judgment": "2025-12-03",
+    "document_type": "Judgment",
+    "court": "General Court",
+    "case_name": "Mute Sp. z o.o. v European Union Intellectual Property Office"
+  },
+  "case_summary": {
+    "subject_matter": "Opposition proceedings concerning an EU trade mark application where the General Court assessed the likelihood of confusion between the signs 'mute labs' and 'MuteDesign' based on the descriptive nature of the common element 'mute' for sound-absorbing goods.",
+    "keywords": [
+      {
+        "term": "EU trade mark opposition",
+        "description": "Proceedings challenging the registration of an EU trade mark based on an earlier registered mark."
+      },
+      {
+        "term": "Likelihood of confusion",
+        "description": "Assessment under Article 8(1)(b) based on visual, phonetic, and conceptual similarity of signs and similarity of goods/services."
+      },
+      {
+        "term": "Descriptive element",
+        "description": "Assessment of the distinctiveness of the common element 'mute' in relation to sound-absorbing goods."
+      },
+      {
+        "term": "Relevant public attention",
+        "description": "The high level of attention expected from professional consumers in technical fields like construction and furnishing."
+      }
+    ],
+    "summary_text": "Mute sp. z o.o. sought the annulment of the EUIPO Board of Appeal's decision, which dismissed its opposition against the registration of the EU figurative mark 'mute labs' by mute-labs GmbH. The opposition was based on the earlier mark 'MuteDesign' and relied on the relative ground for refusal under Article 8(1)(b) of Regulation 2017/1001, alleging a likelihood of confusion for goods in Classes 19 and 20 (sound-absorbing materials and furniture). The Board of Appeal assumed the goods were identical but found no likelihood of confusion due to low similarity between the signs. The applicant challenged the Board's findings regarding the relevant public, the comparison of signs, and the overall likelihood of confusion. The General Court upheld the Board's finding that the relevant public consisted primarily of professionals with a high level of attention, especially for technical goods like sound-absorbing materials. Regarding the signs, the Court confirmed that the common element 'mute' was descriptive (meaning silent or reducing noise) and thus had low distinctiveness, reducing its weight in the global assessment, despite its initial position. The differing elements ('labs' vs. 'design') and the figurative bracket contributed to a low degree of visual and phonetic similarity. Since the earlier mark itself had low inherent distinctiveness (being a combination of descriptive elements), a high degree of similarity between the marks was required to establish confusion, which was not met. Consequently, the Court dismissed the action, confirming that the Board of Appeal correctly found no likelihood of confusion."
+  },
+  "case_segments": {
+    "document_start": {
+      "start_index": 0,
+      "end_index": 1411,
+      "text": "JUDGMENT OF THE GENERAL COURT (Eighth Chamber)\n\n3 December 2025 (\n*\n)\n\n( EU trade mark – Opposition proceedings – Application for the EU figurative mark mute labs – Earlier EU figurative mark MuteDesign – Relative ground for refusal – No likelihood of confusion – Article 8(1)(b) of Regulation (EU) 2017/1001 – Article 95(1) of Regulation 2017/1001 )\n\nIn Case T‐49/25,\n\nMute sp. z o.o., \nestablished in Warsaw (Poland), represented by B. Wojtkowska, lawyer,\n\napplicant,\n\nv\n\nEuropean Union Intellectual Property Office (EUIPO),\n represented by T. Frydendahl, acting as Agent,\n\ndefendant,\n\nthe other party to the proceedings before the Board of Appeal of EUIPO, intervener before the General Court, being\n\nmute-labs GmbH,\n established in Berlin (Germany), represented by D. van Ackeren, lawyer,\n\nTHE GENERAL COURT (Eighth Chamber),\n\ncomposed, at the time of the deliberations, of G. De Baere, acting as President, D. Petrlík (Rapporteur) and K. Kecsmár, Judges,\n\nRegistrar: V. Di Bucci,\n\nhaving regard to the written part of the procedure,\n\nhaving regard to the fact that no request for a hearing was submitted by the parties within three weeks after service of notification of the close of the written part of the procedure, and having decided to rule on the action without an oral part of the procedure, pursuant to Article 106(3) of the Rules of Procedure of the General Court,\n\ngives the following\n\nJudgment\n\n"
+    },
+    "procedural_introduction": {
+      "start_index": 1411,
+      "end_index": 5404,
+      "text": "1\n By its action under Article 263 TFEU, the applicant, Mute sp. z o.o., seeks the annulment of the decision of the First Board of Appeal of the European Union Intellectual Property Office (EUIPO) of 21 November 2024 (Case R 1285/2020-1) (‘the contested decision’).\n\n \nBackground to the dispute\n\n2\n On 15 January 2019, the intervener, mute-labs GmbH, filed an application for registration of an EU trade mark with EUIPO in respect of the following figurative sign:\n\n3\n Following the restriction made in the course of the proceedings before EUIPO, the mark applied for covered goods in, inter alia, Classes 19 and 20 of the Nice Agreement Concerning the International Classification of Goods and Services for the Purposes of the Registration of Marks of 15 June 1957, as revised and amended, corresponding, for each of those classes, to the following description:\n\n– Class 19: ‘Telephone booths, not of metal, with sound-absorbing wall and ceiling coverings; sound-absorbing building and construction materials and elements, not of metal [noise protection]; Structures and transportable buildings, not of metal, with sound-absorbing wall and ceiling coverings’;\n\n– Class 20: ‘Furniture and furnishings with sound-absorbing and sound-shielding surfaces’.\n\n4\n On 5 May 2019, the applicant filed a notice of opposition to registration of the mark applied for in respect of, inter alia, the goods referred to in paragraph 3 above.\n\n5\n The opposition was based on the earlier EU figurative mark registered under No 17 925 704 and reproduced below:\n\n6\n The earlier mark had been registered on 30 October 2018 for goods in, inter alia, Classes 19 and 20 corresponding, for each of those classes, to the following description:\n\n– Class 19: ‘Wall panelling made of non-metallic materials; Space dividers [structures], not of metal; Building and construction materials and elements, not of metal’;\n\n– Class 20: ‘Pouffes [furniture]; Bean bags; Sofas; Armchairs; Desks; Dividing panels; Office furniture; Furniture for use in auditoria; Furniture and furnishings; Furniture; Lecterns; Tables [furniture]; Computer furniture; Transformable furniture; Showcases [furniture]; Mobile display units [furniture]; Mobile partitions [furniture]; Wall shelves furniture; Multi-purpose stands [furniture]; Multiposition stands [furniture]; Mobile pedestals [furniture]; Composable furniture; Screens [furniture] for display purposes; Freestanding partitions [furniture]; Movable screens [furniture]; Storage modules [furniture]; Assembled display units [furniture]; Modular shelving [furniture]; Space dividers [furniture]; Storage units [furniture]; Partitions (non metallic -), [furniture] made from interlocking panels; Room divider panels [furniture]; Kits of parts [sold complete] for assembly into articles of furniture’.\n\n7\n The ground relied on in support of the opposition was that set out in Article 8(1)(b) of Regulation (EU) 2017/1001 of the European Parliament and of the Council of 14 June 2017 on the European Union trade mark (OJ 2017 L 154, p. 1).\n\n8\n On 28 April 2020, the Opposition Division upheld the opposition on the basis of Article 8(1)(b) of Regulation 2017/1001.\n\n9\n On 24 June 2020, the intervener filed a notice of appeal with EUIPO against the Opposition Division’s decision.\n\n10\n By the contested decision, the Board of Appeal upheld the appeal and dismissed the opposition on the ground that there was no likelihood of confusion within the meaning of Article 8(1)(b) of Regulation 2017/1001.\n\n \nForms of order sought\n\n11\n The applicant claims that the Court should:\n\n– annul the contested decision;\n\n– order EUIPO to pay the costs.\n\n12\n EUIPO contends that the Court should:\n\n– dismiss the action;\n\n– order the applicant to pay the costs incurred by EUIPO in the event that an oral hearing is convened.\n\n13\n The intervener contends that the Court should:\n\n– dismiss the action and uphold the contested decision;\n\n– order the applicant to pay the costs incurred by the intervener.\n\n \n"
+    },
+    "legal_context": {
+      "start_index": 5404,
+      "end_index": 7592,
+      "text": "Law\n\n14\n The applicant relies, in essence, on a single plea in law alleging infringement of Article 8(1)(b) of Regulation 2017/1001 and of Article 95(1) of that regulation.\n\n15\n Article 8(1)(b) of Regulation 2017/1001 provides that, upon opposition by the proprietor of an earlier trade mark, the trade mark applied for must not be registered if, because of its identity with, or similarity to, the earlier trade mark and the identity or similarity of the goods or services covered by the trade marks there exists a likelihood of confusion on the part of the public in the territory in which the earlier trade mark is protected. The likelihood of confusion includes the likelihood of association with the earlier trade mark.\n\n16\n The risk that the public may believe that the goods or services in question come from the same undertaking or from economically linked undertakings constitutes a likelihood of confusion. The likelihood of confusion must be assessed globally, according to the relevant public’s perception of the signs and goods or services in question and taking into account all factors relevant to the circumstances of the case, in particular the interdependence between the similarity of the signs and that of the goods or services covered (see judgment of 9 July 2003, \nLaboratorios RTB\n v \nOHIM – Giorgio Beverly Hills (GIORGIO BEVERLY HILLS)\n, T‐162/01, EU:T:2003:199, paragraphs 30 to 33 and the case-law cited).\n\n17\n In paragraph 36 of the contested decision, the Board of Appeal, for reasons of procedural economy and because it was also the best-case scenario for the applicant, proceeded from the assumption that the goods covered by the marks at issue were identical.\n\n18\n The applicant does not call that assumption into question; nor does it contest the finding of the Board of Appeal that the relevant territory for the examination of the likelihood of confusion is that of the European Union.\n\n19\n The applicant submits that the Board of Appeal made errors of assessment concerning the definition of the relevant public, the comparison of the signs at issue and the likelihood of confusion.\n\n20\n EUIPO and the intervener dispute the applicant’s arguments.\n\n \n"
+    },
+    "facts_and_background": {
+      "start_index": null,
+      "end_index": null,
+      "text": ""
+    },
+    "reasoning": {
+      "start_index": 7592,
+      "end_index": 45938,
+      "text": "The relevant public\n\n21\n In the global assessment of the likelihood of confusion, account should be taken of the average consumer of the category of goods concerned, who is reasonably well informed and reasonably observant and circumspect. It should also be borne in mind that the average consumer’s level of attention is likely to vary according to the category of goods or services in question (see judgment of 13 February 2007, \nMundipharma\n v \nOHIM – Altana Pharma (RESPICUR)\n, T‐256/04, EU:T:2007:46, paragraph 42 and the case-law cited).\n\n22\n The applicant submits, contrary to what the Board of Appeal found in paragraphs 33 and 34 of the contested decision, that the goods at issue in Classes 19 and 20 are aimed not only at the professional public, whose level of attention is high, but also at a wide circle of consumers who are interested in interior furnishings, as those goods can be purchased for many non-professional spaces.\n\n23\n First of all, the Board of Appeal stated that the goods at issue in Class 20 included furniture, office furniture and furnishings with sound-absorbing and sound-shielding features intended to outfit various spaces, such as professional office environments. The Board found that those goods were essentially aimed at a professional public displaying a high level of attention.\n\n24\n In that regard, it should be borne in mind that registration of an EU trade mark must be refused where a likelihood of confusion within the meaning of Article 8(1)(b) of Regulation 2017/1001 exists for a not insignificant part of the relevant public (see judgment of 29 March 2023, \nMachková \nv \nEUIPO\n \n– Aceites Almenara (ALMARA SOAP)\n, T‐436/22, not published, EU:T:2023:167, paragraph 34). Thus, it is not necessary to examine whether that likelihood of confusion exists for certain consumers who, while part of the relevant public, nevertheless do not represent a not insignificant part thereof (see, to that effect, judgments of 24 June 2014, \nHut.com \nv\n OHIM – Intersport France (THE HUT)\n, T‐330/12, not published, EU:T:2014:569, paragraph 58, and of 2 March 2022, \nUGA Nutraceuticals \nv\n EUIPO\n \n– Vitae Health Innovation (VITADHA)\n, T‐149/21, not published, EU:T:2022:103, paragraph 31; see also, by analogy, judgment of 11 December 2024, \nGlashütter Uhrenbetrieb \nv\n EUIPO (Glashütte ORIGINAL)\n, T‐1163/23, not published, EU:T:2024:890, paragraph 15).\n\n25\n In the present case, admittedly, it cannot be excluded that certain consumers who are not professionals, such as those interested in interior furnishings, buy furniture and furnishings with sound-absorbing and sound-shielding surfaces. However, it is not apparent from the material in the file that those consumers constitute a not insignificant part of the relevant public. In that regard, it must be pointed out, first, that, having regard to their sound-absorbing and sound-shielding features, the relevant items of furniture and furnishings are intended to be used mainly in professional spaces and, therefore, by the professional public. Second, the applicant has not submitted any concrete evidence to establish that, despite that primary purpose of those goods, a not insignificant number of consumers who are not professionals would also buy such goods.\n\n26\n In those circumstances, the Board of Appeal correctly found that the relevant goods in Class 20 were essentially aimed at a professional public and could validly limit its analysis of the likelihood of confusion to that public alone.\n\n27\n Next, as concerns the goods in Class 19, the Board of Appeal pointed out that those goods mainly covered building and construction materials and elements, structures and transportable buildings, all made of non-metal materials, as well as telephone booths. The Board considered that those goods were aimed only at professionals and business customers in fields such as architecture, construction and facility management and that, given the technical and specialised nature of those goods, the relevant public’s level of attention was high.\n\n28\n In that regard, it should be borne in mind that the goods referred to in paragraph 27 above are technical materials that are primarily used in the construction sector. Thus, even if some of those goods are accessible to the general public, it is unusual for the purchase of such goods to be carried out by members of that public, who generally entrust a professional with that task (see, to that effect and by analogy, judgment of 8 July 2015, \nDeutsche Rockwool Mineralwoll \nv\n OHIM – Ceramicas del Foix (Rock & Rock)\n, T‐436/12, EU:T:2015:477, paragraph 21).\n\n29\n That is all the more the case given that the goods at issue, once incorporated into inter alia, a building, can often be replaced only at a high cost, so that knowledge of their characteristics, quality and commercial origin are of particular importance (see, to that effect and by analogy, judgment of 8 July 2015, \nRock & Rock\n, T‐436/12, EU:T:2015:477, paragraph 22).\n\n30\n In those circumstances, the Board of Appeal was correct to find that the goods at issue in Class 19 were aimed only at the professional public.\n\n31\n Lastly, the applicant does not put forward any argument to challenge the Board of Appeal’s finding that the relevant public’s level of attention is high.\n\n \nThe comparison of the signs at issue\n\n32\n The global assessment of the likelihood of confusion must, so far as concerns the visual, phonetic or conceptual similarity of the signs at issue, be based on the overall impression given by the signs, bearing in mind, in particular, their distinctive and dominant elements. The perception of the marks by the average consumer of the goods or services in question plays a decisive role in the global assessment of that likelihood of confusion (see judgments of 12 June 2007, \nOHIM \nv\n Shaker\n, C‐334/05 P, EU:C:2007:333, paragraph 35 and the case-law cited, and of 5 October 2020, \nEugène Perma France \nv \nEUIPO\n – \nSPI Investments Group (NATURANOVE)\n, T‐602/19, not published, EU:T:2020:463, paragraph 25 and the case-law cited).\n\n33\n In that regard, although the average consumer normally perceives a mark as a whole and does not engage in an analysis of its various details, the fact remains that, while perceiving a word sign, that consumer will identify the word elements which, for him or her, suggest a concrete meaning or resemble words known to him or her (see judgment of 5 October 2020, \nNATURANOVE\n, T‐602/19, not published, EU:T:2020:463, paragraph 28 and the case-law cited).\n\n34\n Furthermore, it must be borne in mind that the greater or lesser degree of distinctiveness of elements that are common to a mark applied for and an earlier mark is one of the relevant factors in assessing the visual, phonetic and conceptual similarity of those marks (see judgment of 15 October 2020, \nRothenberger \nv\n EUIPO – Paper Point (ROBOX)\n, T‐49/20, not published, EU:T:2020:492, paragraph 66 and the case-law cited).\n\n35\n In the present case, the applicant disputes the Board of Appeal’s analysis regarding the distinctive character of the elements making up the signs at issue.\n\n \nThe distinctive elements of the signs at issue\n\n36\n In order to determine the distinctive character of an element making up a mark, an assessment must be made of the greater or lesser capacity of that element to identify the goods or services for which the mark was registered as coming from a particular undertaking, and thus to distinguish those goods or services from those of other undertakings. In making that assessment, account should be taken, in particular, of the inherent characteristics of the element in question in the light of whether it is at all descriptive of the goods or services for which the mark has been registered (see judgment of 5 October 2020, \nNATURANOVE\n, T‐602/19, not published, EU:T:2020:463, paragraph 27 and the case-law cited).\n\n37\n In the present case, the earlier mark is a figurative mark made up of the word elements ‘mute’ and ‘design’, written in slightly stylised letters in a commonly used font. The mark applied for is a figurative mark made up of the word elements ‘mute’ and ‘labs’, written in a slightly stylised font, accompanied by two figurative elements forming a square-shaped bracket, one at the top left and the other at the bottom right of the term ‘mute’.\n\n38\n The Board of Appeal found that the element ‘design’ of the earlier mark was descriptive and that the figurative element of the mark applied for was quite simple and played only a minor role in the comparison of the marks at issue. The applicant does not dispute those findings.\n\n39\n The applicant challenges the Board of Appeal’s findings that the element ‘mute’, which is common to the signs at issue, is devoid of distinctive character and that the element ‘labs’ of the mark applied for has a low degree of distinctiveness.\n\n– \nThe distinctive character of the element ‘mute’ which is common to the signs at issue\n\n40\n The Board of Appeal found that the element ‘mute’, which is common to the signs at issue, was descriptive and devoid of distinctive character. The Board pointed out that the relevant public, consisting of both English- and non-English-speaking professionals, would understand the term ‘mute’ as meaning, as an adjective, ‘silent or not speaking’, or as a verb, ‘to make a noise or device less loud or inaudible’. The Board also observed that that term would be recognised by the professionals making up the relevant public as part of their technical vocabulary, especially in fields such as acoustics, sound and technology, and would be understood as implying the capacity to silence, reduce, damp or control noise or sound.\n\n41\n In the first place, the applicant submits that the term ‘mute’ cannot be considered descriptive and devoid of distinctive character, as it does not have an obvious or unambiguous meaning in connection with the goods at issue. The applicant argues, more specifically, that that term will be understood only as referring to the complete elimination of sound, which is different from simply turning down the volume, whereas none of the goods at issue has the function of eliminating sound or of regulating volume.\n\n42\n In that regard, it must first of all be pointed out that the applicant itself acknowledges that the term ‘mute’ is a word known in the context of everyday life as referring to the elimination of sound.\n\n43\n The term ‘mute’ and its meaning may thus be regarded as known to the public of the European Union as a whole, including, therefore, professionals. That is indeed all the more the case given that, due to their experience, professionals are more frequently in contact with technical terms in English and are capable of understanding that that term refers to the elimination of sound.\n\n44\n Next, it must be pointed out that the functions of eliminating sound and turning down its volume are closely linked, as substantially decreasing the volume is capable of leading to the elimination of sound. Despite this, the applicant has not put forward any specific evidence in support of its argument that, for the professionals concerned, the term ‘mute’ will be understood solely as indicating the complete elimination of sound, and not as merely reducing the volume thereof. In those circumstances, the applicant cannot claim that the Board of Appeal made an error of assessment when it found that the relevant public would understand the term ‘mute’ also as meaning turning down the volume.\n\n45\n On the same grounds, the applicant cannot criticise the Board of Appeal for having vitiated the contested decision with a contradiction by stating that the term ‘mute’ could be understood either as an adjective (‘silent or not speaking’), or as a verb (signifying ‘to make a noise or device less loud or inaudible’).\n\n46\n Moreover, contrary to the applicant’s assertions, the Board of Appeal was not obliged to provide examples of the use of the term ‘mute’ in a professional or technical context, as such examples are not necessary in order to demonstrate that professionals, being, by nature, experienced, are capable of understanding that term in such a context.\n\n47\n Lastly, the applicant submits that the Board of Appeal erred in finding that proficiency in English within the relevant public – in particular within the Spanish-speaking public – had significantly increased. In that connection, the applicant also submits that the Board of Appeal should not have relied, of its own motion, on a Eurobarometer report produced by the European Commission in 2012, such an approach being in breach of the principle that the examination is to be restricted to the facts, evidence and arguments provided by the parties, as laid down in Article 95(1) of Regulation 2017/1001.\n\n48\n In that regard, it must be pointed out that, irrespective of whether proficiency in English within the professional public – in particular within the Spanish-speaking public – had increased, it can be seen from the reasoning set out in paragraphs 42 and 43 above that that public was, in any case, capable of understanding the meaning of the term ‘mute’. Moreover, it follows from paragraph 44 of the contested decision that the Board of Appeal found that the Eurobarometer report referred to in paragraph 47 above assessed the general public’s language skills and that that report was not relevant with regard to professionals, who were likely to recognise terms like ‘mute’.\n\n49\n In those circumstances, the applicant cannot criticise the Board of Appeal for having found that proficiency in English within the relevant public had significantly increased or for having relied on the Eurobarometer report referred to in paragraph 47 above, with the result that the argument alleging infringement of Article 95(1) of Regulation 2017/1001 must be rejected.\n\n50\n In the second place, the applicant submits that the Board of Appeal did not assess the descriptive character of the term ‘mute’ in relation to the goods at issue. According to the applicant, the relevant public will not perceive that term, without further thought, as descriptive of such goods, as none of the goods has the functionality of completely eliminating sound or of regulating volume.\n\n51\n Such a line of argument must be rejected. First, it is apparent from, inter alia, paragraph 44 of the contested decision that the Board of Appeal examined the descriptive character of the term ‘mute’ in relation to the goods at issue. The Board found that the term ‘mute’ was descriptive of those goods for the professional public, given that that term implied the capacity to silence, reduce, damp or control noise or sound. It added that, even for the general public, that term would constitute a reference to sound-absorbing qualities.\n\n52\n Second, it must be borne in mind that, according to settled case-law, a term is considered to be descriptive if there is a sufficiently direct and specific relationship between that term and the relevant goods or services to enable the public concerned immediately to perceive, without further thought, a description of those goods and of those services, or one of their characteristics (see judgment of 5 March 2020, \nExploitatiemaatschappij De Berghaaf \nv\n EUIPO – Brigade Electronics Group (CORNEREYE)\n, T‐688/18, not published, EU:T:2020:80, paragraphs 65 and 66 and the case-law cited).\n\n53\n In the present case, it must be borne in mind that the goods in Class 19 are mainly building and construction materials, structures and transportable buildings and that the goods in Class 20 include furniture with sound-absorbing and sound-shielding features. Therefore, it must be held, in the light of the considerations set out in paragraphs 43 to 45 above, that the element ‘mute’ will be perceived by the relevant public as referring directly and specifically to the function of the goods at issue, that is, their capacity to eliminate or reduce sound and, consequently, as being descriptive of an essential characteristic of those goods. None of the applicant’s arguments is capable of calling that assessment into question.\n\n54\n In the third place, the applicant states that, on 16 August 2023, the intervener filed, in connection with the present case, a request for restriction of the list of goods in Class 19 covered by the mark applied for. The applicant submits that the non-descriptive character of the term ‘mute’ was confirmed by the Board of Appeal when, by communication of 2 October 2023, it refused to grant that restriction in so far as it contained the expression ‘muting’ as a word describing the function of goods in Class 19. This confirms that the term was not considered to be an appropriate term to describe the characteristics of goods contained in Class 19.\n\n55\n In that regard, it must be pointed out, without it being necessary to examine the extent to which the Board of Appeal is bound by a communication such as the one referred to in paragraph 54 above, that the applicant’s argument is, in any case, based on an erroneous reading of that communication. Indeed, in that communication, the Board of Appeal pointed out that, under Article 33(2) of Regulation 2017/1001, the goods for which the protection of the trade mark was sought had to be identified by the applicant with sufficient clarity and precision to enable the competent authorities and economic operators, on that sole basis, to determine the extent of the protection sought. In that context, the Board of Appeal merely stated that the restriction proposed by the intervener of the list of the goods at issue could be inadmissible, in so far as it was not possible to restrict such a list to a specific intended use or to the terms proposed, namely ‘the purpose of muting the ambient noise in open work space’, which was not sufficiently precise. That communication thus has no bearing on the question whether the element ‘mute’ is descriptive of the goods concerned.\n\n56\n In the fourth place, the applicant cannot claim that the distinctive character of the element ‘mute’ is demonstrated by the fact that the word mark MUTE has been registered in the United States. In that regard, it is sufficient to point out that the EU trade mark regime is an autonomous system with its own set of rules and objectives peculiar to it; it applies independently of any national system. Consequently, the registrability of a sign as an EU trade mark must be assessed by reference only to the relevant EU rules. Accordingly, EUIPO and the EU judicature are not bound by a decision given in a Member State, or even a third country, that the sign in question is registrable as a national trade mark (judgment of 20 December 2023, \nThe Mochi Ice Cream Company \nv\n EUIPO (my mochi)\n, T‐189/23, not published, EU:T:2023:853, paragraph 39).\n\n57\n In the fifth place, the applicant submits that EUIPO already examined the distinctive character of the term ‘mute’ when it registered it, under No 18 155 635, as a word mark for goods in Classes 6, 17 and 19, such as sound booths of metal, insulating materials, insulating screens and panels, acoustic panels, or sound booths, not of metal. However, in the contested decision, the Board of Appeal carried out an assessment of the distinctive character of the element ‘mute’ which was contrary to the result of the procedure that had led to the registration of that mark. In doing so, the Board of Appeal acted in breach of the principle, derived from Article 95(1) of Regulation 2017/1001, that a mark which has already been registered is presumed to be valid. Furthermore, in the light of the principles of equal treatment and sound administration, EUIPO should have taken into account the decision on the basis of which the word mark No 18 155 635 was registered.\n\n58\n Such a line of argument must be rejected. According to the case-law, decisions concerning registration of a sign as an EU trade mark which the Boards of Appeal take under Regulation 2017/1001 are adopted in the exercise of circumscribed powers and are not a matter of discretion. Accordingly, the legality of the decisions of Boards of Appeal must be assessed solely on the basis of that regulation, as interpreted by the EU judicature, and not on the basis of a previous decision-making practice (judgments of 15 September 2005, \nBioID \nv\n OHIM\n, C‐37/03 P, EU:C:2005:547, paragraph 47, and of 18 May 2017, \nReisswolf \nv \nEUIPO (secret.service.)\n, T‐163/16, not published, EU:T:2017:350, paragraph 78).\n\n59\n It is true that, in the light of the principles of equal treatment and sound administration, EUIPO must, when examining an application for registration of an EU trade mark, take into account the decisions already taken in respect of similar applications and consider with especial care whether it should decide in the same way or not (judgments of 10 March 2011, \nAgencja Wydawnicza Technopol \nv \nOHIM\n, C‐51/10 P, EU:C:2011:139, paragraph 74, and of 18 May 2017, \nsecret.service.\n, T‐163/16, not published, EU:T:2017:350, paragraph 79).\n\n60\n That said, the way in which the principles of equal treatment and sound administration are applied must be consistent with respect for legality. Consequently, a person who files an application for registration of a sign as an EU trade mark cannot rely, to his or her advantage and in order to secure an identical decision, on a possibly unlawful act committed for the benefit of someone else (see judgments of 7 October 2015, \nThe Smiley Company \nv \nOHIM (Shape of a smiley with heart-shaped eyes)\n, T‐656/13, not published, EU:T:2015:758, paragraph 45 and the case-law cited, and of 18 May 2017, \nsecret.service.\n, T‐163/16, not published, EU:T:2017:350, paragraph 80).\n\n61\n That is all the more the case for the registration of the word mark No 18 155 635, given that that registration is the result of a decision taken by a lower-ranking body of EUIPO and the Boards of Appeal are not bound by the decisions of such bodies (see judgment of 30 April 2025, \nDoDo Services \nv\n EUIPO – doqo (doqo)\n, T‐298/24, not published, EU:T:2025:425, paragraph 57 and the case-law cited). The applicant thus cannot criticise the Board of Appeal for having acted in breach of the principle, derived from Article 95(1) of Regulation 2017/1001, that a mark which has already been registered is presumed to be valid.\n\n62\n In the sixth place, the applicant submits that the Board of Appeal’s analysis of the distinctive character of the term ‘mute’ is not consistent inasmuch as the Board found, in paragraph 51 of the contested decision, that that element was not ‘very distinctive’. However, marks with a low degree of distinctiveness are not the same as marks which are completely devoid of distinctive character. Likewise, as is apparent from paragraph 10 of the contested decision, the intervener itself has recognised that that element has at least a limited distinctive character.\n\n63\n It is true that, in paragraph 51 of the contested decision, the Board of Appeal stated, in the context of the conceptual comparison of the signs, that the term ‘mute’ was not very distinctive for the goods at issue. However, that finding is taken out of context. Indeed, it emerges with sufficient clarity from other passages of that decision, in particular paragraphs 44, 47 and 55 thereof, as well as its general scheme, that the Board of Appeal found that the common element ‘mute’ was descriptive and, therefore, devoid of distinctive character.\n\n64\n Furthermore, the applicant also cannot claim that, in the contested decision, the Board of Appeal misinterpreted its earlier decision issued in Case R 2008/2021-1, by giving predominant weight to its own findings as to the non-distinctive character of the element ‘mute’ while failing to take proper account of the fact that, in that earlier decision, it had confirmed the distinctive character of the mark MuteDesign.\n\n65\n It is true that, in the earlier decision referred to in paragraph 64 above, the Board of Appeal found that the mark MuteDesign had distinctive character. However, that finding concerned the mark Mute Design as a whole, and not the element ‘mute’ in isolation. A distinction must be made between the distinctive character of an element making up a mark and the distinctive character of that mark as a whole (see, to that effect, order of 27 April 2006, \nL’Oréal \nv\n OHIM\n, C‐235/05 P, not published, EU:C:2006:271, paragraph 43, and judgment of 26 January 2022, \nDiego \nv\n EUIPO\n – \nForbo Financial Services (WOOD STEP LAMINATE FLOORING)\n, T‐498/20, not published, EU:T:2022:26, paragraph 54).\n\n66\n In the light of the foregoing, the Board of Appeal did not make any error of assessment in finding that the element ‘mute’, which is common to the signs at issue, was descriptive and devoid of distinctive character.\n\n– \nThe distinctive character of the element ‘labs’ in the mark applied for\n\n67\n In paragraph 47 of the contested decision, the Board of Appeal found that the element ‘labs’ in the mark applied for had a low degree of distinctiveness.\n\n68\n First, the applicant submits that the Board of Appeal refrained from conducting its own assessment as to the distinctive character of the element ‘labs’, basing its assessment only on the judgment of 28 September 2022, \nG-Core Innovations \nv\n EUIPO – Coretransform (G CORELABS) \n(T‐454/21, not published, EU:T:2022:591). In that judgment, the General Court examined the distinctive character of that element in relation to different goods and services. Therefore, the analysis by the Board of Appeal was carried out \nin abstracto\n, in isolation from the goods at issue in the present case.\n\n69\n In that regard, it must be pointed out that the Board of Appeal found that the element ‘labs’ had a low degree of distinctiveness, as it would be understood by the relevant professional public as a diminutive form of the word ‘laboratories’, that is, as a reference to a workspace or setting for research, and that it implied a space designed for controlled acoustic environments or areas focused on sound-dampening and noise reduction. Given that the goods at issue have sound-absorbing and sound-shielding features, the Board of Appeal carried out a concrete assessment of the distinctive character of that element, taking into account, inter alia, the goods at issue during that assessment.\n\n70\n Moreover, it is true that the Board of Appeal referred to the judgment of 28 September 2022, \nG CORELABS\n (T‐454/21, not published, EU:T:2022:591), which concerns goods and services different from those at issue in the present case. However, the Board referred to that judgment merely to show that the element ‘labs’ would be understood as a diminutive form of the word ‘laboratories’. Such a finding can be transposed to the present case.\n\n71\n Accordingly, the applicant’s argument must be rejected.\n\n72\n Second, the applicant submits that the Board of Appeal correctly acknowledged that the element ‘labs’ was descriptive and, therefore, non-distinctive. However, despite that lack of distinctive character, the Board erroneously attributed a dominant role in the global assessment of the likelihood of confusion to that element, to the detriment of the common element ‘mute’ which, however, appeared at the beginning of the signs at issue.\n\n73\n That argument is based on a false premiss. In paragraph 47 of the contested decision, the Board of Appeal did not find that the element ‘labs’ was descriptive and devoid of any distinctive character, but it found that the element was weakly distinctive.\n\n74\n Furthermore, the applicant has not submitted any concrete evidence to the General Court to challenge the finding that the element ‘labs’ is weakly distinctive.\n\n75\n In those circumstances, the applicant cannot criticise the Board of Appeal for having acknowledged the element ‘labs’ as having a low degree of distinctiveness and for having taken this into account in the comparison of the signs at issue and, more specifically, in the assessment of the significance of that element, within the earlier mark, in relation to the element ‘mute’.\n\n \nThe visual and phonetic comparison\n\n76\n As regards the visual comparison of the signs at issue, the Board of Appeal pointed out that they coincided in the word element ‘mute’, but differed in the elements ‘labs’ and ‘design’. According to the Board, given that the common element ‘mute’ at the beginning of the signs at issue was devoid of distinctive character, that element played a minor role. Moreover, it found that the earlier sign had no equivalent to the figurative element of the sign applied for, forming a square-shaped bracket, which, although secondary, could not be disregarded, as it contributed to creating a different overall impression from the point of view of the relevant public. Thus, the Board of Appeal concluded that the signs at issue were visually similar only to a low degree.\n\n77\n As regards the phonetic comparison of the signs at issue, the Board of Appeal took the view that they differed in their number of syllables, intonation and rhythm, in particular regarding their last part. The Board stated that the first syllable of the signs at issue was pronounced identically, but, in view of the weak distinctive character of the element ‘mute’ and the clearly perceivable phonetic difference between the final elements, those signs displayed only a low degree of phonetic similarity.\n\n78\n The applicant challenges those findings and submits that the signs at issue must be deemed visually and phonetically similar to a high degree, due to, inter alia, the element ‘mute’, placed at the beginning of each of the signs, which will attract the public’s attention more than the final elements ‘labs’ and ‘design’.\n\n79\n As a preliminary point, it must be borne in mind that the descriptive character of an element which is common to two signs considerably reduces the relative importance of such an element in the comparison of those signs, including the visual and phonetic comparison, even though its presence must be taken into account (see judgment of 6 November 2024, \nW.L. Gore & Associates \nv\n EUIPO – Angiokard med. Spritzguß (Cardioflow)\n, T‐1146/23, not published, EU:T:2024:789, paragraph 46 and the case-law cited).\n\n80\n In particular, where an element which is common to the signs at issue is descriptive, whereas the other elements of those signs have some distinctive character, such an element may be of less importance notwithstanding its length and its position within those signs (see judgment of 6 November 2024, \nCardioflow\n, T‐1146/23, not published, EU:T:2024:789, paragraph 47 and the case-law cited).\n\n81\n In the present case, the signs at issue coincide as to their initial element, namely the term ‘mute’. However, given that that element is descriptive, it is apparent from the case-law referred to in paragraph 79 above that its relative importance in the context of the visual comparison must be reduced, notwithstanding its position at the beginning of those signs.\n\n82\n Furthermore, the signs at issue differ in their final elements ‘labs’ and ‘design’, the first of which may be considered to have some, albeit weak, distinctive character, and they differ due to the presence of the figurative elements of the mark applied for. The visual difference created by those elements is clearly perceptible, so that they make an impression in the overall perception of the marks at issue.\n\n83\n Therefore, the Board of Appeal was right to find that the degree of visual similarity between the signs at issue was low.\n\n84\n Phonetically, the earlier mark MuteDesign will be pronounced in three syllables and the mark applied for, mute labs, will be pronounced in two syllables. Thus, the first syllable of each mark will be pronounced identically. However, that syllable consists of the element ‘mute’, whose importance must be reduced in the context of the phonetic comparison on account of its descriptive character. Moreover, there are notable phonetic differences between the signs at issue which are linked to the final elements ‘labs’ and ‘design’, the element ‘labs’ also having some distinctive character, albeit weak.\n\n85\n Consequently, the Board of Appeal was right to find that the degree of phonetic similarity between the signs at issue was low.\n\n86\n The findings set out in paragraphs 83 and 85 above are not called into question by the applicant’s arguments that, due to its position at the beginning of the signs at issue, the common element ‘mute’ attracts more attention than the final parts of those signs. First, it follows from the reasoning set out in paragraphs 79 and 80 above that that element is of less importance notwithstanding its position within those signs. Second, it is apparent from the case-law that although the initial part of word signs may be more likely to hold the consumer’s attention than the following parts, that consideration cannot apply in all cases and it cannot, in any event, call into question the principle that the examination of the similarity of the signs must take into account the overall impression which they create (see judgment of 11 October 2023, \nDeutsche Glasfaser Wholesale \nv\n EUIPO\n – \nO2 Worldwide (brightblue)\n, T‐516/22, not published, EU:T:2023:619, paragraph 50 and the case-law cited).\n\n \nThe conceptual comparison\n\n87\n The Board of Appeal found, in paragraph 51 of the contested decision, that neither of the signs at issue had a clear and direct meaning in its entirety, with the result that they could not be conceptually compared.\n\n88\n The applicant submits that the elements of the signs at issue have specific meanings and must therefore be compared conceptually.\n\n89\n It is settled case-law that, where none of the signs at issue has any meaning taken as a whole, it must be held that a conceptual comparison is not possible (see judgment of 30 April 2025, \ndoqo\n, T‐298/24, not published, EU:T:2025:425, paragraph 70 and the case-law cited).\n\n90\n It is sufficient to state that the applicant does not put forward any argument establishing the meaning of the signs at issue.\n\n \nThe distinctive character of the earlier mark\n\n91\n In paragraph 52 of the contested decision, the Board of Appeal found that, as both elements making up the earlier mark were descriptive of the goods at issue, the distinctive character of that mark lay only in the combination thereof. The Board of Appeal thus concluded that the earlier mark had a low degree of inherent distinctiveness.\n\n92\n The applicant does not dispute that conclusion.\n\n \nThe likelihood of confusion\n\n93\n The Board of Appeal found that, taking into account the non-distinctive character of the common element ‘mute’, the low degree of visual and phonetic similarity and the high level of attention of the relevant public, as well as the low degree of inherent distinctiveness of the earlier mark, there was no likelihood of confusion on the part of the relevant public within the entire European Union, even for identical goods.\n\n94\n The applicant submits that that assessment is incorrect and that there is a likelihood of confusion.\n\n95\n In that regard, it is apparent from the case-law that a global assessment of the likelihood of confusion implies some interdependence between the factors taken into account and, in particular, between the similarity of the trade marks and that of the goods or services concerned. Accordingly, a low degree of similarity between those goods or services may be offset by a high degree of similarity between the marks, and vice versa (judgments of 29 September 1998, \nCanon\n, C‐39/97, EU:C:1998:442, paragraph 17, and of 14 December 2006, \nMast-Jägermeister \nv\n OHIM\n – \nLicorera Zacapaneca (VENADO with frame and others)\n, T‐81/03, T‐82/03 and T‐103/03, EU:T:2006:397, paragraph 74).\n\n96\n In the present case, first, as has been stated in paragraphs 26 and 30 above, the relevant public consists of professionals, whose level of attention is high.\n\n97\n Second, for the reasons stated in paragraphs 17 and 18 above, the goods covered by the signs at issue are considered to be identical.\n\n98\n Third, as has been stated in paragraphs 76 to 90 above, the signs at issue display a low degree of visual and phonetical similarity and cannot be compared conceptually.\n\n99\n Fourth, as is apparent from paragraphs 91 and 92 above, the earlier mark has a low degree of inherent distinctiveness. In such a situation, in accordance with the case-law, the degree of similarity between the signs at issue must be high for a likelihood of confusion to be held to exist (see judgments of 7 June 2023, \nCassa Centrale \nv\n EUIPO\n – \nBankia (BANQUÌ)\n, T‐368/22, not published, EU:T:2023:309, paragraph 69 and the case-law cited, and of 6 November 2024, \nCardioflow\n, T‐1146/23, not published, EU:T:2024:789, paragraph 77). That is not the situation in the present case.\n\n100\n Lastly and above all, the relevant public, which consists of professionals displaying a high level of attention, will choose the goods at issue with particular care. That public will thus pay less attention to the similarities between the signs at issue relating, in particular, to the existence of a descriptive common element, namely the element ‘mute’. By contrast, it will pay more attention to the visual, phonetic and conceptual differences between those signs, resulting from the elements ‘labs’ and ‘design’.\n\n101\n In those circumstances, and in view of the interdependence of the factors referred to in paragraphs 96 to 99 above, there is no risk that the relevant public may believe that the goods covered by the earlier mark and the mark applied for come from the same undertaking. The Board of Appeal’s assessment therefore is not flawed.\n\n102\n That finding is not invalidated by the applicant’s argument that the Board of Appeal erroneously attributed significance to the final elements of the signs at issue, namely the elements ‘design’ and ‘labs’, in breach of the principle that the common element at the beginning of those signs will be of primary importance to the relevant public. That argument must be rejected for the same reasons as those set out in paragraph 86 above.\n\n103\n It follows from the foregoing that the applicant’s arguments in support of its single plea in law must be dismissed and, therefore, the action must be dismissed in its entirety.\n\n \n"
+    },
+    "decision_on_costs": {
+      "start_index": 45938,
+      "end_index": 46546,
+      "text": "Costs\n\n104\n Under Article 134(1) of the Rules of Procedure of the General Court, the unsuccessful party is to be ordered to pay the costs if they have been applied for in the successful party’s pleadings.\n\n105\n Since the applicant has been unsuccessful, it must be ordered to pay the costs incurred by the intervener, in accordance with the form of order sought by the intervener. By contrast, since EUIPO has applied for the applicant to be ordered to pay the costs only in the event that an oral hearing is convened, EUIPO must, given that no oral hearing has been held, be ordered to bear its own costs.\n\n"
+    },
+    "operative_part": {
+      "start_index": 46546,
+      "end_index": 46823,
+      "text": "On those grounds,\n\nTHE GENERAL COURT (Eighth Chamber)\n\nhereby:\n\n1. \nDismisses the action;\n\n2. \nOrders Mute sp. z o.o. to bear its own costs and to pay those incurred by mute-labs GmbH;\n\n3. \nOrders the European Union Intellectual Property Office (EUIPO) to bear its own costs.\n\n"
+    },
+    "document_end": {
+      "start_index": 46823,
+      "end_index": 47002,
+      "text": "De Baere\n\nPetrlík\n\nKecsmár\n\nDelivered in open court in Luxembourg on 3 December 2025.\n\nV. Di Bucci\n\n \n\nM. van der Woude\n\nRegistrar\n\n \n\nPresident\n\n*\n Language of the case: English."
+    }
+  },
+  "citations": {
+    "list": [
+      "ECLI:EU:T:2003:199",
+      "ECLI:EU:T:2007:46",
+      "ECLI:EU:T:2023:167",
+      "ECLI:EU:T:2014:569",
+      "ECLI:EU:T:2022:103",
+      "ECLI:EU:T:2024:890",
+      "ECLI:EU:T:2015:477",
+      "ECLI:EU:C:2007:333",
+      "ECLI:EU:T:2020:463",
+      "ECLI:EU:T:2020:492",
+      "ECLI:EU:T:2020:80",
+      "ECLI:EU:T:2023:853",
+      "ECLI:EU:C:2005:547",
+      "ECLI:EU:T:2017:350",
+      "ECLI:EU:C:2011:139",
+      "ECLI:EU:T:2015:758",
+      "ECLI:EU:T:2025:425",
+      "ECLI:EU:C:2006:271",
+      "ECLI:EU:T:2022:26",
+      "ECLI:EU:T:2022:591",
+      "ECLI:EU:T:2024:789",
+      "ECLI:EU:T:2023:619",
+      "ECLI:EU:C:1998:442",
+      "ECLI:EU:T:2006:397",
+      "ECLI:EU:T:2023:309"
+    ],
+    "detailed": [
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2003:199",
+        "locations": [
+          {
+            "segment": "legal_context"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2007:46",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:167",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2014:569",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2022:103",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2024:890",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2015:477",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2007:333",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2020:463",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2020:492",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2020:80",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:853",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2005:547",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2017:350",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2011:139",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2015:758",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2025:425",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:2006:271",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2022:26",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2022:591",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2024:789",
+        "locations": [
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          },
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:619",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:C:1998:442",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2006:397",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      },
+      {
+        "type": "ECLI",
+        "citation": "ECLI:EU:T:2023:309",
+        "locations": [
+          {
+            "segment": "reasoning"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2003:199"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2007:46"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2023:167"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2014:569"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2022:103"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2024:890"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2015:477"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:C:2007:333"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2020:463"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2020:492"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2020:80"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2023:853"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:C:2005:547"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2017:350"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:C:2011:139"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2015:758"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2025:425"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:C:2006:271"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2022:26"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2022:591"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2024:789"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2023:619"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:C:1998:442"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2006:397"
+      },
+      {
+        "source": "ECLI:EU:T:2025:1088",
+        "target": "ECLI:EU:T:2023:309"
+      }
+    ]
+  }
+}
