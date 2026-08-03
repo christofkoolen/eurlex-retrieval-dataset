@@ -1,0 +1,37 @@
+EUR-Lex Retrieval Dataset – Keyword overview
+=================================================
+
+General statistics
+------------------
+Total cases processed: 20697
+Cases with keywords: 20697
+Total keyword instances: 81434
+Unique keywords: 32111
+
+Top 25 most frequent keywords
+-----------------------------
+1. Failure to fulfil obligations — 1316 (1.62%)
+2. Likelihood of confusion — 1095 (1.34%)
+3. EU trade mark opposition — 655 (0.80%)
+4. Statement of reasons — 647 (0.79%)
+5. Free movement of goods — 553 (0.68%)
+6. State aid — 496 (0.61%)
+7. Non-contractual liability — 422 (0.52%)
+8. Rights of the defence — 398 (0.49%)
+9. Community trade mark opposition — 387 (0.48%)
+10. Community trade mark — 370 (0.45%)
+11. Freedom to provide services — 352 (0.43%)
+12. Staff regulations — 347 (0.43%)
+13. Admissibility of action — 342 (0.42%)
+14. Freedom of establishment — 332 (0.41%)
+15. Legal certainty — 281 (0.35%)
+16. Principle of proportionality — 265 (0.33%)
+17. Directive transposition — 260 (0.32%)
+18. Burden of proof — 247 (0.30%)
+19. Obligation to state reasons — 239 (0.29%)
+20. Sixth VAT Directive — 238 (0.29%)
+21. Tariff classification — 234 (0.29%)
+22. Legitimate expectations — 231 (0.28%)
+23. Freedom of movement for workers — 214 (0.26%)
+24. Manifest error of assessment — 206 (0.25%)
+25. Right to be heard — 203 (0.25%)

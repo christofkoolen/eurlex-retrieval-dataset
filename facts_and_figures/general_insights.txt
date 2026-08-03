@@ -1,0 +1,44 @@
+EUR-Lex Retrieval Dataset – General insights
+=================================================
+
+General
+-------
+Total rows: 20697
+Unique CELEX: 20697
+Average word count per case: 6292.87
+Median word count per case: 4900
+
+Publication volume by year
+--------------------------
+Most published year: 2018 (795 cases)
+Least published year: 1954 (2 cases)
+
+Top 10 longest cases by word count
+----------------------------------
+1.  ECLI:EU:T:2003:245 | Date: 2003-09-30 | Words: 159427
+2.  ECLI:EU:C:2024:818 | Date: 2024-10-04 | Words: 150483
+3.  ECLI:EU:T:2018:922 | Date: 2018-12-12 | Words: 143850
+4.  ECLI:EU:T:2007:289 | Date: 2007-09-17 | Words: 117295
+5.  ECLI:EU:T:2010:266 | Date: 2010-07-01 | Words: 112239
+6.  ECLI:EU:T:2022:541 | Date: 2022-09-14 | Words: 97301
+7.  ECLI:EU:T:1999:80  | Date: 1999-04-20 | Words: 96497
+8.  ECLI:EU:T:2025:337 | Date: 2025-03-26 | Words: 94079
+9.  ECLI:EU:T:2024:634 | Date: 2024-09-18 | Words: 85625
+10. ECLI:EU:T:2022:175 | Date: 2022-03-30 | Words: 84410
+
+Top 10 shortest cases by word count
+-----------------------------------
+1.  ECLI:EU:C:2003:46  | Date: 2003-01-23 | Words: 38
+2.  ECLI:EU:C:2006:60  | Date: 2006-01-26 | Words: 113
+3.  ECLI:EU:T:2007:234 | Date: 2007-07-19 | Words: 123
+4.  ECLI:EU:T:2004:92  | Date: 2004-03-25 | Words: 124
+5.  ECLI:EU:T:2009:490 | Date: 2009-12-10 | Words: 132
+6.  ECLI:EU:T:2008:510 | Date: 2008-11-19 | Words: 133
+7.  ECLI:EU:T:2010:211 | Date: 2010-05-19 | Words: 134
+8.  ECLI:EU:T:2011:340 | Date: 2011-07-07 | Words: 135
+9.  ECLI:EU:T:2009:489 | Date: 2009-12-10 | Words: 136
+10. ECLI:EU:T:2007:158 | Date: 2007-06-06 | Words: 138
+
+Year with the highest total number of words written by the CJEU
+---------------------------------------------------------------
+2024 (7,382,077 total words)

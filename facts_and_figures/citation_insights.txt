@@ -1,0 +1,46 @@
+EUR-Lex Retrieval Dataset – Citation insights
+==================================================
+
+General statistics
+------------------
+Nodes (cases): 20868 *
+Edges (unique citation relations): 102244
+
+Mean incoming citations: 4.8996
+Median incoming citations: 2.0000
+Max incoming citations: 522
+
+Mean outgoing citations: 4.8996
+Median outgoing citations: 0.0000
+Max outgoing citations: 202
+
+* The EUR-Lex Retrieval Dataset contains 20697 cases. The larger number of nodes in citation_edges.tsv indicates the presence of cited documents that are not included in the dataset (e.g., Opinions of Advocates-General).
+
+
+Top 10 most cited cases (incoming citations; number of distinct citing cases)
+-----------------------------------------------------------------------------
+           case_id   incoming
+ECLI:EU:T:2003:199        522
+ECLI:EU:C:2007:333        501
+ECLI:EU:C:1998:442        446
+ECLI:EU:T:2006:397        432
+ECLI:EU:T:2009:14         430
+ECLI:EU:T:2007:46         330
+ECLI:EU:C:2007:539        218
+ECLI:EU:T:2007:219        207
+ECLI:EU:C:2012:781        194
+ECLI:EU:C:2013:518        186
+
+Top 10 most citing cases (outgoing citations; number of distinct cited cases)
+-----------------------------------------------------------------------------
+           case_id    outgoing
+ECLI:EU:T:2018:922         202
+ECLI:EU:T:2018:915         137
+ECLI:EU:T:2022:175         131
+ECLI:EU:T:2018:921         125
+ECLI:EU:T:2022:184         110
+ECLI:EU:T:2022:178         109
+ECLI:EU:T:2021:763         107
+ECLI:EU:T:2022:185         100
+ECLI:EU:T:2018:919          97
+ECLI:EU:T:2024:626          97
