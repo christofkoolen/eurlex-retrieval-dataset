@@ -185,7 +185,8 @@ This repository contains the source code, benchmark files, documentation, sample
 │   ├── 18_basic_training_script_five_fold_biencoder.py
 │
 ├── CITATION.cff
-├── LICENSE.txt
+├── LICENSE_CODE.txt
+├── LICENSE_DATA.txt
 └── README.md
 ```
 
