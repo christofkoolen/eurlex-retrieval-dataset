@@ -1,0 +1,219 @@
+POSITIVE CANDIDATES PER QUERY
+=============================
+
+Input file: 03_annotation_sheet_post_adjudication_final.csv
+
+1. DATASET OVERVIEW
+-------------------
+Rows checked:                    12,365
+Unique queries:                  100
+Labeled candidates:              12,365
+Unlabeled candidates:            0
+Duplicate query-candidate rows:  0
+
+2. BINARY JUDGMENT DISTRIBUTION
+-------------------------------
+Human-binary 0: 		 9,215
+Human-binary 1: 		 3,150
+
+3. GRADED JUDGMENT DISTRIBUTION
+-------------------------------
+Human-graded 0: 		 5,223
+Human-graded 1: 		 3,992
+Human-graded 2: 		 2,345
+Human-graded 3: 		 805
+
+4. QUERY COVERAGE
+-----------------
+Queries with at least one positive candidate: 100 (100.00%)
+Queries without a positive candidate:         0
+Queries with exactly one positive candidate:  0
+Queries with multiple positive candidates:    100
+Positive candidates among labeled candidates: 25.48%
+
+5. POSITIVE CANDIDATES PER QUERY: DESCRIPTIVE STATISTICS
+--------------------------------------------------------
+Mean:                31.5000
+Median:              29.00
+Minimum:             2
+First quartile:      19.00
+Third quartile:      44.50
+Maximum:             83
+Standard deviation:  16.6542
+
+6. TOTAL CANDIDATES PER QUERY: DESCRIPTIVE STATISTICS
+-----------------------------------------------------
+Mean:                123.6500
+Median:              121.50
+Minimum:             88
+First quartile:      113.00
+Third quartile:      135.25
+Maximum:             164
+Standard deviation:  15.1253
+
+7. DISTRIBUTION OF POSITIVE CANDIDATE COUNTS
+--------------------------------------------
+Positive candidates     Queries    Percentage
+---------------------------------------------
+                  2           1         1.00%
+                  7           2         2.00%
+                  8           1         1.00%
+                 10           2         2.00%
+                 12           2         2.00%
+                 13           2         2.00%
+                 14           4         4.00%
+                 15           3         3.00%
+                 16           3         3.00%
+                 17           3         3.00%
+                 18           1         1.00%
+                 19           3         3.00%
+                 20           2         2.00%
+                 21           6         6.00%
+                 22           2         2.00%
+                 23           1         1.00%
+                 24           2         2.00%
+                 25           3         3.00%
+                 26           2         2.00%
+                 27           1         1.00%
+                 28           3         3.00%
+                 29           5         5.00%
+                 30           2         2.00%
+                 31           2         2.00%
+                 32           4         4.00%
+                 33           1         1.00%
+                 34           1         1.00%
+                 35           4         4.00%
+                 36           2         2.00%
+                 37           1         1.00%
+                 38           1         1.00%
+                 41           1         1.00%
+                 43           1         1.00%
+                 44           1         1.00%
+                 46           2         2.00%
+                 47           2         2.00%
+                 49           1         1.00%
+                 50           2         2.00%
+                 51           4         4.00%
+                 52           2         2.00%
+                 53           2         2.00%
+                 55           1         1.00%
+                 56           1         1.00%
+                 58           2         2.00%
+                 59           1         1.00%
+                 60           2         2.00%
+                 72           1         1.00%
+                 75           1         1.00%
+                 83           1         1.00%
+
+8. QUERIES WITHOUT A POSITIVE CANDIDATE
+---------------------------------------
+None. Every query has at least one positive candidate.
+
+9. EXACT PER-QUERY OVERVIEW
+---------------------------
+Query ID               Total  Labeled  Positive  Negative  Missing  Positive %  Query title                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ECLI:EU:C:2025:872       146      146         2       144        0       1.37%  JYSK Kereskedelmi Kft. v Nemzeti Élelmiszerlánc-biztonsági Hivatal    
+ECLI:EU:C:2019:320       116      116         7       109        0       6.03%  Mediterranean Shipping Company (Portugal) - Agentes de Navegação SA...
+ECLI:EU:C:2015:418       121      121         7       114        0       5.79%  VĮ „Indėlių ir investicijų draudimas“ and Virgilijus Vidutis Nemani...
+ECLI:EU:C:2018:539       143      143         8       135        0       5.59%  Verein für lauteren Wettbewerb eV v Princesport GmbH                  
+ECLI:EU:C:2021:676       117      117        10       107        0       8.55%  Bundesverband der Verbraucherzentralen und Verbraucherverbände - Ve...
+ECLI:EU:C:2020:153       125      125        10       115        0       8.00%  Centraal Justitieel Incassobureau, Ministerie van Veiligheid en Jus...
+ECLI:EU:C:2015:148       110      110        12        98        0      10.91%  Boston Scientific Medizintechnik GmbH v AOK Sachsen-Anhalt – Die Ge...
+ECLI:EU:C:2023:918       133      133        12       121        0       9.02%  EVN Business Service GmbH and Others v Verwaltungsgerichtshof         
+ECLI:EU:C:2020:224       119      119        13       106        0      10.92%  Compañía de Tranvías de La Coruña, SA v Ayuntamiento de A Coruña      
+ECLI:EU:C:2015:140       134      134        13       121        0       9.70%  Ministero dell'Ambiente e della Tutela del Territorio e del Mare an...
+ECLI:EU:C:2023:182       113      113        14        99        0      12.39%  European Union Agency for the Cooperation of Energy Regulators v Aq...
+ECLI:EU:C:2015:125       136      136        14       122        0      10.29%  Ministero delle Politiche Agricole, Alimentari e Forestali v Federa...
+ECLI:EU:C:2023:987       136      136        14       122        0      10.29%  Jérôme Rivière and Others v European Parliament                       
+ECLI:EU:F:2016:156       142      142        14       128        0       9.86%  Thomas Earlie v European Parliament                                   
+ECLI:EU:C:2020:427       120      120        15       105        0      12.50%  Thomas Leonhard v DSL-Bank – eine Niederlassung der DB Privat- und ...
+ECLI:EU:C:2021:847       121      121        15       106        0      12.40%  Viesgo Infraestructuras Energéticas SL v Administración General del...
+ECLI:EU:C:2022:313       126      126        15       111        0      11.90%  'Romega' UAB v Valstybinė maisto ir veterinarijos tarnyba             
+ECLI:EU:C:2017:745       112      112        16        96        0      14.29%  Elaine Farrell v Alan Whitty and Others                               
+ECLI:EU:C:2019:103       116      116        16       100        0      13.79%  NK v Staatsanwaltschaft Oldenburg                                     
+ECLI:EU:T:2016:107       146      146        16       130        0      10.96%  Ante Šumelj and Others v European Commission                          
+ECLI:EU:C:2025:240       129      129        17       112        0      13.18%  Centre d’étude et de valorisation des algues SA (CEVA) v European C...
+ECLI:EU:C:2016:774       136      136        17       119        0      12.50%  Republik Griechenland v Grigorios Nikiforidis                         
+ECLI:EU:C:2022:791       136      136        17       119        0      12.50%  Perfumesco.pl sp. z o.o. sp. k. v Procter & Gamble International Op...
+ECLI:EU:T:2024:244       126      126        18       108        0      14.29%  Stichting Nationaal Kritisch Platform Windenergie v European Commis...
+ECLI:EU:C:2019:448       114      114        19        95        0      16.67%  Mohammed Bilali v Bundesamt für Fremdenwesen und Asyl                 
+ECLI:EU:C:2025:917       144      144        19       125        0      13.19%  Jakub Cupriak-Trojan and Mateusz Trojan v Wojewoda Mazowiecki         
+ECLI:EU:C:2022:57        149      149        19       130        0      12.75%  'Sātiņi-S' SIA v Dabas aizsardzības pārvalde                          
+ECLI:EU:C:2015:438       107      107        20        87        0      18.69%  Landesamt für Landwirtschaft, Umwelt und ländliche Räume des Landes...
+ECLI:EU:C:2018:556       134      134        20       114        0      14.93%  CX v Bezirkshauptmannschaft Schärding                                 
+ECLI:EU:T:2025:608        97       97        21        76        0      21.65%  MeSoFa Vermögensverwaltungs AG, anciennement Sber Vermögensverwaltu...
+ECLI:EU:C:2025:606        99       99        21        78        0      21.21%  PNB Banka AS v European Central Bank                                  
+ECLI:EU:T:2025:899       112      112        21        91        0      18.75%  Zentiva k.s. and Zentiva Pharma GmbH v European Commission            
+ECLI:EU:C:2015:383       126      126        21       105        0      16.67%  Stefan Fahnenbrock and Others v Hellenische Republik                  
+ECLI:EU:C:2020:1032      127      127        21       106        0      16.54%  Proceedings relating to the extradition of BY                         
+ECLI:EU:C:2024:765       136      136        21       115        0      15.44%  Parfümerie Akzente GmbH v KTF Organisation AB                         
+ECLI:EU:C:2019:993       115      115        22        93        0      19.13%  X v Belgische Staat                                                   
+ECLI:EU:T:2018:181       116      116        22        94        0      18.97%  PY v EUCAP Sahel Niger                                                
+ECLI:EU:C:2017:771       135      135        23       112        0      17.04%  Merck KGaA v Merck & Co. Inc. and Others                              
+ECLI:EU:C:2018:653       103      103        24        79        0      23.30%  Miriam Bichat and Others v APSB - Aviation Passage Service Berlin G...
+ECLI:EU:T:2018:347       133      133        24       109        0      18.05%  Alberto Spagnolli and Others v European Commission                    
+ECLI:EU:C:2024:288       107      107        25        82        0      23.36%  GP v juris GmbH                                                       
+ECLI:EU:C:2014:278       115      115        25        90        0      21.74%  Birgit Wagener v Bundesagentur für Arbeit — Familienkasse Villingen...
+ECLI:EU:C:2014:2452      117      117        25        92        0      21.37%  Mohamed M’Bodj v État belge                                           
+ECLI:EU:C:2019:189       127      127        26       101        0      20.47%  M.G. Tjebbes and Others v Minister van Buitenlandse Zaken             
+ECLI:EU:C:2017:431       145      145        26       119        0      17.93%  Medisanus d.o.o. v Splošna Bolnišnica Murska Sobota                   
+ECLI:EU:C:2025:12        101      101        27        74        0      26.73%  Flightright GmbH v Etihad Airways P.J.S.C.                            
+ECLI:EU:C:2018:661        90       90        28        62        0      31.11%  Fundo de Garantia Automóvel v Alina Antónia Destapado Pão Mole Juli...
+ECLI:EU:C:2020:535       118      118        28        90        0      23.73%  VQ v Land Hessen                                                      
+ECLI:EU:C:2025:321       123      123        28        95        0      22.76%  Provincie Oost-Vlaanderen and Sogent v KG and WA                      
+ECLI:EU:C:2021:931        88       88        29        59        0      32.95%  WB and Others v Prokuratura Krajowa                                   
+ECLI:EU:C:2024:1042      113      113        29        84        0      25.66%  N. A. K. and Others v Bundesrepublik Deutschland                      
+ECLI:EU:C:2019:626       122      122        29        93        0      23.77%  Alekszij Torubarov v Bevándorlási és Menekültügyi Hivatal             
+ECLI:EU:C:2015:8         134      134        29       105        0      21.64%  Raad van bestuur van het Uitvoeringsinstituut werknemersverzekering...
+ECLI:EU:T:2018:47        138      138        29       109        0      21.01%  Valéria Anna Gyarmathy v European Union Agency for Fundamental Righ...
+ECLI:EU:C:2017:671       113      113        30        83        0      26.55%  ENEA S.A. v Prezes Urzędu Regulacji Energetyki                        
+ECLI:EU:C:2024:1051      119      119        30        89        0      25.21%  MK v K GmbH                                                           
+ECLI:EU:C:2021:210       114      114        31        83        0      27.19%  Academia de Studii Economice din Bucureşti v Organismul Intermediar...
+ECLI:EU:C:2024:734       164      164        31       133        0      18.90%  Chaudfontaine Loisirs SA v État belge (SPF Finances)                  
+ECLI:EU:T:2020:623        99       99        32        67        0      32.32%  PlasticsEurope v European Chemicals Agency                            
+ECLI:EU:C:2021:741       109      109        32        77        0      29.36%  European Commission v Kingdom of Belgium and Magnetrol International  
+ECLI:EU:T:2023:659       122      122        32        90        0      26.23%  European Investment Bank v Syrian Arab Republic                       
+ECLI:EU:C:2015:647       139      139        32       107        0      23.02%  European Commission v Jørgen Andersen                                 
+ECLI:EU:C:2023:873       127      127        33        94        0      25.98%  EM v Roompot Service BV                                               
+ECLI:EU:T:2021:692       141      141        34       107        0      24.11%  Erik Simpson v Council of the European Union                          
+ECLI:EU:C:2021:320       117      117        35        82        0      29.91%  UAB „Lifosa“ v Muitinės departamentas prie Lietuvos Respublikos fin...
+ECLI:EU:C:2021:801       134      134        35        99        0      26.12%  Scandlines Danmark ApS and Scandlines Deutschland v European Commis...
+ECLI:EU:C:2021:491       136      136        35       101        0      25.74%  K and DBKAG v Finanzamt Österreich, anciennement Finanzamt Linz       
+ECLI:EU:T:2024:100       144      144        35       109        0      24.31%  Inivos Ltd and Inivos BV v European Commission                        
+ECLI:EU:T:2015:281       108      108        36        72        0      33.33%  Group Nivelles v Office for Harmonisation in the Internal Market (T...
+ECLI:EU:C:2015:143       133      133        36        97        0      27.07%  European Commission v Grand Duchy of Luxembourg                       
+ECLI:EU:C:2019:500       157      157        37       120        0      23.57%  Copebi SCA v Etablissement national des produits de l'agriculture e...
+ECLI:EU:C:2015:215       122      122        38        84        0      31.15%  Lourdes Cachaldora Fernández v Instituto Nacional de la Seguridad S...
+ECLI:EU:C:2019:849        99       99        41        58        0      41.41%  NJ                                                                    
+ECLI:EU:C:2019:981       117      117        43        74        0      36.75%  Terveys- ja sosiaalialan neuvottelujärjestö (TSN) ry v Hyvinvointia...
+ECLI:EU:C:2025:596       153      153        44       109        0      28.76%  Határ Diszkont Kft. v Nemzeti Adó- és Vámhivatal Fellebbviteli Igaz...
+ECLI:EU:T:2024:784       113      113        46        67        0      40.71%  Wizz Air Hungary Légiközlekedési Zrt. (Wizz Air Hungary Zrt.) v Eur...
+ECLI:EU:C:2016:636       119      119        46        73        0      38.66%  European Commission v Hellenic Republic                               
+ECLI:EU:T:2018:921       112      112        47        65        0      41.96%  Niche Generics Ltd v European Commission                              
+ECLI:EU:T:2018:77        142      142        47        95        0      33.10%  Sony Interactive Entertainment Europe Ltd v European Union Intellec...
+ECLI:EU:C:2022:970       115      115        49        66        0      42.61%  QE v Caisse régionale de Crédit mutuel de Loire-Atlantique et du Ce...
+ECLI:EU:T:2023:587       120      120        50        70        0      41.67%  Valve Corporation v European Commission                               
+ECLI:EU:C:2021:169       141      141        50        91        0      35.46%  European Commission v Fútbol Club Barcelona                           
+ECLI:EU:C:2018:98        112      112        51        61        0      45.54%  European Commission v Hellenic Republic                               
+ECLI:EU:C:2021:514       124      124        51        73        0      41.13%  EV v Obras y Servicios Públicos SA, Acciona Agua SA                   
+ECLI:EU:C:2014:2245      128      128        51        77        0      39.84%  Council of the European Union v Alumina d.o.o.                        
+ECLI:EU:T:2019:737       156      156        51       105        0      32.69%  Société des produits Nestlé SA v European Union Intellectual Proper...
+ECLI:EU:C:2015:21        107      107        52        55        0      48.60%  Unicaja Banco, SA v José Hidalgo Rueda and Others and Caixabank SA ...
+ECLI:EU:C:2023:507       110      110        52        58        0      47.27%  PR Pet BV v Inspecteur van de Belastingdienst/Douane, kantoor Eindh...
+ECLI:EU:T:2021:400       103      103        53        50        0      51.46%  Framery Oy v European Union Intellectual Property Office              
+ECLI:EU:T:2024:476       125      125        53        72        0      42.40%  Margrete Auken and Others v European Commission                       
+ECLI:EU:C:2016:219       115      115        55        60        0      47.83%  Tarif Akhras v Council of the European Union                          
+ECLI:EU:C:2014:2039      111      111        56        55        0      50.45%  Council of the European Union v Sophie in ’t Veld                     
+ECLI:EU:C:2018:58        115      115        58        57        0      50.43%  Schenker Ltd v European Commission                                    
+ECLI:EU:C:2023:392       116      116        58        58        0      50.00%  Ministre de l’Économie, des Finances et de la Relance v Manitou BF ...
+ECLI:EU:T:2025:353       111      111        59        52        0      53.15%  Elena Petrovna Timchenko v Council of the European Union              
+ECLI:EU:T:2017:53        121      121        60        61        0      49.59%  Marcas Costa Brava, SL v European Union Intellectual Property Office  
+ECLI:EU:T:2025:206       145      145        60        85        0      41.38%  Funline International Corp. v European Union Intellectual Property ...
+ECLI:EU:C:2017:641       126      126        72        54        0      57.14%  Eqiom SAS, formerly Holcim France SAS and Enka SA v Ministre des Fi...
+ECLI:EU:C:2017:314       140      140        75        65        0      53.57%  Akzo Nobel NV and Others v European Commission                        
+ECLI:EU:T:2021:934       127      127        83        44        0      65.35%  Fidia farmaceutici SpA v European Union Intellectual Property Office  
+
+10. CONCLUSION
+-------------
+CHECK PASSED: Every query has at least one positive candidate.

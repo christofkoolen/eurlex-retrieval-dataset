@@ -1,0 +1,10 @@
+annotator	shared	double	single	total
+annotator_01	150	80	1318	1548
+annotator_02	150	80	1318	1548
+annotator_03	150	80	1317	1547
+annotator_04	150	80	1317	1547
+annotator_05	150	80	1317	1547
+annotator_06	150	80	1317	1547
+annotator_07	150	80	1317	1547
+annotator_08	150	80	1317	1547
+annotator_09	150	80	1317	1547

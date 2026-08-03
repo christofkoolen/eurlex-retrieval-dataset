@@ -1,0 +1,14 @@
+Rows in master sheet: 12,365
+Labeled annotator files read: 144
+Rows with at least one answer: 12,365
+
+Distribution of number of answers per row:
+1 answer(s): 11,855
+2 answer(s): 360
+9 answer(s): 150
+
+Distribution of human resolution status:
+needs_author_judgment: 143
+resolved_double_agreement: 226
+resolved_shared_mode_complete: 141
+resolved_single: 11,855

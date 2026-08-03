@@ -1,0 +1,15 @@
+Loaded corpus docs: 20697
+
+Candidate-query information:
+Candidate rows: 12365
+Shared rows: 150
+Double rows per pair: 10
+Annotator pairs: 36
+Unique double rows: 360
+Single rows: 11855
+
+Candidate distribution:
+Unique queries: 100
+Average candidates per query: 123.65
+Min candidates per query: 88
+Max candidates per query: 164

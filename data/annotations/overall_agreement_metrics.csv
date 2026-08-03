@@ -1,0 +1,19 @@
+scope,n_items_total,n_items_with_two_or_more_ratings,n_valid_ratings,n_pairwise_comparisons,metric,value,notes
+all_repeated_rows,510,510,2070,5760,pooled_exact_agreement,0.6032986111111112,
+all_repeated_rows,510,510,2070,5760,pooled_within_one_grade_agreement,0.9326388888888889,
+all_repeated_rows,510,510,2070,5760,pooled_mean_absolute_difference,0.4678819444444444,
+all_repeated_rows,510,510,2070,5760,krippendorff_alpha_nominal,0.43612603864155863,
+all_repeated_rows,510,510,2070,5760,krippendorff_alpha_ordinal,0.7122037052142162,
+double_rows,360,360,720,360,pooled_exact_agreement,0.6277777777777778,
+double_rows,360,360,720,360,pooled_within_one_grade_agreement,0.9472222222222222,
+double_rows,360,360,720,360,pooled_mean_absolute_difference,0.425,
+double_rows,360,360,720,360,krippendorff_alpha_nominal,0.4508666237297023,
+double_rows,360,360,720,360,krippendorff_alpha_ordinal,0.7098637110464516,
+shared_rows,150,150,1350,5400,pooled_exact_agreement,0.6016666666666667,
+shared_rows,150,150,1350,5400,pooled_within_one_grade_agreement,0.9316666666666666,
+shared_rows,150,150,1350,5400,pooled_mean_absolute_difference,0.47074074074074074,
+shared_rows,150,150,1350,5400,krippendorff_alpha_nominal,0.4283051409801545,
+shared_rows,150,150,1350,5400,krippendorff_alpha_ordinal,0.712810166556188,
+complete_shared_rows,150,150,1350,5400,fleiss_kappa_nominal,0.42788134938710787,Calculated on complete shared rows only.
+complete_shared_rows,150,150,1350,5400,icc_2_1_absolute_agreement,0.6743672368661824,Supplementary; assumes the ordinal grades can be treated as approximately interval-scaled.
+complete_shared_rows,150,150,1350,5400,icc_2_k_absolute_agreement,0.9490796050745056,Supplementary reliability of the mean of all annotators; complete shared rows only.
