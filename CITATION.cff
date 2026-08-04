@@ -4,9 +4,9 @@ message: >-
   metadata in this file.
 type: dataset
 title: >-
-  EUR-Lex Retrieval Dataset: An Annotated Corpus of CJEU Judgments for
-  Long-Form Similar Case Retrieval
-version: 1.0.0
+  The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset
+  for Long-Form Similar Case Retrieval
+version: 1.0
 
 authors:
   - family-names: Koolen
@@ -14,13 +14,28 @@ authors:
     affiliation: KU Leuven, Centre for IT & IP Law
 
 abstract: >-
-  EUR-LexRD is a legal information retrieval dataset for long-form
-  similar-case retrieval over English-language judgments of the Court of
-  Justice of the European Union. It contains structured judgment
-  representations, 100 query judgments, pooled candidate cases, human binary
-  and graded relevance judgments, citation-derived relevance judgments,
-  section-aware evaluation views, a fixed supervised split, and five-fold
-  cross-validation assignments.
+  This paper introduces the EUR-Lex Retrieval Dataset (EUR-LexRD): an
+  evaluation benchmark for long-form similar case retrieval based on the case
+  law handed down by the Court of Justice of the European Union (CJEU). The
+  EUR-LexRD contains 20,697 English CJEU judgments published between 1954 and
+  2025. All cases are enriched with metadata and a case summary and have been
+  segmented into six sections (e.g., legal context, facts, and reasoning). Each
+  judgment also details outgoing citations to other European Case Law
+  Identifiers.
+
+  The evaluation set features 100 query cases and a seeded candidate pool
+  created with seven different retrieval strategies. The resulting benchmark
+  consists of 12,365 query-candidate pairs, which were human-annotated by nine
+  legal experts on a four-tiered relevance scale in order to establish a
+  high-quality gold standard. The dataset's features, namely the long document
+  length and section segmentation, present new hurdles for retrieval and
+  reranker models.
+
+  The EUR-LexRD is intended as a resource to advance the field of legal
+  information retrieval by (i) making it possible to compare lexical, dense,
+  hybrid and long-document retrieval strategies and (ii) supporting the
+  fine-tuning of existing encoder or reranker models. The EUR-LexRD is released
+  under a CC BY 4.0 license.
 
 keywords:
   - legal information retrieval
@@ -34,20 +49,13 @@ keywords:
   - natural legal language processing
   - legal NLP
 
-# TO ADD
-#dataset: >-
-#  https://TO ADD
-#url: >-
-#  https://TO ADD
+identifiers:
+  - type: doi
+    value: 10.48804/TK4IER
+    description: EUR-Lex Retrieval Dataset
 
-# TO ADD
-#code: >-
-#  https://github.com/christofkoolen/eurlex-retrieval-dataset
-#url: >-
-#  https://github.com/christofkoolen/eurlex-retrieval-dataset
-
-# TO ADD
-# doi: 10.xxxx/xxxxxxxx
-# date-released: YYYY-MM-DD
+doi: 10.48804/TK4IER
+repository-code: https://github.com/christofkoolen/eurlex-retrieval-dataset
+url: https://doi.org/10.48804/TK4IER
 
 license: CC-BY-4.0
