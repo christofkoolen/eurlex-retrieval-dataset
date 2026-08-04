@@ -77,10 +77,10 @@ The available judgment segments include:
 
 This repository contains the source code, benchmark files, documentation, sample enriched judgments, and reproducibility utilities and is the authoritative source of the dataset.
 
-- **GitHub repository:** `[TO ADD]`
-- **Archived dataset:** `[TO ADD]`
+- **Associated paper:** `Christof Koolen, The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval [submitted for review]`
+- **Dataset repository:** `https://doi.org/10.48804/TK4IER`
 - **Dataset version:** `v1.0`
-- **Associated paper:** `[TO ADD]`
+- **GitHub repository:** `https://github.com/christofkoolen/eurlex-retrieval-dataset`
 
 ---
 
@@ -657,10 +657,10 @@ The release contains several kinds of material that are governed by different te
 
 A formal paper and archival dataset citation will be added when available.
 
-Until then, please cite this repository:
+Until then, please cite the dataset as follows:
 
 ```text
-Koolen, Christof. The EUR-Lex Retrieval Dataset (EUR-LexRD), version 1.0.
+Christof Koolen, The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval [submitted for review]
 ```
 
 BibTeX placeholder:
