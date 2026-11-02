@@ -1,20 +1,20 @@
 cff-version: 1.2.0
 message: >-
-  If you use EUR-LexRD in your research, please cite the dataset using the
-  metadata in this file.
+  If you use EUR-LexRD in your research, please cite both the dataset
+  (DOI: 10.48804/TK4IER) and the accompanying paper (DOI: 10.18653/2026.nllp-1.11).
 type: dataset
-title: >-
-  The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset
-  for Long-Form Similar Case Retrieval
-version: 1.0
+title: The EUR-Lex Retrieval Dataset
+version: "1.0"
+date-released: 2026-07-28
 
 authors:
   - family-names: Koolen
     given-names: Christof
     affiliation: KU Leuven, Centre for IT & IP Law
+    orcid: https://orcid.org/0000-0002-2210-6821
 
 abstract: >-
-  This paper introduces the EUR-Lex Retrieval Dataset (EUR-LexRD): an
+  The EUR-Lex Retrieval Dataset (EUR-LexRD) is an
   evaluation benchmark for long-form similar case retrieval based on the case
   law handed down by the Court of Justice of the European Union (CJEU). The
   EUR-LexRD contains 20,697 English CJEU judgments published between 1954 and
@@ -59,3 +59,25 @@ repository-code: https://github.com/christofkoolen/eurlex-retrieval-dataset
 url: https://doi.org/10.48804/TK4IER
 
 license: CC-BY-4.0
+
+# The dataset DOI above identifies the archived data release. The paper below
+# is the recommended citation for the research that describes the dataset.
+paper-citation:
+  type: conference-paper
+  title: >-
+    The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset
+    for Long-Form Similar Case Retrieval
+  authors:
+    - family-names: Koolen
+      given-names: Christof
+      affiliation: KU Leuven, Centre for IT & IP Law
+      orcid: https://orcid.org/0000-0002-2210-6821
+  collection-title: Proceedings of the Natural Legal Language Processing Workshop 2026
+  year: 2026
+  month: 10
+  start: 101
+  end: 118
+  publisher:
+    name: Association for Computational Linguistics
+  doi: 10.18653/2026.nllp-1.11
+  url: https://aclanthology.org/2026.nllp-1.11/
