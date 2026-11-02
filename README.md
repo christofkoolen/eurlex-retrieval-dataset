@@ -4,85 +4,84 @@ EUR-LexRD is a legal information retrieval dataset for long-form similar case re
 
 The dataset combines:
 
-- a corpus of 20,697 structured CJEU judgments
-- 100 query judgments
-- 12,365 human-annotated query-candidate pairs
-- binary and graded human relevance judgments
-- citation-derived relevance judgments
-- section-aware query and candidate representations
-- fixed supervised splits and five-fold cross-validation assignments
-- scripts that document the collection, enrichment, annotation, and evaluation pipeline
+* a corpus of 20,697 structured CJEU judgments
+* 100 query judgments
+* 12,365 human-annotated query-candidate pairs
+* binary and graded human relevance judgments
+* citation-derived relevance judgments
+* section-aware query and candidate representations
+* fixed supervised splits and five-fold cross-validation assignments
+* scripts that document the collection, enrichment, annotation, and evaluation pipeline
 
----
+\---
 
 ## Table of contents
 
-- [Dataset overview](#dataset-overview)
-- [Repository and archival release](#repository-and-archival-release)
-- [Repository structure](#repository-structure)
-- [Installation and use](#installation-and-use)
-- [Core data files](#core-data-files)
-- [Evaluation views](#evaluation-views)
-- [Relevance judgments](#relevance-judgments)
-- [Evaluation protocols](#evaluation-protocols)
-- [Pipeline scripts](#pipeline-scripts)
-- [Data formats](#data-formats)
-- [Reproducibility](#reproducibility)
-- [Limitations](#limitations)
-- [Licensing and reuse](#licensing-and-reuse)
-- [Citation](#citation)
-- [Contact](#contact)
+* [Dataset overview](#dataset-overview)
+* [Repository and archival release](#repository-and-archival-release)
+* [Repository structure](#repository-structure)
+* [Installation and use](#installation-and-use)
+* [Core data files](#core-data-files)
+* [Evaluation views](#evaluation-views)
+* [Relevance judgments](#relevance-judgments)
+* [Evaluation protocols](#evaluation-protocols)
+* [Pipeline scripts](#pipeline-scripts)
+* [Data formats](#data-formats)
+* [Reproducibility](#reproducibility)
+* [Limitations](#limitations)
+* [Licensing and reuse](#licensing-and-reuse)
+* [Citation](#citation)
+* [Contact](#contact)
 
----
+\---
 
 ## Dataset overview
 
-| Property | Value |
-| --- | --- |
-| Domain | CJEU case law |
-| Task | Long-form similar case and legal relevance retrieval |
-| Jurisdiction | European Union |
-| Language | English |
-| Temporal coverage | 1954 to 2025 |
-| Corpus size | 20,697 judgments |
-| Evaluation queries | 100 |
-| Human-annotated query-candidate pairs | 12,365 |
-| Human relevance scale | Four grades: 0, 1, 2, 3 |
-| qrel sources | Human binary, human graded, and citations |
-| query views | summary, facts, and full judgment |
-| candidate views | summary, facts, reasoning, and full judgment |
-| evaluation combinations | 24 folders: 12 human and 12 citation |
-| Supervised holdout protocol | 70 train, 10 development, 20 test queries |
-| Cross-validation protocol | Five folds of 20 test queries each |
+|Property|Value|
+|-|-|
+|Domain|CJEU case law|
+|Task|Long-form similar case and legal relevance retrieval|
+|Jurisdiction|European Union|
+|Language|English|
+|Temporal coverage|1954 to 2025|
+|Corpus size|20,697 judgments|
+|Evaluation queries|100|
+|Human-annotated query-candidate pairs|12,365|
+|Human relevance scale|Four grades: 0, 1, 2, 3|
+|qrel sources|Human binary, human graded, and citations|
+|query views|summary, facts, and full judgment|
+|candidate views|summary, facts, reasoning, and full judgment|
+|evaluation combinations|24 folders: 12 human and 12 citation|
+|Supervised holdout protocol|70 train, 10 development, 20 test queries|
+|Cross-validation protocol|Five folds of 20 test queries each|
 
 Each enriched judgment contains four high-level components:
 
-- `case_metadata`: identifiers and legal metadata
-- `case_summary`: generated subject matter, keywords, and summary
-- `case_segments`: section-aware judgment text
-- `citations`: extracted outgoing case citations
+* `case\_metadata`: identifiers and legal metadata
+* `case\_summary`: generated subject matter, keywords, and summary
+* `case\_segments`: section-aware judgment text
+* `citations`: extracted outgoing case citations
 
 The available judgment segments include:
 
-- procedural introduction
-- legal context
-- facts and background
-- reasoning
-- decision on costs
-- operative part
+* procedural introduction
+* legal context
+* facts and background
+* reasoning
+* decision on costs
+* operative part
 
----
+\---
 
 ## Repository and archival release
 
 This repository contains the source code, benchmark files, documentation, sample enriched judgments, and reproducibility utilities and is the authoritative source of the dataset.
 
-- **Associated paper:** `Christof Koolen, The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval [submitted for review]`
-- **Dataset repository:** `https://doi.org/10.48804/TK4IER`
-- **Dataset version:** `v1.0`
-- **GitHub repository:** `https://github.com/christofkoolen/eurlex-retrieval-dataset`
+* **Research paper:** Christof Koolen. (2026). The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval. In *Proceedings of the Natural Legal Language Processing Workshop 2026* (pp. 101–118). Budapest, Hungary: Association for Computational Linguistics. https://doi.org/10.18653/2026.nllp-1.11
+* **Dataset:** Christof Koolen. (2026). The EUR-Lex Retrieval Dataset (Version 1.0) \[Dataset]. KU Leuven RDR. https://doi.org/10.48804/TK4IER
+* **GitHub repository:** `https://github.com/christofkoolen/eurlex-retrieval-dataset`
 
----
+\---
 
 ## Repository structure
 
@@ -96,107 +95,107 @@ This repository contains the source code, benchmark files, documentation, sample
 │   │   └── agreement summaries
 │   │
 │   ├── citations/
-│   │   └── citation_graph.tsv
+│   │   └── citation\_graph.tsv
 │   │
-│   ├── enriched_json/
+│   ├── enriched\_json/
 │   │   └── enriched CJEU judgments in .json
 │   │
 │   ├── pooling/
-│   │   ├── citation_pool.tsv
-│   │   ├── tfidf_pool.tsv
-│   │   ├── bm25_pool.tsv
-│   │   ├── minilm_pool.tsv
-│   │   ├── qwen_pool.tsv
-│   │   ├── gemini_pool.tsv
-│   │   ├── random_negatives.tsv
-│   │   └── pool_config.json
+│   │   ├── citation\_pool.tsv
+│   │   ├── tfidf\_pool.tsv
+│   │   ├── bm25\_pool.tsv
+│   │   ├── minilm\_pool.tsv
+│   │   ├── qwen\_pool.tsv
+│   │   ├── gemini\_pool.tsv
+│   │   ├── random\_negatives.tsv
+│   │   └── pool\_config.json
 │   │
 │   ├── qrels/
-│   │   ├── qrels_citations.tsv
-│   │   ├── qrels_human_binary.tsv
-│   │   └── qrels_human_graded.tsv
+│   │   ├── qrels\_citations.tsv
+│   │   ├── qrels\_human\_binary.tsv
+│   │   └── qrels\_human\_graded.tsv
 │   │
 │   ├── shared/
-│   │   ├── query_pool.jsonl
-│   │   └── candidate_pool.tsv
+│   │   ├── query\_pool.jsonl
+│   │   └── candidate\_pool.tsv
 │   │
 │   └── splits/
-│       ├── holdout_70train_10dev_20test/
-│       │   ├── query_assignments.tsv
-│       │   ├── split_config.json
-│       │   └── split_summary.txt
-│       └── five_fold_cross_validation/
-│           ├── fold_assignments.tsv
-│           ├── fold_config.json
-│           └── cv_summary.txt
+│       ├── holdout\_70train\_10dev\_20test/
+│       │   ├── query\_assignments.tsv
+│       │   ├── split\_config.json
+│       │   └── split\_summary.txt
+│       └── five\_fold\_cross\_validation/
+│           ├── fold\_assignments.tsv
+│           ├── fold\_config.json
+│           └── cv\_summary.txt
 │
-├── eval_views/
+├── eval\_views/
 │   ├── human/
-│   │   ├── q_summary__c_summary/
-│   │   ├── q_summary__c_facts/
-│   │   ├── q_summary__c_reasoning/
-│   │   ├── q_summary__c_full/
-│   │   ├── q_facts__c_summary/
-│   │   ├── q_facts__c_facts/
-│   │   ├── q_facts__c_reasoning/
-│   │   ├── q_facts__c_full/
-│   │   ├── q_full__c_summary/
-│   │   ├── q_full__c_facts/
-│   │   ├── q_full__c_reasoning/
-│   │   └── q_full__c_full/
+│   │   ├── q\_summary\_\_c\_summary/
+│   │   ├── q\_summary\_\_c\_facts/
+│   │   ├── q\_summary\_\_c\_reasoning/
+│   │   ├── q\_summary\_\_c\_full/
+│   │   ├── q\_facts\_\_c\_summary/
+│   │   ├── q\_facts\_\_c\_facts/
+│   │   ├── q\_facts\_\_c\_reasoning/
+│   │   ├── q\_facts\_\_c\_full/
+│   │   ├── q\_full\_\_c\_summary/
+│   │   ├── q\_full\_\_c\_facts/
+│   │   ├── q\_full\_\_c\_reasoning/
+│   │   └── q\_full\_\_c\_full/
 │   │
 │   └── citations/
-│       ├── q_summary__c_summary/
-│       ├── q_summary__c_facts/
-│       ├── q_summary__c_reasoning/
-│       ├── q_summary__c_full/
-│       ├── q_facts__c_summary/
-│       ├── q_facts__c_facts/
-│       ├── q_facts__c_reasoning/
-│       ├── q_facts__c_full/
-│       ├── q_full__c_summary/
-│       ├── q_full__c_facts/
-│       ├── q_full__c_reasoning/
-│       └── q_full__c_full/
+│       ├── q\_summary\_\_c\_summary/
+│       ├── q\_summary\_\_c\_facts/
+│       ├── q\_summary\_\_c\_reasoning/
+│       ├── q\_summary\_\_c\_full/
+│       ├── q\_facts\_\_c\_summary/
+│       ├── q\_facts\_\_c\_facts/
+│       ├── q\_facts\_\_c\_reasoning/
+│       ├── q\_facts\_\_c\_full/
+│       ├── q\_full\_\_c\_summary/
+│       ├── q\_full\_\_c\_facts/
+│       ├── q\_full\_\_c\_reasoning/
+│       └── q\_full\_\_c\_full/
 │
-├── facts_and_figures/
+├── facts\_and\_figures/
 │
 ├── code/
-│   ├── pipeline_common.py
+│   ├── pipeline\_common.py
 │   ├── requirements.txt
 │   ├── .env.example
-│   ├── 01_collect_data.py
-│   ├── 02_build_dataset.py
-│   ├── 03_extract_citations.py
-│   ├── 04_generate_facts_and_figures.py
-│   ├── 05_build_query_and_candidate_pool.py
-│   ├── 06_create_annotation_sheets.py
-│   ├── 07_recompile_annotation_sheet.py
-│   ├── 08_inter_annotator_agreement.py
-│   ├── 09_create_author_annotation_sheets.py
-│   ├── 10_recompile_annotation_sheet_with_author.py
-│   ├── 11_create_human_qrels.py
-│   ├── 12_create_eval_views.py
-│   ├── 13_create_supervised_split.py
-│   ├── 14_create_five_fold_cross_validation.py
-│   ├── 15_basic_runner_script_zero_shot_retrieval.py
-│   ├── 16_basic_runner_script_zero_shot_reranker.py
-│   ├── 17_basic_training_script_holdout_biencoder.py
-│   ├── 18_basic_training_script_five_fold_biencoder.py
+│   ├── 01\_collect\_data.py
+│   ├── 02\_build\_dataset.py
+│   ├── 03\_extract\_citations.py
+│   ├── 04\_generate\_facts\_and\_figures.py
+│   ├── 05\_build\_query\_and\_candidate\_pool.py
+│   ├── 06\_create\_annotation\_sheets.py
+│   ├── 07\_recompile\_annotation\_sheet.py
+│   ├── 08\_inter\_annotator\_agreement.py
+│   ├── 09\_create\_author\_annotation\_sheets.py
+│   ├── 10\_recompile\_annotation\_sheet\_with\_author.py
+│   ├── 11\_create\_human\_qrels.py
+│   ├── 12\_create\_eval\_views.py
+│   ├── 13\_create\_supervised\_split.py
+│   ├── 14\_create\_five\_fold\_cross\_validation.py
+│   ├── 15\_basic\_runner\_script\_zero\_shot\_retrieval.py
+│   ├── 16\_basic\_runner\_script\_zero\_shot\_reranker.py
+│   ├── 17\_basic\_training\_script\_holdout\_biencoder.py
+│   ├── 18\_basic\_training\_script\_five\_fold\_biencoder.py
 │
-├── CITATION.cff
-├── LICENSE_CODE.txt
-├── LICENSE_DATA.txt
-└── README.md
+├── 00\_CITATION.cff
+├── 00\_LICENSE\_CODE.txt
+├── 00\_LICENSE\_DATA.txt
+└── 00\_README.md
 ```
 
----
+\---
 
 ## Installation and use
 
 The archival scripts are designed to be opened and run directly in your Python IDE.
 
-Place `pipeline_common.py` and all numbered scripts together in `code/`. Each script exposes editable configuration constants near the top of the file.
+Place `pipeline\_common.py` and all numbered scripts together in `code/`. Each script exposes editable configuration constants near the top of the file.
 
 Python 3.10 or newer is recommended. Install the shared environment with:
 
@@ -208,75 +207,75 @@ For CUDA or another hardware-specific setup, install the PyTorch build for the t
 
 The current requirements cover:
 
-- EUR-Lex collection and HTML parsing
-- Gemini-based generation and embedding
-- statistics and graph analysis
-- zero-shot dense retrieval and cross-encoder reranking
-- supervised Sentence Transformers training
+* EUR-Lex collection and HTML parsing
+* Gemini-based generation and embedding
+* statistics and graph analysis
+* zero-shot dense retrieval and cross-encoder reranking
+* supervised Sentence Transformers training
 
 Credentials are read from environment variables where required:
 
 ```text
-EURLEX_USERNAME
-EURLEX_PASSWORD
-GEMINI_API_KEY
-GOOGLE_API_KEY
+EURLEX\_USERNAME
+EURLEX\_PASSWORD
+GEMINI\_API\_KEY
+GOOGLE\_API\_KEY
 ```
 
-`GEMINI_API_KEY` and `GOOGLE_API_KEY` are alternatives. Do not commit a populated `.env` file, API key, password, or access token.
+`GEMINI\_API\_KEY` and `GOOGLE\_API\_KEY` are alternatives. Do not commit a populated `.env` file, API key, password, or access token.
 
 When automatic repository-root detection is not possible, set the following in the relevant script:
 
 ```python
 from pathlib import Path
 
-PROJECT_ROOT_OVERRIDE: Path | None = Path(
-    r"C:\path\to\EUR-LexRD"
+PROJECT\_ROOT\_OVERRIDE: Path | None = Path(
+    r"C:\\path\\to\\EUR-LexRD"
 )
 ```
 
 Leave the override as `None` in the archival version.
 
----
+\---
 
 ## Core data files
 
 ### Query pool
 
-`data/shared/query_pool.jsonl` contains the 100 query judgments and their available textual representations.
+`data/shared/query\_pool.jsonl` contains the 100 query judgments and their available textual representations.
 
 Each line is one JSON object. Query identifiers are stable across qrels, candidate-pool files, split assignments, and evaluation views.
 
 ### Candidate pool
 
-`data/shared/candidate_pool.tsv` contains the pooled query-candidate pairs submitted for human annotation.
+`data/shared/candidate\_pool.tsv` contains the pooled query-candidate pairs submitted for human annotation.
 
 Candidates were obtained from several seeding methods:
 
-- outgoing citations
-- TF-IDF
-- BM25
-- all-MiniLM-L6-v2
-- Qwen3-Embedding-8B
-- gemini-embedding-001
-- random negatives
+* outgoing citations
+* TF-IDF
+* BM25
+* all-MiniLM-L6-v2
+* Qwen3-Embedding-8B
+* gemini-embedding-001
+* random negatives
 
 The candidate pool records the source or sources through which a candidate entered the pool. It should be retained when interpreting the human judgments because the judgments are incomplete outside the pooled candidates.
 
 ### Enriched judgments
 
-`data/enriched_json/` contains the enriched judgments in JSON format.
+`data/enriched\_json/` contains the enriched judgments in JSON format.
 
 ### Citation graph
 
-`data/citations/citation_graph.tsv` contains directed citation edges:
+`data/citations/citation\_graph.tsv` contains directed citation edges:
 
 ```text
 source	target
 ECLI:EU:C:2020:001	ECLI:EU:C:2015:100
 ```
 
----
+\---
 
 ## Evaluation views
 
@@ -284,16 +283,16 @@ EUR-LexRD supports section-aware retrieval by separating query and candidate rep
 
 ### Query representations
 
-- `summary`
-- `facts`
-- `full`
+* `summary`
+* `facts`
+* `full`
 
 ### Candidate representations
 
-- `summary`
-- `facts`
-- `reasoning`
-- `full`
+* `summary`
+* `facts`
+* `reasoning`
+* `full`
 
 This produces 12 query-candidate view combinations for each qrel source.
 
@@ -302,72 +301,72 @@ This produces 12 query-candidate view combinations for each qrel source.
 A human evaluation-view folder contains:
 
 ```text
-eval_views/human/q_summary__c_full/
+eval\_views/human/q\_summary\_\_c\_full/
 ├── corpus.jsonl
 ├── queries.jsonl
-├── qrels_selected.tsv
-└── qrels_selected_graded.tsv
+├── qrels\_selected.tsv
+└── qrels\_selected\_graded.tsv
 ```
 
-- `corpus.jsonl`: the candidate documents represented by means of the chosen candidate view
-- `queries.jsonl`: the 100 query documents represented by means of the chosen query view
-- `qrels_selected.tsv`: binary human relevance judgments
-- `qrels_selected_graded.tsv`: graded human relevance judgments
+* `corpus.jsonl`: the candidate documents represented by means of the chosen candidate view
+* `queries.jsonl`: the 100 query documents represented by means of the chosen query view
+* `qrels\_selected.tsv`: binary human relevance judgments
+* `qrels\_selected\_graded.tsv`: graded human relevance judgments
 
 ### Citation evaluation views
 
 A citation evaluation-view folder contains:
 
 ```text
-eval_views/citations/q_summary__c_full/
+eval\_views/citations/q\_summary\_\_c\_full/
 ├── corpus.jsonl
 ├── queries.jsonl
-└── qrels_selected.tsv
+└── qrels\_selected.tsv
 ```
 
-- `corpus.jsonl`: the candidate documents represented by means of the chosen candidate view
-- `queries.jsonl`: the 100 query documents represented by means of the chosen query view
-- `qrels_selected.tsv`: citation-based relevance judgments
+* `corpus.jsonl`: the candidate documents represented by means of the chosen candidate view
+* `queries.jsonl`: the 100 query documents represented by means of the chosen query view
+* `qrels\_selected.tsv`: citation-based relevance judgments
 
 ### Naming convention
 
 ```text
-q_<query-view>__c_<candidate-view>
+q\_<query-view>\_\_c\_<candidate-view>
 ```
 
 For example:
 
 ```text
-q_facts__c_full
+q\_facts\_\_c\_full
 ```
 
 means that query cases are represented by their factual sections and candidate cases by their full judgment text.
 
----
+\---
 
 ## Relevance judgments
 
 ### Human graded qrels
 
-`data/qrels/qrels_human_graded.tsv` uses the following ordinal scale:
+`data/qrels/qrels\_human\_graded.tsv` uses the following ordinal scale:
 
-| Grade | Interpretation |
-| ---: | --- |
-| 0 | Not relevant |
-| 1 | Marginally relevant |
-| 2 | Substantially relevant |
-| 3 | Directly relevant |
+|Grade|Interpretation|
+|-:|-|
+|0|Not relevant|
+|1|Marginally relevant|
+|2|Substantially relevant|
+|3|Directly relevant|
 
 ### Human binary qrels
 
-`data/qrels/qrels_human_binary.tsv` maps:
+`data/qrels/qrels\_human\_binary.tsv` maps:
 
-- grades 0 and 1 to non-relevant (`0`)
-- grades 2 and 3 to relevant (`1`)
+* grades 0 and 1 to non-relevant (`0`)
+* grades 2 and 3 to relevant (`1`)
 
 ### Citation qrels
 
-`data/qrels/qrels_citations.tsv` treats an outgoing citation from a query judgment to a candidate judgment as a citation-derived relevance signal.
+`data/qrels/qrels\_citations.tsv` treats an outgoing citation from a query judgment to a candidate judgment as a citation-derived relevance signal.
 
 Citation relevance and human legal relevance represent different constructs and should be reported separately.
 
@@ -376,7 +375,7 @@ Citation relevance and human legal relevance represent different constructs and 
 All qrel files use the TREC-style four-column format:
 
 ```text
-query_id	iteration	document_id	relevance
+query\_id	iteration	document\_id	relevance
 ```
 
 Example:
@@ -385,7 +384,7 @@ Example:
 ECLI:EU:C:2023:100	0	ECLI:EU:C:2019:200	3
 ```
 
----
+\---
 
 ## Evaluation protocols
 
@@ -397,11 +396,11 @@ Use all 100 queries when the method is fixed independently of EUR-LexRD and the 
 
 Examples include:
 
-- BM25 with predetermined parameters
-- TF-IDF
-- an off-the-shelf embedding model
-- a pretrained reranker used without dataset-specific adaptation
-- a fixed chunking strategy selected independently of the benchmark
+* BM25 with predetermined parameters
+* TF-IDF
+* an off-the-shelf embedding model
+* a pretrained reranker used without dataset-specific adaptation
+* a fixed chunking strategy selected independently of the benchmark
 
 For this protocol, the complete 100 query collection functions as the evaluation set.
 
@@ -412,16 +411,16 @@ Use the released supervised split when EUR-LexRD relevance judgments influence t
 Canonical assignment file:
 
 ```text
-data/splits/holdout_70train_10dev_20test/query_assignments.tsv
+data/splits/holdout\_70train\_10dev\_20test/query\_assignments.tsv
 ```
 
 The split contains:
 
-| Partition | Number of queries | Purpose |
-| --- | ---: | --- |
-| Train | 70 | Model fitting |
-| Development | 10 | Model and checkpoint selection |
-| Test | 20 | Final evaluation |
+|Partition|Number of queries|Purpose|
+|-|-:|-|
+|Train|70|Model fitting|
+|Development|10|Model and checkpoint selection|
+|Test|20|Final evaluation|
 
 The split is performed at query level. Every qrel and candidate-pool row associated with a query remains in the same partition.
 
@@ -432,15 +431,15 @@ Script 13 creates the assignments and script 17 consumes them for supervised bi-
 Canonical fold-assignment file:
 
 ```text
-data/splits/five_fold_cross_validation/fold_assignments.tsv
+data/splits/five\_fold\_cross\_validation/fold\_assignments.tsv
 ```
 
 Each query belongs to exactly one outer fold. For each run:
 
-- 80 queries form the outer non-test partition;
-- 20 queries form the outer test partition;
-- an inner development subset is created only from the 80 non-test queries when model selection is required;
-- each query is evaluated as an outer-test query exactly once.
+* 80 queries form the outer non-test partition;
+* 20 queries form the outer test partition;
+* an inner development subset is created only from the 80 non-test queries when model selection is required;
+* each query is evaluated as an outer-test query exactly once.
 
 The outer test fold must not be used for hyperparameter or checkpoint selection. Script 14 creates the outer folds and script 18 creates a deterministic inner development subset for each supervised training run.
 
@@ -450,8 +449,8 @@ Split assignments apply to these files inside every evaluation-view folder:
 
 ```text
 queries.jsonl
-qrels_selected.tsv
-qrels_selected_graded.tsv
+qrels\_selected.tsv
+qrels\_selected\_graded.tsv
 ```
 
 The candidate `corpus.jsonl` is not partitioned. All train, development, and test queries retrieve from the same candidate corpus for the selected candidate representation.
@@ -463,8 +462,8 @@ A query assigned to the test partition remains a test query in every human and c
 The canonical split artifacts are:
 
 ```text
-data/splits/holdout_70train_10dev_20test/query_assignments.tsv
-data/splits/five_fold_cross_validation/fold_assignments.tsv
+data/splits/holdout\_70train\_10dev\_20test/query\_assignments.tsv
+data/splits/five\_fold\_cross\_validation/fold\_assignments.tsv
 ```
 
 Scripts 13 and 14 can additionally materialize filtered copies of the query, qrels, query-pool, and candidate-pool files. These are deterministic derivatives.
@@ -472,43 +471,43 @@ Scripts 13 and 14 can additionally materialize filtered copies of the query, qre
 For the holdout protocol, optional materialized evaluation files are written under:
 
 ```text
-data/splits/holdout_70train_10dev_20test/eval_views/
+data/splits/holdout\_70train\_10dev\_20test/eval\_views/
 ```
 
 For five-fold cross-validation, optional materialized evaluation files are written under:
 
 ```text
-data/splits/five_fold_cross_validation/eval_views/
+data/splits/five\_fold\_cross\_validation/eval\_views/
 ```
 
-By default, the candidate corpora are not duplicated. A relative `corpus_source.txt` points back to the corresponding canonical corpus under `data/eval_views/`.
+By default, the candidate corpora are not duplicated. A relative `corpus\_source.txt` points back to the corresponding canonical corpus under `data/eval\_views/`.
 
----
+\---
 
 ## Pipeline scripts
 
 The scripts are numbered in pipeline order. Configuration is controlled through constants near the top of each file.
 
-| Step | Stage | Script | Purpose |
-| ---: | --- | --- | --- |
-| 01 | Collection | `01_collect_data.py` | Collect CJEU metadata, Cellar HTML or XHTML, and cleaned source text from EUR-Lex services |
-| 02 | Enrichment | `02_build_dataset.py` | Generate structured JSON with metadata, summaries, keywords, and section anchors, then restore complete judgment segments |
-| 03 | Citations | `03_extract_citations.py` | Extract ECLI citations, enrich the JSON corpus, and construct the citation graph |
-| 04 | Descriptive analysis | `04_generate_facts_and_figures.py` | Generate corpus statistics, citation summaries, keyword summaries, reports, and figures |
-| 05 | Pool construction | `05_build_query_and_candidate_pool.py` | Select queries and construct citation, lexical, dense, Gemini, Qwen, and random candidate pools |
-| 06 | Annotation preparation | `06_create_annotation_sheets.py` | Create the master annotation sheet and anonymized, balanced annotator assignments |
-| 07 | Annotation recompilation | `07_recompile_annotation_sheet.py` | Recompile completed annotator files and resolve annotator-only labels where possible |
-| 08 | Agreement analysis | `08_inter_annotator_agreement.py` | Calculate overall and pairwise agreement statistics and diagnostic outputs |
-| 09 | Adjudication preparation | `09_create_author_annotation_sheets.py` | Create adjudication sheets for unresolved disagreements |
-| 10 | Final adjudication | `10_recompile_annotation_sheet_with_author.py` | Merge annotator labels and adjudication decisions into the final annotation sheet |
-| 11 | Qrel generation | `11_create_human_qrels.py` | Create binary and graded human qrels from the final annotation sheet |
-| 12 | Evaluation views | `12_create_eval_views.py` | Materialize all 24 unsplit evaluation-view folders under `data/eval_views/` |
-| 13 | Holdout preparation | `13_create_supervised_split.py` | Create the fixed 70/10/20 query-level assignment and optional materialized split files |
-| 14 | Cross-validation preparation | `14_create_five_fold_cross_validation.py` | Create five balanced outer query folds and optional materialized fold files |
-| 15 | Zero-shot retrieval | `15_basic_runner_script_zero_shot_retrieval.py` | Run fixed-model dense retrieval over all 100 queries and report standard metrics |
-| 16 | Zero-shot reranking | `16_basic_runner_script_zero_shot_reranker.py` | Rerank a first-stage TREC run with a fixed pretrained cross-encoder and evaluate the reranked output |
-| 17 | Holdout training | `17_basic_training_script_holdout_biencoder.py` | Fine-tune and select a bi-encoder using the 70/10/20 holdout protocol |
-| 18 | Five-fold training | `18_basic_training_script_five_fold_biencoder.py` | Fine-tune five bi-encoders with outer-fold isolation and deterministic inner development subsets |
+|Step|Stage|Script|Purpose|
+|-:|-|-|-|
+|01|Collection|`01\_collect\_data.py`|Collect CJEU metadata, Cellar HTML or XHTML, and cleaned source text from EUR-Lex services|
+|02|Enrichment|`02\_build\_dataset.py`|Generate structured JSON with metadata, summaries, keywords, and section anchors, then restore complete judgment segments|
+|03|Citations|`03\_extract\_citations.py`|Extract ECLI citations, enrich the JSON corpus, and construct the citation graph|
+|04|Descriptive analysis|`04\_generate\_facts\_and\_figures.py`|Generate corpus statistics, citation summaries, keyword summaries, reports, and figures|
+|05|Pool construction|`05\_build\_query\_and\_candidate\_pool.py`|Select queries and construct citation, lexical, dense, Gemini, Qwen, and random candidate pools|
+|06|Annotation preparation|`06\_create\_annotation\_sheets.py`|Create the master annotation sheet and anonymized, balanced annotator assignments|
+|07|Annotation recompilation|`07\_recompile\_annotation\_sheet.py`|Recompile completed annotator files and resolve annotator-only labels where possible|
+|08|Agreement analysis|`08\_inter\_annotator\_agreement.py`|Calculate overall and pairwise agreement statistics and diagnostic outputs|
+|09|Adjudication preparation|`09\_create\_author\_annotation\_sheets.py`|Create adjudication sheets for unresolved disagreements|
+|10|Final adjudication|`10\_recompile\_annotation\_sheet\_with\_author.py`|Merge annotator labels and adjudication decisions into the final annotation sheet|
+|11|Qrel generation|`11\_create\_human\_qrels.py`|Create binary and graded human qrels from the final annotation sheet|
+|12|Evaluation views|`12\_create\_eval\_views.py`|Materialize all 24 unsplit evaluation-view folders under `data/eval\_views/`|
+|13|Holdout preparation|`13\_create\_supervised\_split.py`|Create the fixed 70/10/20 query-level assignment and optional materialized split files|
+|14|Cross-validation preparation|`14\_create\_five\_fold\_cross\_validation.py`|Create five balanced outer query folds and optional materialized fold files|
+|15|Zero-shot retrieval|`15\_basic\_runner\_script\_zero\_shot\_retrieval.py`|Run fixed-model dense retrieval over all 100 queries and report standard metrics|
+|16|Zero-shot reranking|`16\_basic\_runner\_script\_zero\_shot\_reranker.py`|Rerank a first-stage TREC run with a fixed pretrained cross-encoder and evaluate the reranked output|
+|17|Holdout training|`17\_basic\_training\_script\_holdout\_biencoder.py`|Fine-tune and select a bi-encoder using the 70/10/20 holdout protocol|
+|18|Five-fold training|`18\_basic\_training\_script\_five\_fold\_biencoder.py`|Fine-tune five bi-encoders with outer-fold isolation and deterministic inner development subsets|
 
 ### Workflow dependencies
 
@@ -536,7 +535,8 @@ Supervised five-fold experiments:
 Scripts 13 and 14 are alternative supervised evaluation protocols. Both assignment files may be generated and released. Scripts 15 and 16 do not require split files because fixed models are evaluated over all 100 queries.
 
 
----
+
+\---
 
 ## Data formats
 
@@ -548,7 +548,7 @@ A retrieval-oriented record generally uses:
 
 ```json
 {
-  "doc_id": "ECLI:EU:C:2023:100",
+  "doc\_id": "ECLI:EU:C:2023:100",
   "text": "Document or query text"
 }
 ```
@@ -558,49 +558,49 @@ A retrieval-oriented record generally uses:
 The merged candidate-pool file includes fields such as:
 
 ```text
-query_id
-candidate_id
-source_primary
-source_all
-score_bm25
-score_gemini
-score_minilm
-score_qwen
-score_tfidf
+query\_id
+candidate\_id
+source\_primary
+source\_all
+score\_bm25
+score\_gemini
+score\_minilm
+score\_qwen
+score\_tfidf
 ```
 
 ### Split assignment TSV
 
 ```text
-query_id	split
+query\_id	split
 ECLI:EU:C:2023:100	train
 ```
 
 ### Fold assignment TSV
 
 ```text
-query_id	fold
+query\_id	fold
 ECLI:EU:C:2023:100	1
 ```
 
----
+\---
 
 ## Reproducibility
 
 For reproducible experiments, report:
 
-- EUR-LexRD dataset DOI
-- query view
-- candidate view
-- candidate universe
-- evaluation protocol
-- retrieval or reranking model used
-- truncation or chunking settings
-- similarity or scoring function
-- hyperparameters (where applicable)
-- random seed
-- evaluation metrics and cutoffs
-- treatment of unjudged documents
+* EUR-LexRD dataset DOI
+* query view
+* candidate view
+* candidate universe
+* evaluation protocol
+* retrieval or reranking model used
+* truncation or chunking settings
+* similarity or scoring function
+* hyperparameters (where applicable)
+* random seed
+* evaluation metrics and cutoffs
+* treatment of unjudged documents
 
 A run description should be sufficiently precise to identify a single evaluation configuration, for example:
 
@@ -619,68 +619,86 @@ The experiment runners write TREC run files, per-query results, aggregate metric
 
 Because the human judgments arise from a pooled candidate set, every result should explain how unjudged retrieved documents are handled.
 
----
+\---
 
 ## Limitations
 
 Users should be mindful of the following limitations:
 
-- The benchmark contains only 100 query judgments
-- Human relevance judgments cover pooled candidates; there are no relevance labels available for all query-candidate pairs
-- Candidate pooling likely favors systems that have contributed to the pool
-- Although the inter-annotator agreement metrics hint at a fairly good degree of agreement among annotators, most query-candidate pairs have been judged by one annotator
-- The dataset contains English CJEU judgments and, thus, might not generalize to other languages or jurisdictions.
-- Section boundaries can contain errors
-- Unrestricted candidate retrieval includes judgments issued after the query judgment (unless a temporal filter is applied)
+* The benchmark contains only 100 query judgments
+* Human relevance judgments cover pooled candidates; there are no relevance labels available for all query-candidate pairs
+* Candidate pooling likely favors systems that have contributed to the pool
+* Although the inter-annotator agreement metrics hint at a fairly good degree of agreement among annotators, most query-candidate pairs have been judged by one annotator
+* The dataset contains English CJEU judgments and, thus, might not generalize to other languages or jurisdictions.
+* Section boundaries can contain errors
+* Unrestricted candidate retrieval includes judgments issued after the query judgment (unless a temporal filter is applied)
 
 See the accompanying paper for a more extensive discussion.
 
----
+\---
 
 ## Licensing and reuse
 
 The release contains several kinds of material that are governed by different terms:
 
-| Component | Applicable terms |
-| --- | --- |
-| CJEU judgment text | EUR-Lex reuse terms and applicable legal notices |
-| EUR-Lex metadata | EUR-Lex reuse terms and applicable legal notices |
-| Human relevance annotations | CC BY 4.0 |
-| Generated summaries and derived segments | CC BY 4.0 |
-| Citation graph and benchmark metadata | CC BY 4.0 |
-| Source code | MIT License |
-| Documentation | CC BY 4.0 |
+|Component|Applicable terms|
+|-|-|
+|CJEU judgment text|EUR-Lex reuse terms and applicable legal notices|
+|EUR-Lex metadata|EUR-Lex reuse terms and applicable legal notices|
+|Human relevance annotations|CC BY 4.0|
+|Generated summaries and derived segments|CC BY 4.0|
+|Citation graph and benchmark metadata|CC BY 4.0|
+|Source code|MIT License|
+|Documentation|CC BY 4.0|
 
----
+\---
 
 ## Citation
 
-A formal paper and archival dataset citation will be added when available.
+If you use EUR-LexRD in research, please cite **both** the archived dataset and the conference paper. The two publications have separate DOIs.
 
-Until then, please cite the dataset as follows:
+**Dataset (version 1.0, published July 28, 2026):**
 
-```text
-Christof Koolen, The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval [submitted for review]
-```
-
-BibTeX placeholder:
+Christof Koolen. (2026). The EUR-Lex Retrieval Dataset (Version 1.0) \[Dataset]. KU Leuven RDR. https://doi.org/10.48804/TK4IER
 
 ```bibtex
-@dataset{koolen_eurlexrd_2026,
+@dataset{koolen\_eurlexrd\_dataset\_2026,
   author    = {Koolen, Christof},
-  title     = {The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval},
+  title     = {The EUR-Lex Retrieval Dataset},
   year      = {2026},
   version   = {1.0},
-  publisher = {[TO ADD]},
-  doi       = {[TO ADD]},
-  url       = {[TO ADD]}
+  publisher = {KU Leuven RDR},
+  doi       = {10.48804/TK4IER},
+  url       = {https://doi.org/10.48804/TK4IER}
 }
 ```
 
----
+**Conference paper (NLLP 2026):**
+
+Christof Koolen. (2026). The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval. In *Proceedings of the Natural Legal Language Processing Workshop 2026* (pp. 101–118). Budapest, Hungary: Association for Computational Linguistics. https://doi.org/10.18653/2026.nllp-1.11
+
+```bibtex
+@inproceedings{koolen-2026-eur,
+  title     = {The {EUR}-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval},
+  author    = {Koolen, Christof},
+  booktitle = {Proceedings of the Natural Legal Language Processing Workshop 2026},
+  month     = oct,
+  year      = {2026},
+  address   = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  pages     = {101--118},
+  doi       = {10.18653/2026.nllp-1.11},
+  url       = {https://aclanthology.org/2026.nllp-1.11/}
+}
+```
+
+The machine-readable references are provided in [`CITATION.cff`](CITATION.cff).
+
+\---
 
 ## Contact
 
 **Christof Koolen**  
-Centre for IT & IP Law, KU Leuven  
+Centre for IT \& IP Law, KU Leuven  
 Email: `christof.koolen@kuleuven.be`
+
