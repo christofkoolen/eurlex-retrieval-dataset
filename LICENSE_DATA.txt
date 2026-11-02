@@ -54,10 +54,12 @@ A suggested attribution is:
 
     Christof Koolen, EUR-Lex Retrieval Dataset (EUR-LexRD),
     licensed under CC BY 4.0. Source:
-    https://TO ADD
+    https://doi.org/10.48804/TK4IER
 
-After publication of the archival dataset record, users should cite the
-persistent DOI or repository URL supplied in CITATION.cff.
+The archived dataset is published as version 1.0 at
+https://doi.org/10.48804/TK4IER. For academic use, please also cite the
+accompanying paper: https://doi.org/10.18653/2026.nllp-1.11.
+See CITATION.cff for machine-readable citation metadata.
 
 Attribution must not imply that the Licensor, KU Leuven, the Court of Justice
 of the European Union, the European Union, or EUR-Lex endorses a user, use,
