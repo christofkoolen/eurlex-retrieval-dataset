@@ -13,7 +13,7 @@ The dataset combines:
 * fixed supervised splits and five-fold cross-validation assignments
 * scripts that document the collection, enrichment, annotation, and evaluation pipeline
 
-\---
+---
 
 ## Table of contents
 
@@ -33,7 +33,7 @@ The dataset combines:
 * [Citation](#citation)
 * [Contact](#contact)
 
-\---
+---
 
 ## Dataset overview
 
@@ -71,7 +71,7 @@ The available judgment segments include:
 * decision on costs
 * operative part
 
-\---
+---
 
 ## Repository and archival release
 
@@ -81,7 +81,7 @@ This repository contains the source code, benchmark files, documentation, sample
 * **Dataset:** Christof Koolen. (2026). The EUR-Lex Retrieval Dataset (Version 1.0) \[Dataset]. KU Leuven RDR. https://doi.org/10.48804/TK4IER
 * **GitHub repository:** `https://github.com/christofkoolen/eurlex-retrieval-dataset`
 
-\---
+---
 
 ## Repository structure
 
@@ -189,7 +189,7 @@ This repository contains the source code, benchmark files, documentation, sample
 └── 00\_README.md
 ```
 
-\---
+---
 
 ## Installation and use
 
@@ -236,7 +236,7 @@ PROJECT\_ROOT\_OVERRIDE: Path | None = Path(
 
 Leave the override as `None` in the archival version.
 
-\---
+---
 
 ## Core data files
 
@@ -275,7 +275,7 @@ source	target
 ECLI:EU:C:2020:001	ECLI:EU:C:2015:100
 ```
 
-\---
+---
 
 ## Evaluation views
 
@@ -342,7 +342,7 @@ q\_facts\_\_c\_full
 
 means that query cases are represented by their factual sections and candidate cases by their full judgment text.
 
-\---
+---
 
 ## Relevance judgments
 
@@ -384,7 +384,7 @@ Example:
 ECLI:EU:C:2023:100	0	ECLI:EU:C:2019:200	3
 ```
 
-\---
+---
 
 ## Evaluation protocols
 
@@ -482,7 +482,7 @@ data/splits/five\_fold\_cross\_validation/eval\_views/
 
 By default, the candidate corpora are not duplicated. A relative `corpus\_source.txt` points back to the corresponding canonical corpus under `data/eval\_views/`.
 
-\---
+---
 
 ## Pipeline scripts
 
@@ -536,7 +536,7 @@ Scripts 13 and 14 are alternative supervised evaluation protocols. Both assignme
 
 
 
-\---
+---
 
 ## Data formats
 
@@ -583,7 +583,7 @@ query\_id	fold
 ECLI:EU:C:2023:100	1
 ```
 
-\---
+---
 
 ## Reproducibility
 
@@ -619,7 +619,7 @@ The experiment runners write TREC run files, per-query results, aggregate metric
 
 Because the human judgments arise from a pooled candidate set, every result should explain how unjudged retrieved documents are handled.
 
-\---
+---
 
 ## Limitations
 
@@ -635,7 +635,7 @@ Users should be mindful of the following limitations:
 
 See the accompanying paper for a more extensive discussion.
 
-\---
+---
 
 ## Licensing and reuse
 
@@ -651,7 +651,7 @@ The release contains several kinds of material that are governed by different te
 |Source code|MIT License|
 |Documentation|CC BY 4.0|
 
-\---
+---
 
 ## Citation
 
@@ -694,7 +694,7 @@ Christof Koolen. (2026). The EUR-Lex Retrieval Dataset: A Section-Aware and Huma
 
 The machine-readable references are provided in [`CITATION.cff`](CITATION.cff).
 
-\---
+---
 
 ## Contact
 
