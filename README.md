@@ -37,23 +37,23 @@ The dataset combines:
 
 ## Dataset overview
 
-|Property|Value|
-|-|-|
-|Domain|CJEU case law|
-|Task|Long-form similar case and legal relevance retrieval|
-|Jurisdiction|European Union|
-|Language|English|
-|Temporal coverage|1954 to 2025|
-|Corpus size|20,697 judgments|
-|Evaluation queries|100|
-|Human-annotated query-candidate pairs|12,365|
-|Human relevance scale|Four grades: 0, 1, 2, 3|
-|qrel sources|Human binary, human graded, and citations|
-|query views|summary, facts, and full judgment|
-|candidate views|summary, facts, reasoning, and full judgment|
-|evaluation combinations|24 folders: 12 human and 12 citation|
-|Supervised holdout protocol|70 train, 10 development, 20 test queries|
-|Cross-validation protocol|Five folds of 20 test queries each|
+| Property | Value |
+| --- | --- |
+| Domain | CJEU case law |
+| Task | Long-form similar case and legal relevance retrieval |
+| Jurisdiction | European Union |
+| Language | English |
+| Temporal coverage | 1954 to 2025 |
+| Corpus size | 20,697 judgments |
+| Evaluation queries | 100 |
+| Human-annotated query-candidate pairs | 12,365 |
+| Human relevance scale | Four grades: 0, 1, 2, 3 |
+| qrel sources | Human binary, human graded, and citations |
+| query views | summary, facts, and full judgment |
+| candidate views | summary, facts, reasoning, and full judgment |
+| evaluation combinations | 24 folders: 12 human and 12 citation |
+| Supervised holdout protocol | 70 train, 10 development, 20 test queries |
+| Cross-validation protocol | Five folds of 20 test queries each |
 
 Each enriched judgment contains four high-level components:
 
@@ -181,7 +181,7 @@ This repository contains the source code, benchmark files, documentation, sample
 │   ├── 15_basic_runner_script_zero_shot_retrieval.py
 │   ├── 16_basic_runner_script_zero_shot_reranker.py
 │   ├── 17_basic_training_script_holdout_biencoder.py
-│   ├── 18_basic_training_script_five_fold_biencoder.py
+│   └── 18_basic_training_script_five_fold_biencoder.py
 │
 ├── 00_CITATION.cff
 ├── 00_LICENSE_CODE.txt
@@ -350,12 +350,12 @@ means that query cases are represented by their factual sections and candidate c
 
 `data/qrels/qrels_human_graded.tsv` uses the following ordinal scale:
 
-|Grade|Interpretation|
-|-:|-|
-|0|Not relevant|
-|1|Marginally relevant|
-|2|Substantially relevant|
-|3|Directly relevant|
+| Grade | Interpretation |
+| --- | --- |
+| 0 | Not relevant |
+| 1 | Marginally relevant |
+| 2 | Substantially relevant |
+| 3 | Directly relevant |
 
 ### Human binary qrels
 
@@ -416,11 +416,11 @@ data/splits/holdout_70train_10dev_20test/query_assignments.tsv
 
 The split contains:
 
-|Partition|Number of queries|Purpose|
-|-|-:|-|
-|Train|70|Model fitting|
-|Development|10|Model and checkpoint selection|
-|Test|20|Final evaluation|
+| Partition | Number of queries | Purpose |
+| --- | --- | --- |
+| Train | 70 | Model fitting |
+| Development | 10 | Model and checkpoint selection |
+| Test | 20 | Final evaluation |
 
 The split is performed at query level. Every qrel and candidate-pool row associated with a query remains in the same partition.
 
@@ -488,26 +488,26 @@ By default, the candidate corpora are not duplicated. A relative `corpus_source.
 
 The scripts are numbered in pipeline order. Configuration is controlled through constants near the top of each file.
 
-|Step|Stage|Script|Purpose|
-|-:|-|-|-|
-|01|Collection|`01_collect_data.py`|Collect CJEU metadata, Cellar HTML or XHTML, and cleaned source text from EUR-Lex services|
-|02|Enrichment|`02_build_dataset.py`|Generate structured JSON with metadata, summaries, keywords, and section anchors, then restore complete judgment segments|
-|03|Citations|`03_extract_citations.py`|Extract ECLI citations, enrich the JSON corpus, and construct the citation graph|
-|04|Descriptive analysis|`04_generate_facts_and_figures.py`|Generate corpus statistics, citation summaries, keyword summaries, reports, and figures|
-|05|Pool construction|`05_build_query_and_candidate_pool.py`|Select queries and construct citation, lexical, dense, Gemini, Qwen, and random candidate pools|
-|06|Annotation preparation|`06_create_annotation_sheets.py`|Create the master annotation sheet and anonymized, balanced annotator assignments|
-|07|Annotation recompilation|`07_recompile_annotation_sheet.py`|Recompile completed annotator files and resolve annotator-only labels where possible|
-|08|Agreement analysis|`08_inter_annotator_agreement.py`|Calculate overall and pairwise agreement statistics and diagnostic outputs|
-|09|Adjudication preparation|`09_create_author_annotation_sheets.py`|Create adjudication sheets for unresolved disagreements|
-|10|Final adjudication|`10_recompile_annotation_sheet_with_author.py`|Merge annotator labels and adjudication decisions into the final annotation sheet|
-|11|Qrel generation|`11_create_human_qrels.py`|Create binary and graded human qrels from the final annotation sheet|
-|12|Evaluation views|`12_create_eval_views.py`|Materialize all 24 unsplit evaluation-view folders under `data/eval_views/`|
-|13|Holdout preparation|`13_create_supervised_split.py`|Create the fixed 70/10/20 query-level assignment and optional materialized split files|
-|14|Cross-validation preparation|`14_create_five_fold_cross_validation.py`|Create five balanced outer query folds and optional materialized fold files|
-|15|Zero-shot retrieval|`15_basic_runner_script_zero_shot_retrieval.py`|Run fixed-model dense retrieval over all 100 queries and report standard metrics|
-|16|Zero-shot reranking|`16_basic_runner_script_zero_shot_reranker.py`|Rerank a first-stage TREC run with a fixed pretrained cross-encoder and evaluate the reranked output|
-|17|Holdout training|`17_basic_training_script_holdout_biencoder.py`|Fine-tune and select a bi-encoder using the 70/10/20 holdout protocol|
-|18|Five-fold training|`18_basic_training_script_five_fold_biencoder.py`|Fine-tune five bi-encoders with outer-fold isolation and deterministic inner development subsets|
+| Step | Stage | Script | Purpose |
+| --- | --- | --- | --- |
+| 01 | Collection | `01_collect_data.py` | Collect CJEU metadata, Cellar HTML or XHTML, and cleaned source text from EUR-Lex services |
+| 02 | Enrichment | `02_build_dataset.py` | Generate structured JSON with metadata, summaries, keywords, and section anchors, then restore complete judgment segments |
+| 03 | Citations | `03_extract_citations.py` | Extract ECLI citations, enrich the JSON corpus, and construct the citation graph |
+| 04 | Descriptive analysis | `04_generate_facts_and_figures.py` | Generate corpus statistics, citation summaries, keyword summaries, reports, and figures |
+| 05 | Pool construction | `05_build_query_and_candidate_pool.py` | Select queries and construct citation, lexical, dense, Gemini, Qwen, and random candidate pools |
+| 06 | Annotation preparation | `06_create_annotation_sheets.py` | Create the master annotation sheet and anonymized, balanced annotator assignments |
+| 07 | Annotation recompilation | `07_recompile_annotation_sheet.py` | Recompile completed annotator files and resolve annotator-only labels where possible |
+| 08 | Agreement analysis | `08_inter_annotator_agreement.py` | Calculate overall and pairwise agreement statistics and diagnostic outputs |
+| 09 | Adjudication preparation | `09_create_author_annotation_sheets.py` | Create adjudication sheets for unresolved disagreements |
+| 10 | Final adjudication | `10_recompile_annotation_sheet_with_author.py` | Merge annotator labels and adjudication decisions into the final annotation sheet |
+| 11 | Qrel generation | `11_create_human_qrels.py` | Create binary and graded human qrels from the final annotation sheet |
+| 12 | Evaluation views | `12_create_eval_views.py` | Materialize all 24 unsplit evaluation-view folders under `data/eval_views/` |
+| 13 | Holdout preparation | `13_create_supervised_split.py` | Create the fixed 70/10/20 query-level assignment and optional materialized split files |
+| 14 | Cross-validation preparation | `14_create_five_fold_cross_validation.py` | Create five balanced outer query folds and optional materialized fold files |
+| 15 | Zero-shot retrieval | `15_basic_runner_script_zero_shot_retrieval.py` | Run fixed-model dense retrieval over all 100 queries and report standard metrics |
+| 16 | Zero-shot reranking | `16_basic_runner_script_zero_shot_reranker.py` | Rerank a first-stage TREC run with a fixed pretrained cross-encoder and evaluate the reranked output |
+| 17 | Holdout training | `17_basic_training_script_holdout_biencoder.py` | Fine-tune and select a bi-encoder using the 70/10/20 holdout protocol |
+| 18 | Five-fold training | `18_basic_training_script_five_fold_biencoder.py` | Fine-tune five bi-encoders with outer-fold isolation and deterministic inner development subsets |
 
 ### Workflow dependencies
 
@@ -641,44 +641,28 @@ See the accompanying paper for a more extensive discussion.
 
 The release contains several kinds of material that are governed by different terms:
 
-|Component|Applicable terms|
-|-|-|
-|CJEU judgment text|EUR-Lex reuse terms and applicable legal notices|
-|EUR-Lex metadata|EUR-Lex reuse terms and applicable legal notices|
-|Human relevance annotations|CC BY 4.0|
-|Generated summaries and derived segments|CC BY 4.0|
-|Citation graph and benchmark metadata|CC BY 4.0|
-|Source code|MIT License|
-|Documentation|CC BY 4.0|
+| Component | Applicable terms |
+| --- | --- |
+| CJEU judgment text | EUR-Lex reuse terms and applicable legal notices |
+| EUR-Lex metadata | EUR-Lex reuse terms and applicable legal notices |
+| Human relevance annotations | CC BY 4.0 |
+| Generated summaries and derived segments | CC BY 4.0 |
+| Citation graph and benchmark metadata | CC BY 4.0 |
+| Source code | MIT License |
+| Documentation | CC BY 4.0 |
 
 ---
 
 ## Citation
 
-If you use EUR-LexRD in research, please cite **both** the archived dataset and the conference paper. The two publications have separate DOIs.
-
-**Dataset (version 1.0, published July 28, 2026):**
-
-Christof Koolen. (2026). The EUR-Lex Retrieval Dataset (Version 1.0) [Dataset]. KU Leuven RDR. https://doi.org/10.48804/TK4IER
-
-```bibtex
-@dataset{koolen-2026-eurlexrd-dataset,
-  author    = {Koolen, Christof},
-  title     = {The EUR-Lex Retrieval Dataset},
-  year      = {2026},
-  version   = {1.0},
-  publisher = {KU Leuven RDR},
-  doi       = {10.48804/TK4IER},
-  url       = {https://doi.org/10.48804/TK4IER}
-}
-```
+If you use the EUR-Lex Retrieval Dataset in research, please cite **both** the conference paper and the archived dataset. The two publications have separate DOIs.
 
 **Conference paper (NLLP 2026):**
 
 Christof Koolen. (2026). The EUR-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval. In *Proceedings of the Natural Legal Language Processing Workshop 2026* (pp. 101–118). Budapest, Hungary: Association for Computational Linguistics. https://doi.org/10.18653/2026.nllp-1.11
 
 ```bibtex
-@inproceedings{koolen-2026-eur,
+@inproceedings{koolen-2026-eurlex,
   title     = {The {EUR}-Lex Retrieval Dataset: A Section-Aware and Human-Annotated Dataset for Long-Form Similar Case Retrieval},
   author    = {Koolen, Christof},
   booktitle = {Proceedings of the Natural Legal Language Processing Workshop 2026},
@@ -692,6 +676,22 @@ Christof Koolen. (2026). The EUR-Lex Retrieval Dataset: A Section-Aware and Huma
 }
 ```
 
+**Dataset (version 1.0, published 28 July 2026):**
+
+Christof Koolen. (2026). The EUR-Lex Retrieval Dataset (Version 1.0) [Dataset]. KU Leuven RDR. https://doi.org/10.48804/TK4IER
+
+```bibtex
+@dataset{koolen-2026-eurlex-dataset,
+  author    = {Koolen, Christof},
+  title     = {The {EUR}-Lex Retrieval Dataset},
+  year      = {2026},
+  version   = {1.0},
+  publisher = {KU Leuven RDR},
+  doi       = {10.48804/TK4IER},
+  url       = {https://doi.org/10.48804/TK4IER}
+}
+```
+
 The machine-readable references are provided in [`CITATION.cff`](CITATION.cff).
 
 ---
@@ -699,6 +699,5 @@ The machine-readable references are provided in [`CITATION.cff`](CITATION.cff).
 ## Contact
 
 **Christof Koolen**  
-Centre for IT & IP Law, KU Leuven  
+Centre for IT & IP Law, KU Leuven (Belgium)
 Email: `christof.koolen@kuleuven.be`
-
